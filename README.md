@@ -1,32 +1,3 @@
-# maker100-curriculum
-maker100-robotics-machine-learning-IoT-communication-curriculum
-
-## Problem: How to start a School or University General Student Robotics course when there are only a few Robotics/Machine Learning Educators?
-
-## Solution:
-
-1. Awesome generalist Educator needed
-2. Computer Lab with a few 3D printers 
-3. Great IT support for changing software installation
-4. Starting robotics lab full of Sensors, Actuators, IoT modules, basic electronics (wires, breadboards, resistors, capacitors ...), soldering equipment etc. ~ $2,000 -$10,000 
-5. Budget for expendables and a class set of new microcontrollers every few years. ~ $500 - $3,000
-6. You need an encredible, student do-able Robotics Machine learning IoT communication curriculum
-
-## Concept:   
-Robotics is all about technology problem solving. The student's need to solve the technology problems. As soon as all the issues are solved, and there are no more problems, is it really a Robotics Curriculum?
-
-
-## Why:
-
-LLM's like ChatGPT, coPilot, BingChat, LLAMA-v2 are dramatically changing all aspects of life including education, but all this Artificial Intelligence and the datasets they are trained on are nearly impossible to teach the general public, but tinyML using inexpensive microcontrollers like Arduinos allow all students a window into understanding all forms of AI, by allowing all students to train a simplified version of Machine Learning using a much reduced dataset with data such as images that the students generate themselves. 
-
-This is reasonably easy to teach with a Robotics, Machine learning IoT course, giving students an intuitive understanding of the technology that is changing all aspects of our lives.
-
-
-
-
-
-
 
 
 
@@ -43,7 +14,7 @@ How can a School or University start a general Robotics course for students when
 3. **Strong IT support** to manage software installations and updates
 4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, resistors, capacitors, etc.), soldering equipment, etc. ~ $2,000 - $10,000 
 5. **A budget for consumables** and a set of new microcontrollers every few years. ~ $500 - $3,000
-6. **A well-crafted, student-friendly Robotics, Machine Learning, and IoT curriculum**
+6. **A well-crafted, asynchronous, student-friendly Robotics, Machine Learning, and IoT curriculum**
 
 ## Concept:   
 Robotics is fundamentally about solving technology problems. Students must actively engage in overcoming these challenges. Once all problems are solved and there are no more challenges to face, can it truly be called a Robotics Curriculum?
@@ -53,4 +24,18 @@ Large Language Models (LLMs) like ChatGPT, coPilot, BingChat, and LLAMA-v2 are r
 
 This approach is relatively easy to teach within a Robotics, Machine Learning, and IoT course, providing students with an intuitive understanding of the technology that is rapidly transforming our world.
 
+
+
+
+
+
+## Tricks:
+1. **Start with a microcontroller that has proven successful for other educators.** In my case, I recommend the  [Seeedstudio #XIAO-ESP32S3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)  which costs around $14 USD. For 30 students, that totals $420. Yes, each student should have their own microcontroller. Additionally, you'll need USB-C cables, microSD cards, and pin headers.
+
+2. **Class sets of most equipment aren't necessary.** Since the course is asynchronous, students can work at their own pace. This means you may only need a few of the more expensive sensors, like the Pixy2, a Lidar, or soldering equipment. While there are benefits to having class sets of all equipment, I’ve never found it necessary. Plus, it can create a storage mess.
+
+3. **Demand peer teaching.** When a student successfully completes a curricular task, have them teach a few other students how to do it. This reinforces their understanding and builds a collaborative learning environment and really is the only way this course will be successful.
+
+4. **Students can manage their own work.** They can download the curriculum from Github as a zip file, unzip it, and upload it to their own GitHub repositories, allowing them to organize and update their work effectively.
+5. I have students make very short videos on the school network of each project, with a simple circuit diagram shown in the video. First time educators may just want to keep a running tally of the assignments they have seen working.
 
