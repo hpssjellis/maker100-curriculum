@@ -31,11 +31,42 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 
 ## Tricks:
 1. **Start with a microcontroller that has proven successful for other educators.** In my case, I recommend the  [Seeedstudio #XIAO-ESP32S3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)  which costs around $14 USD. For 30 students, that totals $420. Yes, each student should have their own microcontroller. Additionally, you'll need USB-C cables, microSD cards, and pin headers.
-
 2. **Class sets of most equipment aren't necessary.** Since the course is asynchronous, students can work at their own pace. This means you may only need a few of the more expensive sensors, like the Pixy2, a Lidar, or soldering equipment. While there are benefits to having class sets of all equipment, I’ve never found it necessary. Plus, it can create a storage mess.
-
 3. **Demand peer teaching.** When a student successfully completes a curricular task, have them teach a few other students how to do it. This reinforces their understanding and builds a collaborative learning environment and really is the only way this course will be successful.
-
 4. **Students can manage their own work.** They can download the curriculum from Github as a zip file, unzip it, and upload it to their own GitHub repositories, allowing them to organize and update their work effectively.
 5. I have students make very short videos on the school network of each project, with a simple circuit diagram shown in the video. First time educators may just want to keep a running tally of the assignments they have seen working.
+6. The inexpensive [Seeedstudio XIAO-SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/) board is a great microcontroller for students to play with when testing new sensors and runs very similar to many Arduino boards, while being easy to auto detect by the Arduino IDE.
+
+
+
+
+
+# The Maker100 Curriculum
+
+### A. Basics:
+1. Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformio](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download). Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
+2. Determine the computer language to use: Probably best to work with a few standard languages and platforms. I mainly use Arduino C/CPP with the platforms: the Arduino Legacy and new IDE, The [arduino cloud](https://cloud.arduino.cc/) and platformIO. Other choses are full MAKE C/CPP, microPython, Zepher(RTOS) and the ESP-IDF as well as many more
+3. Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT
+4. Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3
+
+
+### B.Coding
+
+
+### C. Sensors
+
+
+### D. Machine Learning
+
+
+### E. Actuators (Motors, LED's etc)
+
+
+
+### F.IoT Comunication
+
+
+
+
+
 
