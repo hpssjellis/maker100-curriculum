@@ -12,4 +12,5 @@ maker100-robotics-machine-learning-IoT-communication-curriculum
 5. Budget for expendables and a class set of new microcontrollers every few years. ~ $500 - $3,000
 6. You need an encredible, student do-able Robotics Machine learning IoT communication curriculum
 
-## Concept: Robotics is all about technology problem solving. The student's need to solve the technology problems. As soon as all the issues are solved, and there is no more problems, is it really a Robotics Curriculum?
+## Concept:   
+Robotics is all about technology problem solving. The student's need to solve the technology problems. As soon as all the issues are solved, and there is no more problems, is it really a Robotics Curriculum?
