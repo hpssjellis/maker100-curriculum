@@ -17,7 +17,7 @@ How can a School or University start a general Robotics course for all students 
 6. **A well-crafted, asynchronous, student-friendly Robotics, Machine Learning, and IoT curriculum**
 
 ## Concept:   
-Robotics is fundamentally about solving technology problems. Students must actively engage in overcoming these challenges. Once all problems are solved and there are no more challenges to face, can it truly be called a Robotics Curriculum?
+Robotics is fundamentally about solving technology problems. Students must actively engage in overcoming these challenges. Once all the technology problems are solved and there are no more challenges to face, can it truly be called a Robotics Curriculum? This curriculum with new microcontrollers every few years solves that issue and makes solving the technology problems a constant process.
 
 ## Why:
 Large Language Models (LLMs) like ChatGPT, coPilot, BingChat, and LLAMA-v2 are revolutionizing various aspects of life, including education. However, the complexity of AI and the datasets these models are trained on makes them difficult to teach to the general public. TinyML, using affordable microcontrollers like Arduinos, offers students a hands-on way to grasp AI concepts. It allows them to train a simplified version of Machine Learning using small, manageable datasets—such as images they create themselves.
