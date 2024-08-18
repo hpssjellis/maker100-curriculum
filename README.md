@@ -12,7 +12,7 @@ How can a School or University start a general Robotics course for all students 
 1. **A versatile, passionate educator**
 2. **A computer lab** equipped with a few 3D printers
 3. **Strong IT support** to manage software installations and updates
-4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, resistors, capacitors, etc.), soldering equipment, etc. ~ $2,000 - $10,000 
+4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, batteries, resistors, capacitors, etc.), soldering equipment, etc. ~ $2,000 - $10,000 
 5. **A budget for consumables** and a set of new microcontrollers every few years. ~ $500 - $3,000
 6. **A well-crafted, asynchronous, student-friendly Robotics, Machine Learning, and IoT curriculum**
 
