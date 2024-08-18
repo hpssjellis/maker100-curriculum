@@ -5,7 +5,7 @@
 maker100-robotics-machine-learning-IoT-communication-curriculum
 
 ## Problem: 
-How can a School or University start a general Robotics course for students when there are only a few educators skilled in Robotics and Machine Learning?
+How can a School or University start a general Robotics course for all students when there are only a few educators skilled in Robotics and Machine Learning?
 
 ## Solution:
 
