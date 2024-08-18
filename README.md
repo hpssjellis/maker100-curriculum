@@ -36,6 +36,8 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 4. **Students can manage their own work.** They can download the curriculum from Github as a zip file, unzip it, and upload it to their own GitHub repositories, allowing them to organize and update their work effectively.
 5. I have students make very short videos on the school network of each project, with a simple circuit diagram shown in the video. First time educators may just want to keep a running tally of the assignments they have seen working.
 6. The inexpensive [Seeedstudio XIAO-SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/) microcontroller board for $7 USD which comes with pin headers is a great microcontroller for students to play with when testing new sensors and runs very similar to many Arduino boards, and easily is auto detected the Arduino IDE.
+7. Note: The Educator decides which assignments to do and in what order and which ones to change, and also decides how many assignments to complete before class time is spent on the final projects.
+8. Final projects determine the grade. Studentcan pass with a simple unique sensor actuator assignment, A grades can be assigned for multiple sensor and or multiple actuators, and or IoT and/or Machine learning. When students have completed these basic assignments they are expected to get together in groups and use there proven skills to attempt a group project.
 
 
 
@@ -56,22 +58,22 @@ B01. Explain VIDEO FLAC as seen below. Have students write arduino code that sho
 B02. V variables
 B03. I Input/Output
 B04. D Decisions (If statments and possibly case statements)
-5. E Events things that drive code
-6. O Objects (Structs in some languages like C/CPP)
+B05. E Events things that drive code
+B06. O Objects (Structs in some languages like C/CPP)
    
-7. F Functions
-8. L Loops  For loops
-9. A Arrays
-10. C Classes
+B07. F Functions
+B08. L Loops  For loops
+B09. A Arrays
+B10. C Classes
 
  
 
 ### C. Sensors
 
-1. Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
-2. Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
-3. Use a button and as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor
-4. 
+C01. Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
+C02. Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
+C03. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
+C04. 
 
 
 ### D. Machine Learning
@@ -81,10 +83,12 @@ B04. D Decisions (If statments and possibly case statements)
 
 
 
-### F.IoT Comunication
+### F. IoT Comunication
 
 
-
-
+### G. Projects
+G01. (pass) Simple unique for each student sensor and actuator with circuit diagram
+G02. (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
+G03. (possible A+) Based on privious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
 
 
