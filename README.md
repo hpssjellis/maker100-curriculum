@@ -35,7 +35,7 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 3. **Demand peer teaching.** When a student successfully completes a curricular task, have them teach a few other students how to do it. This reinforces their understanding and builds a collaborative learning environment and really is the only way this course will be successful.
 4. **Students can manage their own work.** They can download the curriculum from Github as a zip file, unzip it, and upload it to their own GitHub repositories, allowing them to organize and update their work effectively.
 5. I have students make very short videos on the school network of each project, with a simple circuit diagram shown in the video. First time educators may just want to keep a running tally of the assignments they have seen working.
-6. The inexpensive [Seeedstudio XIAO-SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/) board $7 USD with pin headers is a great microcontroller for students to play with when testing new sensors and runs very similar to many Arduino boards, while being easy to auto detect from the Arduino IDE.
+6. The inexpensive [Seeedstudio XIAO-SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/) microcontroller board for $7 USD which comes with pin headers is a great microcontroller for students to play with when testing new sensors and runs very similar to many Arduino boards, and easily is auto detected the Arduino IDE.
 
 
 
