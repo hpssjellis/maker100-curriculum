@@ -44,16 +44,34 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 # The Maker100 Curriculum
 
 ### A. Basics:
-1. Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download). Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
-2. Determine the computer language to use: Probably best to work with a few standard languages and platforms. I mainly use Arduino C/CPP with the platforms: the Arduino Legacy and new IDE, the [arduino cloud](https://cloud.arduino.cc/) and platformIO. Other choices are: full GNU MAKE C/CPP, microPython, Zepher(RTOS) and the ESP-IDF as well as many more.
-3. Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT
-4. Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3
+A01. Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download). Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
+A02. Determine the computer language to use: Probably best to work with a few standard languages and platforms. I mainly use Arduino C/CPP with the platforms: the Arduino Legacy and new IDE, the [arduino cloud](https://cloud.arduino.cc/) and platformIO. Other choices are: full GNU MAKE C/CPP, microPython, Zepher(RTOS) and the ESP-IDF as well as many more.
+A03. Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT
+A04. Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3
 
 
-### B.Coding
+### B. Coding
+B01. Explain VIDEO FLAC as seen below. Have students write arduino code that shows to the serial monitor each of these abilities.
+   
+B02. V variables
+B03. I Input/Output
+B04. D Decisions (If statments and possibly case statements)
+5. E Events things that drive code
+6. O Objects (Structs in some languages like C/CPP)
+   
+7. F Functions
+8. L Loops  For loops
+9. A Arrays
+10. C Classes
 
+ 
 
 ### C. Sensors
+
+1. Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
+2. Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
+3. Use a button and as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor
+4. 
 
 
 ### D. Machine Learning
