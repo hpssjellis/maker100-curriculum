@@ -38,6 +38,7 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 6. The inexpensive [Seeedstudio XIAO-SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/) microcontroller board for $7 USD which comes with pin headers is a great microcontroller for students to play with when testing new sensors and runs very similar to many Arduino boards, and easily is auto detected the Arduino IDE.
 7. Note: The Educator decides which assignments to do and in what order and which ones to change, and also decides how many assignments to complete before class time is spent on the final projects.
 8. Final projects determine the grade. Studentcan pass with a simple unique sensor actuator assignment, A grades can be assigned for multiple sensor and or multiple actuators, and or IoT and/or Machine learning. When students have completed these basic assignments they are expected to get together in groups and use there proven skills to attempt a group project.
+9. I do not teach each assignment in the order presented, I often jump back and forth from  simple Senses and simple Machine learning and simple actuators then back to the main order. Note: For advanced students this coursee is Asychronous so that they can work ahead and solve issues that the other students will benefit from later.
 
 
 
@@ -67,7 +68,9 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
    <br><br><h2 name="sensors">Sensors</h2><br>
 1. Sense01. Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
 1. Sense02. Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
-1. Sense03. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
+2. Sense03. Connect a digital sensor like a button to the micrcontroller at show on the serial monitor when the button has been pressed
+3. Sense04. Actually the first actuator assignment but connect a resistor and an LED and make the LED blinnk like the onboard LED_BUILTIN from the BLINK program.
+1. Sense04. Combine the above two assignments to make your first sensor / actuator asssignment. This is what most Arduino style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
 1. Sense04.                                                                                                                                                                                                                      
                                                                                                                                                                                                                                               
  <br><br><h2 name="ML">Machine Learning</h2><br>
