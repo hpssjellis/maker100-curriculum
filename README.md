@@ -68,12 +68,13 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 21. ML03     <br><br><h2>Actuators (Motors, LED's etc)<h2><br>
 22. Act01</h2><br> 
 23. Act01
-24. Act02   <br><br><h2> IoT Internet of Things Connectivity<h2><br>
-25. IoT01
-26. IoT02  <br><br><h2>Final Projects <h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
-27. Final01. (pass) Simple unique for each student sensor and actuator with circuit diagram
-28. Final02. (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
-29. Final03. (possible A+) Based on privious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
+24. 
+25. Act02   <br><br><h2> IoT Internet of Things Connectivity<h2><br>
+26. IoT01
+27. IoT02  <br><br><h2>Final Projects <h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
+28. Final01. (pass) Simple unique for each student sensor and actuator with circuit diagram
+29. Final02. (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
+30. Final03. (possible A+) Based on privious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
 
 
 
