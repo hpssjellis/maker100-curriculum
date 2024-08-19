@@ -44,8 +44,7 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 
 
 # The Maker100 Curriculum
-
-<br><br><h2>Basics</h2><br> 
+0.    <br><br><h2>Basics</h2><br> 
 1. Base01. Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download) and [OpenMV](https://openmv.io/pages/download) Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
 2. Base02. Determine the computer language to use: Probably best to work with a few standard languages and platforms. I mainly use Arduino C/CPP with the platforms: the Arduino Legacy and new IDE, the [arduino cloud](https://cloud.arduino.cc/) and platformIO. Other choices are: full GNU MAKE C/CPP, microPython, Zepher(RTOS) and the ESP-IDF as well as many more.
 3. Base03. Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT
@@ -57,7 +56,7 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 9. Code05. E Events things that drive code
 10. Code06. O Objects (Structs in some languages like C/CPP)<br><br>  
 11. Code07. F Functions
-12. Code08. L Loops  For loops
+12. Code08. L Loops such as For loops (possibly while loops)
 13. Code09. A Arrays
 14. Code10. C Classes<br><br><h2>Sensors</h2><br>
 15. Sense01. Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
