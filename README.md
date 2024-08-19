@@ -68,7 +68,6 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 21. ML03     <br><br><h2>Actuators (Motors, LED's etc)<h2><br>
 22. Act01</h2><br> 
 23. Act01
-24. 
 25. Act02   <br><br><h2> IoT Internet of Things Connectivity<h2><br>
 26. IoT01
 27. IoT02  <br><br><h2>Final Projects <h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
