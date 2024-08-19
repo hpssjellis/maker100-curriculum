@@ -43,12 +43,16 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 
 
 
-# The Maker100 Curriculum
+# The Maker100 Curriculum                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                              
 &nbsp;&nbsp;<br><h2 name="basics">Basics</h2><br> 
 1. Base01. Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download) and [OpenMV](https://openmv.io/pages/download) Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
 1. Base02. Determine the computer language to use: Probably best to work with a few standard languages and platforms. I mainly use Arduino C/CPP with the platforms: the Arduino Legacy and new IDE, the [arduino cloud](https://cloud.arduino.cc/) and platformIO. Other choices are: full GNU MAKE C/CPP, microPython, Zepher(RTOS) and the ESP-IDF as well as many more.
 1. Base03. Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT
-1. Base04. Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3  <br><br><h2 name="coding">>Coding</h2><br> 
+1. Base04. Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3                               
+                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                              
+     <br><br><h2 name="coding">Coding</h2><br> 
 1. Code01. Explain VIDEO FLAC as seen below. Have students write arduino code that shows to the serial monitor each of these abilities.  
 1. Code02. V variables
 1. Code03. I Input/Output
@@ -58,19 +62,29 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 1. Code07. F Functions
 1. Code08. L Loops such as For loops (possibly while loops)
 1. Code09. A Arrays
-1. Code10. C Classes<br><br><h2 name="sensors">Sensors</h2><br>
+1. Code10. C Classes                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                              
+   <br><br><h2 name="sensors">Sensors</h2><br>
 1. Sense01. Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
 1. Sense02. Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
 1. Sense03. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
-1. Sense04. <br><br><h2 name="ML">Machine Learning</h2><br>
+1. Sense04.                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                              
+ <br><br><h2 name="ML">Machine Learning</h2><br>
 1. ML01
 1. ML02
-1. ML03     <br><br><h2 name="actuators">Actuators (Motors, LED's etc)<h2><br>
+1. ML03                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                              
+ <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2><br>
 1. Act01
 1. Act01
-1. Act02   <br><br><h2 name="iot"> IoT Internet of Things Connectivity<h2><br>
+1. Act02                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                              
+ <br><br><h2 name="iot"> IoT Internet of Things Connectivity<h2><br>
 1. IoT01
-1. IoT02  <br><br><h2 name=final>Final Projects <h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
+1. IoT02                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                              
+ <br><br><h2 name=final>Final Projects </h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
 1. Final01. (pass) Simple unique for each student sensor and actuator with circuit diagram
 1. Final02. (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
 1. Final03. (possible A+) Based on prievious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
@@ -78,6 +92,13 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 
 
 ## Grading
+Noes about how to grade students. 
+
+Basically as long as the teacher is clear at the start of the course any grading method is fine. What I do is:
+1. Students must finish all manadatory assignments, (When the entire class has difficulty with an assignment I make it optional until any student can do it or I get it working. In 2024 I never got e-ink working which stayed optional and GPS never worked for latitude and longitude, students gt full marks on that assignment if they generated all the GPS data, but I really wanted someone to parse the data for just latitude and longitude.
+2. Once the manadatory assignments are complete they can start their final projects, which must be done in order, easy to hard (advanced students will work on a hard project and never get it finished).
+3. I encourage students to work on multiple projects as some projects just can't be finished before marks are due.
+4. Final grades come from final individual projects. Group projects just bump grades up a few percent.
 
 
 
