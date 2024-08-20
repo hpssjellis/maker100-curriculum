@@ -41,7 +41,7 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 9. I do not teach each assignment in the order presented, I often jump back and forth from  simple Senses and simple Machine learning and simple actuators then back to the main order. Note: For advanced students this coursee is Asychronous so that they can work ahead and solve issues that the other students will benefit from later.
 
 
-
+<br><br>
 
 
 # The Maker100 Curriculum                                                                                                                                                                                                                      
