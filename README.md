@@ -75,8 +75,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Code07-Loops:**  Loops such as For loops (possibly while loops). Using a varible that stores a number print something that many times.
 1. **Code08-Array:**  Arrays. Make an Array a fancy variable that numbers each value. a loop can be used to print the whole array to the serial monitor
 1. **Code09-Class:**  Classes. A. Use a class. B. make a class from scratch and then use it.       
-1. **Code10-SOS:**  In as few lines as possible make the onboard LED (LED_BUILTIN) flash an SOS. Which is 3 short flashes, 3 long flashes 3 short flashes. [my Example](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot7-coding-curriculum/dot71-sos/dot71-sos.ino)                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                              
+1. **Code10-SOS:**  In as few lines as possible make the onboard LED (LED_BUILTIN) flash an SOS. Which is 3 short flashes, 3 long flashes 3 short flashes. [my Example](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot7-coding-curriculum/dot71-sos/dot71-sos.ino)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
    <br><br><h2 name="sensors">Sensors</h2><br>
 1. **Sense01-Analog:** Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0, reminder to connect GND and 3V3 if needed
 1. **Sense02-Voltage-Divider:** Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a20)
@@ -103,8 +102,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **ML08-deploy-FOMO:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to deploy the edgeimpulse FOMO vision model to you microcontroller
 1. **ML09-regression. Use EdgeImpulse.com to make a vision regression model (numerical size) and deploy the model to your device. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a15)
 1. **ML10-anomaly:** Use EdgeImpulse.com to make an anomaly detection model with two labels that can rate how different the classification is from the label and deploy it to your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a16)
-1. **ML11-int8-quatizied:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to download the int8-quatizied model of the vision classification model to upload it to [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense, if using a different microcontroller try other ways to upload your model, possibly deploy a c/c++ model and locally compile it for your microcontroller.                                                                                                                                       
-                                                                                                                                                                                                                                              
+1. **ML11-int8-quatizied:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to download the int8-quatizied model of the vision classification model to upload it to [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense, if using a different microcontroller try other ways to upload your model, possibly deploy a c/c++ model and locally compile it for your microcontroller.                                                                                                                                                                                                                                                                                                                                                                                     
  <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2><br>
 1. **Act0-:**     
 1. **Act0-:**       
@@ -121,9 +119,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Act0-:**          
 1. **Act0-:**     
 1. **Act0-:**     
-1. **Act0-:**                                                                                                                                                                                                                
-                                                                                                                                                                                                                                              
- <br><br><h2 name="iot"> IoT Internet of Things Connectivity</h2><br>
+1. **Act0-:**                                                                                                                                                                                                                                                                                                                                                                                                                                                             <br><br><h2 name="iot"> IoT Internet of Things Connectivity</h2><br>
 1. **IoT0-:**     
 1. **IoT0-:**     
 1. **IoT0-:**     
@@ -134,8 +130,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **IoT0-:**     
 1. **IoT0-:**     
 1. **IoT0-:**     
-                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
  <br><br><h2 name=final>Final Projects </h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
 1. **Final01-simple:** (pass) Simple unique for each student sensor and actuator with circuit diagram (Proof of concept)
 1. **Final02-multi:** (possible A or higher) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram with 3D Printed structure (Can also be wood, metal, cardboard etc) (Prototype)
