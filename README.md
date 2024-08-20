@@ -86,9 +86,9 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Sense06-button-led:** Combine the above two assignments to make your first sensor / actuator asssignment. This is what most Arduino style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a18)
 1. **Sense07-Accel:** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z see if the results make sense knowing that veritacal acceleration due to gravity is about 9.8 m/s^2
 1:**Sense0-joy-stick:** Connect a joy stick to your microcontroller and get a reading. This is almost exactly the same as  **Sense01-Analog:** with A0, 3V3 
-1:**Sense08-range-finder:** Connect a range-finder to your microcontroller and determine the distance to an object. Note: The nicla Vision comes with a time-of-flight that work up to about 4 meters. Typical ranges are 10 cm to 100 cm. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a23)                                                                                                                                                                      
-1:**Sense0-:**                                                                                                                                                                       
-1:**Sense0-:**                                                                                                                                                                       
+1:**Sense08-range-finder:** Connect a range-finder to your microcontroller and determine the distance to an object. Note: The nicla Vision comes with a time-of-flight that work up to about 4 meters. Typical ranges are 10 cm to 100 cm. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a23)                                                                                                                                                             
+1:**Sense0-:**                                                                                                                                                                   
+1:**Sense0-:**                                                                                                                                                                        
 1:**Sense0-:**                                                                                                                                                                       
 1:**Sense0-:**                                                                                                                                                                       
 1:**Sense0-:**                                                                                                                                                                       
@@ -109,34 +109,34 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **ML11-int8-quatizied:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to download the int8-quatizied model of the vision classification model to upload it to [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense, if using a different microcontroller try other ways to upload your model, possibly deploy a c/c++ model and locally compile it for your microcontroller.                                                                                                                                       
                                                                                                                                                                                                                                               
  <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2><br>
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
-1. **Act0-:**
+1. **Act0-:**     
+1. **Act0-:**       
+1. **Act0-:**       
+1. **Act0-:**       
+1. **Act0-:**     
+1. **Act0-:**     
+1. **Act0-:**     
+1. **Act0-:**     
+1. **Act0-:**     
+1. **Act0-:**     
+1. **Act0-:**     
+1. **Act0-:**     
+1. **Act0-:**          
+1. **Act0-:**     
+1. **Act0-:**     
 1. **Act0-:**                                                                                                                                                                                                                
                                                                                                                                                                                                                                               
- <br><br><h2 name="iot"> IoT Internet of Things Connectivity<h2><br>
+ <br><br><h2 name="iot"> IoT Internet of Things Connectivity</h2><br>
+1. **IoT0-:**     
+1. **IoT0-:**     
+1. **IoT0-:**     
+1. **IoT0-:**     
+1. **IoT0-:**     
 1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
-1. **IoT0-:**
+1. **IoT0-:**     
+1. **IoT0-:**     
+1. **IoT0-:**     
+1. **IoT0-:**     
                                                                                                                                                                                                                      
                                                                                                                                                                                                                                               
  <br><br><h2 name=final>Final Projects </h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
