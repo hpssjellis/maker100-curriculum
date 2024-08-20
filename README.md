@@ -11,7 +11,7 @@ The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP3
 The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)   
 
 ## Problem: 
-How can a School or University start a general Robotics course for all students when there are only a few educators skilled in Robotics and Machine Learning?
+How can a school or university start a general robotics course for all students when there are only a few educators skilled in robotics and machine learning?
 
 ## Solution:
 
