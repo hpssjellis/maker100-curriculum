@@ -7,8 +7,8 @@ maker100-robotics-machine-learning-IoT-communication-curriculum
 Views better using the README.md [here](README.md)
 
 Note:   
-The 2024 economy version of this course is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
-The original 2021 version of this course is at  [maker100](https://github.com/hpssjellis/maker100)   
+The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
+The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)   
 
 ## Problem: 
 How can a School or University start a general Robotics course for all students when there are only a few educators skilled in Robotics and Machine Learning?
