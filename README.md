@@ -72,34 +72,66 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 2. **Sense03-Digital.** Connect a digital sensor like a button to the micrcontroller at show on the serial monitor when the button has been pressed
 3. **Sense04-Button.** Actually the first actuator assignment but connect a resistor and an LED and make the LED blinnk like the onboard LED_BUILTIN from the BLINK program.
 1. **Sense04-Sense-Actuate.** Combine the above two assignments to make your first sensor / actuator asssignment. This is what most Arduino style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
-1. **Sense04-Accel.** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z see if the results make sense knowing that veritacal acceleration due to gravity is about 9.8 m/s^2                                                                                                                                                                                                                     
+1. **Sense04-Accel.** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z see if the results make sense knowing that veritacal acceleration due to gravity is about 9.8 m/s^2
+1.**Sense0-.**
+1.**Sense0-.**                                                                                                                                                                       
+1.**Sense0-.**                                                                                                                                                                       
+1.**Sense0-.**                                                                                                                                                                       
+1.**Sense0-.**                                                                                                                                                                       
+1.**Sense0-.**                                                                                                                                                                       
+1.**Sense0-.**                                                                                                                                                                       
+1.**Sense0-.**                                                                                                                                                                       
+1.**Sense0-.**                                                                                                                                                                       
                                                                                                                                                                                                                                               
  <br><br><h2 name="ML">Machine Learning</h2><br>
 1. **ML01-sensecraft.** Use a simple way to install machine learning models to your microcontroller such as [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense
 1. **ML02-vision.** Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a vision classification model by taking pictures of pen/pencils labelled "1pen" and things without them labelled "0unknown". The numbers are not needed but really help later when things get more complex. Test your model also from your cell phone.
 1. **ML03-wake-word.**  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a key word using sounds such as "Hi Google". Label recordings appropriately, you may want to record no sound and background sounds. 1. ML04-motion  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a motion model using a 3 axis accelormeter. Now your labels might be "0still", "1wave", "2punch"
 1. **ML05-FOMO.**  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a Vision Fast objects, More Objects (FOMO) model, this now needs bounding boxes and a data queue to store the images before you draw labelled boxes around each image.
-1. **ML06-deploy.** Use [Edgeimpulse.com](https://edgeimpulse.com/) to deploy one of the above models (deplaoy means to download the Arduino Library with examples for your microcontroller)                                                 1. **ML07-regression. Use EdgeImpulse.com to make a vision regression model (numerical size) and deploy the model to your device
-1. **ML08-anomaly. Use EdgeImpulse.com to make an anomaly detection model with two labels that can rate how different the classification is from the label.                                                                                                                                               
+1. **ML06-deploy.** Use [Edgeimpulse.com](https://edgeimpulse.com/) to deploy one of the above models (deplaoy means to download the Arduino Library with examples for your microcontroller. Note: On widows computers the first compilation can take 15-25 minutes so get it compiling. Also look at the code and see if you can determine when the code prints out the results. A really good idea to try deploying all the EdgeImpulse models to your microcontroller.
+1. **ML07-regression. Use EdgeImpulse.com to make a vision regression model (numerical size) and deploy the model to your device
+1. **ML08-anomaly.** Use EdgeImpulse.com to make an anomaly detection model with two labels that can rate how different the classification is from the label and deploy it to your microcontroller                                                                                                                                              
                                                                                                                                                                                                                                               
  <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2><br>
-1. Act01
-1. Act01
-1. Act02                                                                                                                                                                                                                        
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**
+1. **Act0-.**                                                                                                                                                                                                                
                                                                                                                                                                                                                                               
  <br><br><h2 name="iot"> IoT Internet of Things Connectivity<h2><br>
-1. IoT01
-1. IoT02                                                                                                                                                                                                                       
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+1. **IoT0-.**
+                                                                                                                                                                                                                     
                                                                                                                                                                                                                                               
  <br><br><h2 name=final>Final Projects </h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
-1. Final01. (pass) Simple unique for each student sensor and actuator with circuit diagram
-1. Final02. (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
-1. Final03. (possible A+) Based on prievious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
+1. **Final01-simple.** (pass) Simple unique for each student sensor and actuator with circuit diagram
+1. **Final02-multi.** (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
+1. **Final03-group.** (possible A+) Based on prievious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
 
 
 
 ## Grading
-Noes about how to grade students. 
+Notes about how to grade students. 
 
 Basically as long as the teacher is clear at the start of the course any grading method is fine. What I do is:
 1. Students must finish all manadatory assignments, (When the entire class has difficulty with an assignment I make it optional until any student can do it or I get it working. In 2024 I never got e-ink working which stayed optional and GPS never worked for latitude and longitude, students gt full marks on that assignment if they generated all the GPS data, but I really wanted someone to parse the data for just latitude and longitude.
