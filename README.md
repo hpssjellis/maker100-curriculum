@@ -69,13 +69,14 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Code10-SOS:**  In as few lines as possible make the onboard LED (LED_BUILTIN) flash an SOS. Which is 3 short flashes, 3 long flashes 3 short flashes                                                                                                                                                                                                                                                                                
                                                                                                                                                                                                                                               
    <br><br><h2 name="sensors">Sensors</h2><br>
-1. **Sense01-Analog:** Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
+1. **Sense01-Analog:** Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0, reminder to connect GND and 3V3 if needed
 1. **Sense02-Voltage-Divider:** Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
-2. **Sense03-Digital:** Connect a digital sensor like a button to the micrcontroller at show on the serial monitor when the button has been pressed
-3. **Sense04-Button:** Actually the first actuator assignment but connect a resistor and an LED and make the LED blinnk like the onboard LED_BUILTIN from the BLINK program.
-1. **Sense04-Sense-Actuate:** Combine the above two assignments to make your first sensor / actuator asssignment. This is what most Arduino style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
-1. **Sense04-Accel:** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z see if the results make sense knowing that veritacal acceleration due to gravity is about 9.8 m/s^2
-1:**Sense0-:**
+1. **Sense03-two-prong:** same as above but serial monitor analog read a different 2 prong sensor using a voltage divider.
+1. **Sense04-Digital:** Connect a digital sensor like a button to the micrcontroller at show on the serial monitor when the button has been pressed
+1. **Sense05-Button:** Actually the first actuator assignment but connect a resistor and an LED and make the LED blinnk like the onboard LED_BUILTIN from the BLINK program.
+1. **Sense06-Sense-Actuate:** Combine the above two assignments to make your first sensor / actuator asssignment. This is what most Arduino style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
+1. **Sense07-Accel:** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z see if the results make sense knowing that veritacal acceleration due to gravity is about 9.8 m/s^2
+1:**Sense0-joy-stick:** Connect a joy stick to your microcontroller and get a reading. This is almost exactly the same as  **Sense01-Analog:** with A0, 3V3 
 1:**Sense0-:**                                                                                                                                                                       
 1:**Sense0-:**                                                                                                                                                                       
 1:**Sense0-:**                                                                                                                                                                       
