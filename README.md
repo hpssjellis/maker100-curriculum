@@ -6,9 +6,11 @@ maker100-robotics-machine-learning-IoT-communication-curriculum
 
 Views better using the README.md [here](README.md)
 
-Note:   
+## Note:   
 The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
-The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)   
+The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)  
+
+My Youtube playlist about this curriculum called [Hands on AI](https://www.youtube.com/watch?v=VRmSbcegicc&list=PL57Dnr1H_egubQAOHaxkZnvfJDOztPtia&index=1)
 
 ## Problem: 
 How can a school or university start a general robotics course for all students when there are only a few educators skilled in robotics and machine learning?
@@ -112,7 +114,9 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **ML08-deploy-FOMO:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to deploy the edgeimpulse FOMO vision model to you microcontroller
 1. **ML09-regression. Use EdgeImpulse.com to make a vision regression model (numerical size) and deploy the model to your device. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a15)
 1. **ML10-anomaly:** Use EdgeImpulse.com to make an anomaly detection model with two labels that can rate how different the classification is from the label and deploy it to your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a16)
-1. **ML11-int8-quatizied:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to download the int8-quatizied model of the vision classification model to upload it to [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense, if using a different microcontroller try other ways to upload your model, possibly deploy a c/c++ model and locally compile it for your microcontroller.                                                                                                                                                                                                                                                                                                                                                                                     
+1. **ML11-int8-quatizied:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to download the int8-quatizied model of the vision classification model to upload it to [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense, if using a different microcontroller try other ways to upload your model, possibly deploy a c/c++ model and locally compile it for your microcontroller.
+1. **ML12-WebSite-LLM:** Make a website that loads a huggingface or other cloud hub for storing pre-trained machine learning models. [my example](https://hpssjellis.github.io/my-examples-of-huggingfacejs/public/index.html) each example is a signle file webpage and can be copied to your storage area.
+1. **ML13-local-LLM:** Download a full chat LLM such as LLAMA-v2 and get it working on your laptop or desktop computer. Be very cafeul if you pay for data as some of these files are large. [tinyLLM](https://github.com/jasonacox/TinyLLM) ....      [tinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) ....   [gpt4All](https://www.nomic.ai/gpt4all)                                                                                                                                                                                                                                                                                                                                                                        
  <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2><br>
 1. **Act0-:**     
 1. **Act0-:**       
