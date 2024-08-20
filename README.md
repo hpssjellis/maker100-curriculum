@@ -47,86 +47,86 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 # The Maker100 Curriculum                                                                                                                                                                                                                      
                                                                                                                                                                                                                                               
 &nbsp;&nbsp;<br><h2 name="basics">Basics</h2><br> 
-1. **Base01-Install.** Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download) and [OpenMV](https://openmv.io/pages/download) Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
-1. **Base02-Language.** Determine the computer language to use: Probably best to work with a few standard languages and platforms. I mainly use Arduino C/CPP with the platforms: the Arduino Legacy and new IDE, the [arduino cloud](https://cloud.arduino.cc/) and platformIO. Other choices are: full GNU MAKE C/CPP, microPython, Zepher(RTOS) and the ESP-IDF as well as many more.
-1. **Base03-Blink.** Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT
-1. **Base04-Libraries.** Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3                               
+1. **Base01-Install:** Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download) and [OpenMV](https://openmv.io/pages/download) Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
+1. **Base02-Language:** Determine the computer language to use: Probably best to work with a few standard languages and platforms. I mainly use Arduino C/CPP with the platforms: the Arduino Legacy and new IDE, the [arduino cloud](https://cloud.arduino.cc/) and platformIO. Other choices are: full GNU MAKE C/CPP, microPython, Zepher(RTOS) and the ESP-IDF as well as many more.
+1. **Base03-Blink:** Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT
+1. **Base04-Libraries:** Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3                               
                                                                                                                                                                                                                       
                                                                                                                                                                                                                                               
      <br><br><h2 name="coding">Coding</h2><br> 
 1. Code01. Explain VIDEO FLAC as seen below. Have students write arduino code that shows to the serial monitor each of these abilities.  
-1. **Code02-V.**  Variables, make code to show multiple types of variables in the serial monitor
-1. **Code03-I.** Input/Output make code to read a variable from the serial monitor (click send) and print it to the serial monitor
-1. **Code04-D.** Decisions (If statments and possibly case statements). Write code to make a decision based on information sent to the program from the serial monitor
-1. **Code05-E.** Events things that drive code  (This is actually from Javascript programming). Write a menu and have code do different things based on the menu decision, such as WASD, each letter makes something move a different direction
-1. **Code06-O.** Objects (Structs in some languages like C/CPP) Make a struct a fancy variable that connects a key word with data and presents the data in the serial monitor                                                                                                                                                                                                                      
+1. **Code02-V:**  Variables, make code to show multiple types of variables in the serial monitor
+1. **Code03-I:** Input/Output make code to read a variable from the serial monitor (click send) and print it to the serial monitor
+1. **Code04-D:** Decisions (If statments and possibly case statements). Write code to make a decision based on information sent to the program from the serial monitor
+1. **Code05-E:** Events things that drive code  (This is actually from Javascript programming). Write a menu and have code do different things based on the menu decision, such as WASD, each letter makes something move a different direction
+1. **Code06-O:** Objects (Structs in some languages like C/CPP) Make a struct a fancy variable that connects a key word with data and presents the data in the serial monitor                                                                                                                                                                                                                      
    
-1. **Code07-F.** Functions, write a function that prints to the serial monitor and then activate it
-1. **Code08-L.**  Loops such as For loops (possibly while loops). Using a varible that stores a number print something that many times.
-1. **Code09-A.**  Arrays. Make an Array a fancy variable that numbers each value. a loop can be used to print the whole array to the serial monitor
-1. **Code10-C.**  Classes. A. Use a class. B. make a class from scratch and then use it.                                                                                                                                                                                                                        
+1. **Code07-F:** Functions, write a function that prints to the serial monitor and then activate it
+1. **Code08-L:**  Loops such as For loops (possibly while loops). Using a varible that stores a number print something that many times.
+1. **Code09-A:**  Arrays. Make an Array a fancy variable that numbers each value. a loop can be used to print the whole array to the serial monitor
+1. **Code10-C:**  Classes. A. Use a class. B. make a class from scratch and then use it.                                                                                                                                                                                                                        
                                                                                                                                                                                                                                               
    <br><br><h2 name="sensors">Sensors</h2><br>
-1. **Sense01-Analog.** Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
-1. **Sense02-Voltage-Divider.** Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
-2. **Sense03-Digital.** Connect a digital sensor like a button to the micrcontroller at show on the serial monitor when the button has been pressed
-3. **Sense04-Button.** Actually the first actuator assignment but connect a resistor and an LED and make the LED blinnk like the onboard LED_BUILTIN from the BLINK program.
-1. **Sense04-Sense-Actuate.** Combine the above two assignments to make your first sensor / actuator asssignment. This is what most Arduino style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
-1. **Sense04-Accel.** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z see if the results make sense knowing that veritacal acceleration due to gravity is about 9.8 m/s^2
-1.**Sense0-.**
-1.**Sense0-.**                                                                                                                                                                       
-1.**Sense0-.**                                                                                                                                                                       
-1.**Sense0-.**                                                                                                                                                                       
-1.**Sense0-.**                                                                                                                                                                       
-1.**Sense0-.**                                                                                                                                                                       
-1.**Sense0-.**                                                                                                                                                                       
-1.**Sense0-.**                                                                                                                                                                       
-1.**Sense0-.**                                                                                                                                                                       
+1. **Sense01-Analog:** Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
+1. **Sense02-Voltage-Divider:** Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor
+2. **Sense03-Digital:** Connect a digital sensor like a button to the micrcontroller at show on the serial monitor when the button has been pressed
+3. **Sense04-Button:** Actually the first actuator assignment but connect a resistor and an LED and make the LED blinnk like the onboard LED_BUILTIN from the BLINK program.
+1. **Sense04-Sense-Actuate:** Combine the above two assignments to make your first sensor / actuator asssignment. This is what most Arduino style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller
+1. **Sense04-Accel:** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z see if the results make sense knowing that veritacal acceleration due to gravity is about 9.8 m/s^2
+1:**Sense0-:**
+1:**Sense0-:**                                                                                                                                                                       
+1:**Sense0-:**                                                                                                                                                                       
+1:**Sense0-:**                                                                                                                                                                       
+1:**Sense0-:**                                                                                                                                                                       
+1:**Sense0-:**                                                                                                                                                                       
+1:**Sense0-:**                                                                                                                                                                       
+1:**Sense0-:**                                                                                                                                                                       
+1:**Sense0-:**                                                                                                                                                                       
                                                                                                                                                                                                                                               
  <br><br><h2 name="ML">Machine Learning</h2><br>
-1. **ML01-sensecraft.** Use a simple way to install machine learning models to your microcontroller such as [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense
-1. **ML02-vision.** Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a vision classification model by taking pictures of pen/pencils labelled "1pen" and things without them labelled "0unknown". The numbers are not needed but really help later when things get more complex. Test your model also from your cell phone.
-1. **ML03-wake-word.**  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a key word using sounds such as "Hi Google". Label recordings appropriately, you may want to record no sound and background sounds. 1. ML04-motion  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a motion model using a 3 axis accelormeter. Now your labels might be "0still", "1wave", "2punch"
-1. **ML05-FOMO.**  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a Vision Fast objects, More Objects (FOMO) model, this now needs bounding boxes and a data queue to store the images before you draw labelled boxes around each image.
-1. **ML06-deploy.** Use [Edgeimpulse.com](https://edgeimpulse.com/) to deploy one of the above models (deplaoy means to download the Arduino Library with examples for your microcontroller. Note: On widows computers the first compilation can take 15-25 minutes so get it compiling. Also look at the code and see if you can determine when the code prints out the results. A really good idea to try deploying all the EdgeImpulse models to your microcontroller.
+1. **ML01-sensecraft:** Use a simple way to install machine learning models to your microcontroller such as [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense
+1. **ML02-vision:** Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a vision classification model by taking pictures of pen/pencils labelled "1pen" and things without them labelled "0unknown". The numbers are not needed but really help later when things get more complex. Test your model also from your cell phone.
+1. **ML03-wake-word:**  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a key word using sounds such as "Hi Google". Label recordings appropriately, you may want to record no sound and background sounds. 1. ML04-motion  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a motion model using a 3 axis accelormeter. Now your labels might be "0still", "1wave", "2punch"
+1. **ML05-FOMO:**  Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a Vision Fast objects, More Objects (FOMO) model, this now needs bounding boxes and a data queue to store the images before you draw labelled boxes around each image.
+1. **ML06-deploy:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to deploy one of the above models (deplaoy means to download the Arduino Library with examples for your microcontroller. Note: On widows computers the first compilation can take 15-25 minutes so get it compiling. Also look at the code and see if you can determine when the code prints out the results. A really good idea to try deploying all the EdgeImpulse models to your microcontroller.
 1. **ML07-regression. Use EdgeImpulse.com to make a vision regression model (numerical size) and deploy the model to your device
-1. **ML08-anomaly.** Use EdgeImpulse.com to make an anomaly detection model with two labels that can rate how different the classification is from the label and deploy it to your microcontroller                                                                                                                                              
+1. **ML08-anomaly:** Use EdgeImpulse.com to make an anomaly detection model with two labels that can rate how different the classification is from the label and deploy it to your microcontroller                                                                                                                                              
                                                                                                                                                                                                                                               
  <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2><br>
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**
-1. **Act0-.**                                                                                                                                                                                                                
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**
+1. **Act0-:**                                                                                                                                                                                                                
                                                                                                                                                                                                                                               
  <br><br><h2 name="iot"> IoT Internet of Things Connectivity<h2><br>
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
-1. **IoT0-.**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
+1. **IoT0-:**
                                                                                                                                                                                                                      
                                                                                                                                                                                                                                               
  <br><br><h2 name=final>Final Projects </h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
-1. **Final01-simple.** (pass) Simple unique for each student sensor and actuator with circuit diagram
-1. **Final02-multi.** (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
-1. **Final03-group.** (possible A+) Based on prievious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
+1. **Final01-simple:** (pass) Simple unique for each student sensor and actuator with circuit diagram
+1. **Final02-multi:** (possible A) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram
+1. **Final03-group:** (possible A+) Based on prievious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
 
 
 
