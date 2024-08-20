@@ -53,15 +53,15 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 
 # The Maker100 Curriculum  
 
-On this page Quick Links
+On this page Quick Links 
 
-## [Basics](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#basics)
-## [Coding](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#coding)
-## [Sensors](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#sensors)
-## [Machine Learning](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#machine-learning)
-## Acutaors-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)
-## [IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)
-## [Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)
+ [Basics](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#basics)
+ [Coding](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#coding)
+ [Sensors](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#sensors)
+ [Machine Learning](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#machine-learning)
+[Actuaors-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)
+[IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)
+[Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)
                                                                                                                                                                                                                                               
 &nbsp;&nbsp;<br><h2 name="basics">Basics</h2><br> 
 1. **Base01-Install:** Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download) and [OpenMV](https://openmv.io/pages/download) Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
