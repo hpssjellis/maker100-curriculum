@@ -88,7 +88,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Code08-Array:**  Arrays. Make an Array a fancy variable that numbers each value. a loop can be used to print the whole array to the serial monitor
 1. **Code09-Class:**  Classes. A. Use a class. B. make a class from scratch and then use it.       
 1. **Code10-SOS:**  In as few lines as possible make the onboard LED (LED_BUILTIN) flash an SOS. Which is 3 short flashes, 3 long flashes 3 short flashes. [my Example](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot7-coding-curriculum/dot71-sos/dot71-sos.ino)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-   <br><br><h2 name="sensors">Sensors</h2><br>
+   <br><br><h2 name="sensors">Sensors</h2><br> <b>reminder that all these assignments need a drawn and checked circuit diagram before you begin to connect wires to the microcontroller</b><br> 
 1. **Sense01-Analog:** Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0, reminder to connect GND and 3V3 if needed
 1. **Sense02-Voltage-Divider:** Find a variable resistor sensor (has two prongs) like a thermistor, phtoresistor or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a20)
 1. **Sense03-two-prong:** same as above using serial monitor analog read and a resistor but use a different 2 prong sensor with the voltage divider. Possible variable resistors are: flex sensor, photoresistor, touch/pressure sensor,  rheostat, potentiometer...
@@ -101,8 +101,10 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Sense09-image-to-sd-card:**  Put the image from the microcontroller camera onto an sd card module. Note: the XIAO-ESP32S3-sense has a micro sd card holder onboard the camera sensee attachment.  [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a24)          
 1. **Sense10-sound-to-sd-card:**  Record a sound and have it placed in a useable format on the sd card. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a26)
 1. **Sense11-video-to-sd-card:**   Record a video on your micro sd-card. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a25)
-1. **Sense12-Pixy2:** use the amazing Pixy2 to anlyses shaded objects (shades are all colors except black and white) see Charmed labs Pixy video [here](https://www.youtube.com/watch?v=J8sl3nMlYxM)  and then [my Example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a27).
-1. **Sense13-GPS:** Get a GPS module working. If students can just extract the longnitude and latitude that would be very helpful. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a29)                                                                                                                                                                                                                                                                                                                            
+1. **Sense12-Pixy2:** use the amazing Pixy2 with an SPI connection to your microcontroller to anlyses shaded objects (shades are all colors except black and white) see Charmed labs Pixy video [here](https://www.youtube.com/watch?v=J8sl3nMlYxM)  and then [my Example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a27).
+1. **Sense13-GPS:** Get a GPS module working. If students can just extract the longnitude and latitude that would be very helpful. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a29)                                                                                1. **Sense14-Lidar:**   Connect a lidar to the microcontroller serial monitor, the information will be a mess but proves the lidar works.  [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a45). Better assignment is the lidar-Grayscale-OLED assignment later in the course.                                                                                                                                                                                                                                            
+                                                                                                              
+                                                                                                          
  <br><br><h2 name="ML">Machine Learning</h2><br>
 1. **ML01-sensecraft:** Use a simple way to install machine learning models to your microcontroller such as [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense
 1. **ML02-vision:** Use [Edgeimpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud based method to make a vision classification model by taking pictures of pen/pencils labelled "1pen" and things without them labelled "0unknown". The numbers are not needed but really help later when things get more complex. Test your model also from your cell phone. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a02)
@@ -117,18 +119,20 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **ML11-int8-quatizied:** Use [Edgeimpulse.com](https://edgeimpulse.com/) to download the int8-quatizied model of the vision classification model to upload it to [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense, if using a different microcontroller try other ways to upload your model, possibly deploy a c/c++ model and locally compile it for your microcontroller.
 1. **ML12-WebSite-LLM:** Make a website that loads a huggingface or other cloud hub for storing pre-trained machine learning models. [my example](https://hpssjellis.github.io/my-examples-of-huggingfacejs/public/index.html) each example is a signle file webpage and can be copied to your storage area.
 1. **ML13-local-LLM:** Download a full chat LLM such as LLAMA-v2 and get it working on your laptop or desktop computer. Be very cafeul if you pay for data as some of these files are large. [tinyLLM](https://github.com/jasonacox/TinyLLM) ....      [tinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) ....   [gpt4All](https://www.nomic.ai/gpt4all)                                                                                                                                                                                                                                                                                                                                                                        
- <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2><br>
-1. **Act0-:**     
-1. **Act0-:**       
-1. **Act0-:**       
-1. **Act0-:**       
-1. **Act0-:**     
-1. **Act0-:**     
-1. **Act0-:**     
-1. **Act0-:**     
-1. **Act0-:**     
-1. **Act0-:**     
-1. **Act0-:**     
+ <br><br><h2 name="actuators">Actuators (Motors, LED's etc)</h2>   <b>reminder that all these assignments need a drawn and checked circuit diagram before you begin to connect wires to the microcontroller</b><br> 
+1. **Act01-servo:**  Connect a servo motor to your microcontroler. Reminder that generally the servo red and brown wires go to their own 6 Volt  battery, not the microcontrollers power pins connectors. Also note the ESP32 microcontrollers use a different library than the regular arduino. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a30)  
+1. **Act02-PNP-transistor:**  connect a motor with it's own power supply and control it using a PNP transistor. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a31)     
+1. **Act03-NPN-transistor:**  connect a motor with it's own power supply and control it using an NPN transistor. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a32)    
+1. **Act04-small-DC-motor-driver:** connect a small motor with it's own battery supply to a motor driver that is safely connected to your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a34)     
+1. **Act05-large-motor-driver:**  connect a large motor with it's own battery supply to a large motor driver that is safely connected to your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a34)      
+1. **Act06-stepper:**  connect a stepper motor with it's own power supply to stepper motor driver and control it safely with your microcontroller. [my eample](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a35)   
+1. **Act07-I2C-OLED:**  connect a simple black and white OLED to the microcontroller and show that the library for it works and can produce written text. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a39)     
+1. **Act08-camera-and-grayscale-OLED:**  connect a grayscale OLED with a camera connected to the microcontroller and show the image. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a41)
+1. **Act08-lidar-and-grayscale-OLED:**  connect a grayscale OLED to the microcontroller with a Lidar detector and show the entire room. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a46)
+1. **Act08-grayscale-OLED:**  connect a grayscale OLED to the microcontroller and show text and some basic shapes. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a40)   
+1. **Act09-color-OLED or-TFT:**   Connect a color possibly with touch ability to the microntroller and show text and basic shapes and if touch is present demonstrate a touch event.  [seeedstudio round display](https://wiki.seeedstudio.com/get_start_round_display/) ... [my TFT example-touch never really worked well for me](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a43)
+1. **Act10-e-ink:**   Get an e-ink display connected with the microcontroller showing a different screen every few seconds. [my not  working example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a42)  
+1. **Act-:**     
 1. **Act0-:**     
 1. **Act0-:**          
 1. **Act0-:**     
