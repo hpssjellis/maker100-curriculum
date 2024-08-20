@@ -53,18 +53,20 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 1. **Base04-Libraries:** Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020, many of the examples need to be slightly changed to work with the XIAO-esp32S3                               
                                                                                                                                                                                                                       
                                                                                                                                                                                                                                               
-     <br><br><h2 name="coding">Coding</h2><br> 
-1. Code01. Explain VIDEO FLAC as seen below. Have students write arduino code that shows to the serial monitor each of these abilities.  
-1. **Code02-V:**  Variables, make code to show multiple types of variables in the serial monitor
-1. **Code03-I:** Input/Output make code to read a variable from the serial monitor (click send) and print it to the serial monitor
-1. **Code04-D:** Decisions (If statments and possibly case statements). Write code to make a decision based on information sent to the program from the serial monitor
-1. **Code05-E:** Events things that drive code  (This is actually from Javascript programming). Write a menu and have code do different things based on the menu decision, such as WASD, each letter makes something move a different direction
-1. **Code06-O:** Objects (Structs in some languages like C/CPP) Make a struct a fancy variable that connects a key word with data and presents the data in the serial monitor                                                                                                                                                                                                                      
+     <br><br><h2 name="coding">Coding</h2><br>                                                                                                                                                                                                 
+                     
+Note: Explain VIDEO FLAC as seen below. Have students write arduino code that shows to the serial monitor each of these abilities.  Very important for stsudents to try to change and improve their code to learn how it works.
+1. **Code01-Var:**  Variables, make code to show multiple types of variables in the serial monitor
+1. **Code02-In-out:** Input/Output make code to read a variable from the serial monitor (click send) and print it to the serial monitor
+1. **Code03-if:** Decisions (If statments and possibly case statements). Write code to make a decision based on information sent to the program from the serial monitor
+1. **Code04-Events:** Events things that drive code  (This is actually from Javascript programming). Write a menu and have code do different things based on the menu decision, such as WASD, each letter makes something move a different direction
+1. **Code05-structs:** Objects (Structs in some languages like C/CPP) Make a struct a fancy variable that connects a key word with data and presents the data in the serial monitor                                                                                                                                                                                                                      
    
-1. **Code07-F:** Functions, write a function that prints to the serial monitor and then activate it
-1. **Code08-L:**  Loops such as For loops (possibly while loops). Using a varible that stores a number print something that many times.
-1. **Code09-A:**  Arrays. Make an Array a fancy variable that numbers each value. a loop can be used to print the whole array to the serial monitor
-1. **Code10-C:**  Classes. A. Use a class. B. make a class from scratch and then use it.                                                                                                                                                                                                                        
+1. **Code06-Functions:** Functions, write a function that prints to the serial monitor and then activate it
+1. **Code07-Loops:**  Loops such as For loops (possibly while loops). Using a varible that stores a number print something that many times.
+1. **Code08-Array:**  Arrays. Make an Array a fancy variable that numbers each value. a loop can be used to print the whole array to the serial monitor
+1. **Code09-Class:**  Classes. A. Use a class. B. make a class from scratch and then use it.       
+1. **Code10-SOS:**  In as few lines as possible make the onboard LED (LED_BUILTIN) flash an SOS. Which is 3 short flashes, 3 long flashes 3 short flashes                                                                                                                                                                                                                                                                                
                                                                                                                                                                                                                                               
    <br><br><h2 name="sensors">Sensors</h2><br>
 1. **Sense01-Analog:** Find a module sensor that has an analog output and get a reading on your micrcontroller serial monitor on pin A0
