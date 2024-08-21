@@ -4,7 +4,9 @@
 # maker100-curriculum
 maker100-robotics-machine-learning-IoT-communication-curriculum
 
-Views better using the README.md [here](README.md)
+Views better using the README.md [here](README.md) 
+
+Created by Jeremy Ellis [LinkedIn](https://www.linkedin.com/in/jeremy-ellis-4237a9bb/) August 2024. Limited consulting available as I am still a full time Educator.
 
 ## Note:   
 The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
