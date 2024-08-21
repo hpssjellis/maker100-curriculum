@@ -171,8 +171,12 @@ Basically as long as the teacher is clear at the start of the course any grading
 1. [Arduino Forum](https://forum.arduino.cc/)   
 1. [Seeedstudio Getting Started](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
 1. [Seeedstudio Forum](https://forum.seeedstudio.com/)
+1. [Seeedstudio Discord](https://discord.gg/t7azh9uP2x)                                                                                                                                                              
+                                                                     
 1. [Tiny Machine Learning Discord invite link](https://discord.gg/Wnzc8XPx)
 1. [tinyml.seas.harvard.edu](https://tinyml.seas.harvard.edu/teach/)
+1. [VincentK16 Github with TinyML resources](https://github.com/VincentK16/tinymlresources)                                                                                                                                                           
+                                                                 
 1. The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
 1. The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)  
 1. Deprecated 2020 Arduino course [here](https://github.com/hpssjellis/arduino-high-school-robotics-course)
