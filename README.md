@@ -12,7 +12,7 @@ Created August 2024 by Jeremy Ellis [LinkedIn](https://www.linkedin.com/in/jerem
 The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
 The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)  
 
-My Youtube playlist about this curriculum called [Hands on AI](https://www.youtube.com/watch?v=VRmSbcegicc&list=PL57Dnr1H_egubQAOHaxkZnvfJDOztPtia&index=1)
+My Youtube playlist about this curriculum is called [Hands on AI](https://www.youtube.com/watch?v=VRmSbcegicc&list=PL57Dnr1H_egubQAOHaxkZnvfJDOztPtia&index=1)
 
 ## Problem: 
 How can a school or university start a general robotics course for all students when there are only a few educators skilled in robotics and machine learning?
@@ -22,9 +22,9 @@ How can a school or university start a general robotics course for all students 
 1. **A versatile, passionate educator**
 2. **A computer lab** equipped with a few 3D printers
 3. **Strong IT support** to manage software installations and updates <br><br>                                                                                                                                                                                                                                                                                                                                                                                               
-4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, batteries, resistors, capacitors, etc.), soldering equipment, etc. ~ $2,000 - $10,000 
+4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, batteries, resistors, capacitors, etc.), soldering equipment, etc. ~ $2,000 - $10,000 a draft 2023 price list is [here](https://github.com/hpssjellis/maker100-eco/blob/main/price-list-2024.md)
 5. **A budget for consumables** and a set of new microcontrollers every few years. ~ $500 - $3,000
-6. **A well-crafted, asynchronous, student-friendly Robotics, Machine Learning, and IoT curriculum** which is right here on this page
+6. **A well-crafted, asynchronous, student-friendly robotics, machine learning, and IoT curriculum** which is right here on this page.
 
 ## Concept:   
 Robotics is fundamentally about solving technology problems. Students must actively engage in overcoming these challenges. Once all the technology problems are solved and there are no more challenges to face, can it truly be called a Robotics Curriculum? This curriculum with new microcontrollers every few years solves that issue and makes solving the technology problems a constant process.
