@@ -166,7 +166,17 @@ Basically as long as the teacher is clear at the start of the course any grading
 1. at any point you should be able to ask a student to reproduce an asssignment they have already completed. That way they need to keep good nots and a circuit diagram
 
 
+## References
 
+1. [Arduino Forum](https://forum.arduino.cc/)   
+1. [Seeedstudio Getting Started](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+1. [Seeedstudio Forum](https://forum.seeedstudio.com/)
+1. [Tiny Machine Learning Discord invite link](https://discord.gg/Wnzc8XPx)
+1. [tinyml.seas.harvard.edu](https://tinyml.seas.harvard.edu/teach/)
+1. The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
+1. The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)  
+1. Deprecated 2020 Arduino course [here](https://github.com/hpssjellis/arduino-high-school-robotics-course)
+1. Deprecated 2019 Particle.io course [here](https://github.com/hpssjellis/particle.io-photon-high-school-robotics) 
 
 
 
