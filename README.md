@@ -134,16 +134,17 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Act12-e-ink:**   Get an e-ink display connected with the microcontroller showing a different screen every few seconds. [my not  working example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a42)  
 1. **Act13-PCB-build:** using  [easyEDA](https://easyeda.com/) or some other online or local software design a simple PCB based on a video tutorial such as the [EasyEDA Tutorial 2020](https://www.youtube.com/watch?v=gjPNYMRA0m8&list=PLbKMtvtYbdPMZfzGuVTdc0MWKrFvU4nsu&index=2)   Note: It is challenging to find a simple tutorial for creating PCB's, students with CAD, 3D Printing and animation experience will have some advantages in this assignment. Note: [JLCPCB](https://jlcpcb.com/) is very fast and inexpensive to make these PCB's if you are OK soldering the componenets together. Last one I did was about $50 USD for 5 boards with shipping that arrived 10 days after ordering.
                                                                                                                                                                                                                                                                                                                                                                                                                                                           <br><br><h2 name="iot"> IoT Internet of Things Connectivity</h2><br>
-1. **IoT0-:**     
-1. **IoT0-:**     
-1. **IoT0-:**     
-1. **IoT0-:**     
-1. **IoT0-:**     
-1. **IoT0-:**
-1. **IoT0-:**     
-1. **IoT0-:**     
-1. **IoT0-:**     
-1. **IoT0-:**     
+1. **IoT01-WiFi-Webserver:** Make your microcontroller into a LOCAL WIFI wewbserver. Note: Unless your IT department likes you this webserver will not be connected to the internet. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a47)    
+1. **IoT02-camera-streaming-webserver:**  make your camera stream to a local webpage. This is actually a default program that comes with all ESP32S3 boards, you have to comment out some parts of the code.  Look for Examples-->ESP32-->Camera-->cameraWebServer 
+1. **IoT03-sound-streaming:** Good luck! My students never got this working.    
+1. **IoT04-BLE:**  Get the microcontroller to connect to an APP like the NRF connect by nordic [apple](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) ...  [Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en&pli=1)  [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a52) BLE coding is very strange, I would suggest getting assistance using coPilot etc
+1. **IoT05-LoRa:** If you have two LoRa modules try to get it so you can text back and forth between them. This is actually quite advanced and I use an entire different board.  [my example using the RAK2270 sticker tracker](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a60)  
+1. **IoT06-LoRaWan:** This is also reasonably advanced, one LoRa module should be able to connect to a LoRaWan netwrok like TTN or Helium. If you have connectivity you will also need a cloud connection. [my example using the RAK2270 sticker tracker](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#example-one-hour-session-about-the-rak2270stickertracker)
+1. **IoT07-ESPNOW:** If your microcontroller can chat with other ones like the ESP32, use their default ESPNOW example programs to make and test connections between them. ESPNOW is like WiFi but without using a router that needs a password, it is more like using a radio on a specific channel.
+1. **IoT08-multiplexer:** Some microcontrollers do not have enough pins for the final projects so connecting a multiplexer makes some sense. I never got this working but did get the below connectivity working.   
+1. **IoT09-UART:** connect 2 microcontrollers to exchange information using the UART serial protocol RX criss crossed with TX. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a38b)   
+1. **IoT10-I2C:**  Use the I2C serial Protocol to connect and exchange information between 2 micrcontrolers. Note: you must pullup the SDA and SCL lines to 3V3 using a 4.7 kOhm resistor. The two pins for I2C are called SDA and SCL [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a38a)   
+1. **IoT11-SPI:**  Use 2 microcontrollers to connect and exchange information using the SPI protocol (MOSI, MISO, SCK, SS) may also be other labels like POCI, PiCO, SC, SS. Note this is fairly hard on many microcontroller and they dipically are the controllers and  sensors typically are the peripherals. Good luck getting this one to work. 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
  <br><br><h2 name=final>Final Projects </h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
 1. **Final01-simple:** (pass) Simple unique for each student sensor and actuator with circuit diagram (Proof of concept)
