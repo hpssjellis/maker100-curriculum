@@ -147,7 +147,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
  <br><br><h2 name=final>Final Projects </h2> Note: Be very leary of projects that use other microcontrollers as they are most likely are just a followed cookbook <br><br>
 1. **Final01-simple:** (pass) Simple unique for each student sensor and actuator with circuit diagram (Proof of concept)
 1. **Final02-multi:** (possible A or higher) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram with 3D Printed structure (Can also be wood, metal, cardboard etc) (Prototype)
-1. **Final03-group:** (possible A+) Based on prievious projects students get in groups and combine there strengths to make a useful or fun final project which must include Machine Learning. 
+1. **Final03-group:** (possible A+) Based on prievious projects students get in groups and combine their strengths to make a useful or fun final project which must include Machine Learning. The teacher can also suggest student's who's strength may complement each other for an interesting group project. Note: Many students do not have time to finish a group project. 
 
 
 
