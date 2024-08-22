@@ -65,7 +65,7 @@ On this page Quick Links
 [Actuaors-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)     
 [IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)     
 [Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)     
-                                                                                                                                                                                                                       # Note: Any student with previous Arduino experience should breeze through most of the Coding, Sensors and Actuators part of this course!
+                                                                                                                                                                                                                     # Note: Any student with previous Arduino experience should breeze through most of the Coding, Sensors and Actuators part of this course!
 
                                                                                                                                                                                                                                               
                                                                                                                                                                                                                                               
