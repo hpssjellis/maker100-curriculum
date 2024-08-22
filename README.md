@@ -38,7 +38,6 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 
 
 
-
 ## Tricks:
 1. Start with a microcontroller that has proven successful for other educators. In my case, I recommend the  [Seeedstudio #XIAO-ESP32S3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)  which costs around $14 USD. For 30 students, that totals $420. Yes, each student should have their own microcontroller. Additionally, you'll need USB-C cables, microSD cards, and pin headers.
 1. Class sets of most equipment aren't necessary. Since the course is asynchronous, students can work at their own pace. This means you may only need a few of the more expensive sensors, like the Pixy2, a Lidar, or soldering equipment. While there are benefits to having class sets of all equipment, I’ve never found it necessary. Plus, it can create a storage mess.
@@ -66,7 +65,11 @@ On this page Quick Links
 [Actuaors-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)     
 [IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)     
 [Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)     
+                                                                                                                                                                                                                       # Note: Any student with previous Arduino experience should breeze through most of the Coding, Sensors and Actuators part of this course!
+
                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                  
 &nbsp;&nbsp;<br><h2 name="basics">Basics</h2><br> 
 1. **Base01-Install:** Determine the software to install (Best to have some software installed before the class starts) A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software), [Pixymon2](https://pixycam.com/downloads-pixy2/), [Putty](https://www.putty.org/), [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download) and [OpenMV](https://openmv.io/pages/download) Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released.
 1. **Base02-Language:** Determine the computer language to use: Probably best to work with a few standard languages. I mainly use Arduino C/C++ a subset of regular C++ but every sketch has a setup() and loop() funciton instead of a main() function. Other choices are: full GNU MAKE C/C++, microPython, Zepher(RTOS) and many more.
