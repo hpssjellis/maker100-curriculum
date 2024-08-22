@@ -62,10 +62,12 @@ On this page Quick Links
 
 [Basics](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#basics)     
 [Coding](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#coding)     
-[Sensors](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#sensors)     
+[Sensors](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#sensors)                       
+
 [Machine Learning](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#machine-learning)     
 [Actuaors-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)     
-[IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)     
+[IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)   
+
 [Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)     
                                                                                                                                                                                                                      
 
