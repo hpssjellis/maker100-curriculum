@@ -56,9 +56,7 @@ This approach is relatively easy to teach within a Robotics, Machine Learning, a
 
 # The Maker100 Curriculum  
 
-## Note: 
-
-Any student with previous Arduino experience should breeze through most of the Coding, Sensors and Actuators part of this course!
+## Note: Any student with previous Arduino experience should breeze through most of the Coding, Sensors and Actuators part of this course!
 
 On this page Quick Links 
 
