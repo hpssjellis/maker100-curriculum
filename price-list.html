@@ -28,7 +28,8 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 <body>
 <h1 align=center>Purchase Table for the <a href="https://github.com/hpssjellis/maker100-curriculum">Maker100-Curriculum</a></h1>
  <input type=button value="Economy" onclick="myEco()"> <input type=button value="Default" onclick="myDefault()"> <input type=button value="Kitchen Sink" onclick="mySink()"> Based on 30 students per computer lab<br><br>
-
+<br>
+Note: This is an estimate of products to purchase and may not work perfectly together.<br>
 <br>
 <table>
     <thead>
@@ -56,7 +57,7 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 
  <tr>
      <td>1</td>
-     <td>Basic Electronics Equipment</td>
+     <td>Basic Electronics Kits</td>
      <td><a href="https://www.amazon.com/Snap-Circuits-SC-750-Electronics-Exploration/dp/B0002AHQWS/ref=sr_1_1?crid=1R33H2QRD95ZJ&dib=eyJ2IjoiMSJ9.ek44gomRfkmAtWcd4bCrumNDXbJio7xQ5Z2usjQcqHiH5xDl0eS5OQortxrcy9L_mTI9s0Q82QZWWq1PoG_f8TvUHiXhoTmEJv7UMESIViID1uBbvHHNdllFC7brRXWD9gFH51cbh8CK6zwLGMhf6VZQAJaVB41CnH_FJYK9yANOixcFCMHv-MUMd_AkcFLbEQJDpgJxJixLmztRCM74WSjX8nVAm-3XbjZsKcJFOv2_rl1FQOH9iD3mgzcVBnMc6fVzE64isQXAdlG3ZnOuDStx3epK96M3dP10yyBSlG4.V_w5Oous-VQf5r8mCysSmmJREdMIJ_uzf6wDO2wP3SQ&dib_tag=se&keywords=snap%2Bcircuits%2B750&qid=1724380552&sprefix=snap%2Bcircuits%2B750%2Caps%2C246&sr=8-1&th=1">Snap Circuits 750</a></td>
      <td><img width=100 src="https://github.com/user-attachments/assets/ea1c8c5b-549f-4004-a4fe-435da7e0eab7" ></td>
      <td><input type="number" id="amount1" style="width: 60px;" value="15"></td>
@@ -65,11 +66,11 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
  </tr>
  <tr>
      <td>2</td>
-     <td>MCU002</td>
-     <td><a href="">Microcontroller B</a></td>
-     <td><img  width=100  src="" ></td>
-     <td><input type="number" id="amount2" style="width: 60px;"  value="3"></td>
-     <td>$<input type="number" id="cost2" style="width: 110px;"  value="15.00"></td>
+     <td>Basic Electronic Equipment Kit</td>
+     <td><a href="https://www.amazon.com/Smraza-Breadboard-Resistors-Mega2560-Raspberry/dp/B01HRR7EBG/ref=sr_1_1_sspa?crid=1U8I4WDFK2RSZ&dib=eyJ2IjoiMSJ9.gOzh6KocJwaHIhUUQtMHm-96WFYJTXv6_ul3s6WPMvwBrfPCgOsuGdbfNwuT_hCCvm6EqBXk81OPzvKKXRJqs7ZsbCDohdNZK-kxLmAFqL3a7lk6yQWA24JTsfII2DyoBOd34tBE8QZl11PDP4vbtziyv8VgPwULe8xjbE1uYQ8bjhoySvJ86QVDiie5iigZpZPMDZzO70-oPVDtUmWKznR3A31qjbsyYQMjv6c6vQI.3PZ-bgQqFMv8nXOQSnZZAQgZVQ-QIYRBPGfCDdX9VE4&dib_tag=se&keywords=basic%2Belectronic%2Bkit&qid=1724384681&sprefix=basic%2Belectronic%2Bkit%2Caps%2C239&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1">Basic Starter Kit for Arduino</a></td>
+     <td><img  width=100  src="https://github.com/user-attachments/assets/04dd3a6f-9c24-43ad-a204-9254e0c5b848" ></td>
+     <td><input type="number" id="amount2" style="width: 60px;"  value="5"></td>
+     <td>$<input type="number" id="cost2" style="width: 110px;"  value="9.99"></td>
      <td id="total2">$45</td>
  </tr>
  <tr>
@@ -221,18 +222,31 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 
 function myEco(){
   document.getElementById('amount1').value = 0;
+  document.getElementById('amount2').value = 1;
+  document.getElementById('amount3').value = 0;
+  document.getElementById('amount4').value = 0;
+  document.getElementById('amount5').value = 0;
 
  calculateTotal();
 }
 
 function myDefault(){
   document.getElementById('amount1').value = 15;
+  document.getElementById('amount2').value = 5;
+  document.getElementById('amount3').value = 0;
+  document.getElementById('amount4').value = 0;
+  document.getElementById('amount5').value = 0;
  
  calculateTotal();
 }
  
 function mySink(){
   document.getElementById('amount1').value = 30;
+  document.getElementById('amount2').value = 30;
+  document.getElementById('amount3').value = 30;
+  document.getElementById('amount4').value = 30;
+  document.getElementById('amount5').value = 30;
+  document.getElementById('amount6').value = 30;
 
  calculateTotal();
 }
