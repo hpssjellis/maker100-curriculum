@@ -27,6 +27,9 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 </head>
 <body>
 <h1>Purchase Table for the <a href="https://github.com/hpssjellis/maker100-curriculum">Maker100-Curriculum</a></h1>
+ <input type=button value="Economy" onclick="myEco()"> <input type=button value="Default" onclick="myDefault()"> <input type=button value="Kitchen Sink" onclick="mySink()"><br><br>
+
+<br>
 <table>
     <thead>
         <tr>
@@ -278,6 +281,21 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
  
  // Global Variables
  let myMaxRows = 3;
+
+
+function myEco(){
+  alert('eco')
+}
+
+function myDefault(){
+  alert('default')
+}
+ 
+function mySink(){
+  alert('Sink')
+}
+
+ 
 
 function calculateTotal() {
   let grandTotal = 0;
