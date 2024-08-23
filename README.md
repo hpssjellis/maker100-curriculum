@@ -8,6 +8,8 @@ Views better using the README.md [here](README.md)
 
 Created August 2024 by Jeremy Ellis [LinkedIn](https://www.linkedin.com/in/jeremy-ellis-4237a9bb/). Limited consulting available as I am still a full time Educator.
 
+Draft: Price-list.html viewable [here](https://hpssjellis.github.io/maker100-curriculum/)
+
 ## Note:   
 The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
 The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at  [maker100](https://github.com/hpssjellis/maker100)  
