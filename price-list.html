@@ -49,8 +49,8 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
             <td>MCU001</td>
             <td><a href="https://www.google.ca">Microcontroller A</a></td>
             <td><img src="" ></td>
-            <td><input type="number" id="amount1" style="width: 30px;" value="5"></td>
-            <td>$<input type="number" id="cost1" style="width: 60px;" value="10.00"></td>
+            <td><input type="number" id="amount1" style="width: 60px;" value="5"></td>
+            <td>$<input type="number" id="cost1" style="width: 90px;" value="10.00"></td>
             <td id="total1">$50</td>
         </tr>
         <tr>
@@ -58,8 +58,8 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
             <td>MCU002</td>
             <td><a href="">Microcontroller B</a></td>
             <td><img src="" ></td>
-            <td><input type="number" id="amount2" style="width: 30px;"  value="3"></td>
-            <td>$<input type="number" id="cost2" style="width: 60px;"  value="15.00"></td>
+            <td><input type="number" id="amount2" style="width: 60px;"  value="3"></td>
+            <td>$<input type="number" id="cost2" style="width: 90px;"  value="15.00"></td>
             <td id="total2">$45</td>
         </tr>
         <tr>
@@ -67,13 +67,13 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
             <td>MCU003</td>
             <td><a href="">Microcontroller C</a></td>
             <td><img src=""></td>
-            <td><input type="number" id="amount3" style="width: 30px;"  value="2"></td>
-            <td>$<input type="number" id="cost3" style="width: 60px;"  value="20.00"></td>
+            <td><input type="number" id="amount3" style="width: 60px;"  value="2"></td>
+            <td>$<input type="number" id="cost3" style="width: 90px;"  value="20.00"></td>
             <td id="total3">$40</td>
         </tr>
         <tr>
             <td colspan="6">Total</td>
-            <td id="grandTotal">$135</td>
+            <td id="grandTotal">135</td>
         </tr>
     </tbody>
 </table>
@@ -98,12 +98,12 @@ function calculateTotal() {
       const cost = parseFloat(document.getElementById(`cost${i}`).value);
       const amount = parseFloat(document.getElementById(`amount${i}`).value);
       const total = cost * amount;
-      document.getElementById(`total${i}`).textContent = total.toFixed(2);
+      document.getElementById(`total${i}`).textContent = '$'+total.toFixed(2);
       grandTotal += total;
   }
 
-  document.getElementById('grandTotal').textContent = grandTotal.toFixed(2);
-  document.getElementById('grandTotal2').textContent = grandTotal.toFixed(2);
+  document.getElementById('grandTotal').textContent = '$'+grandTotal.toFixed(2);
+  document.getElementById('grandTotal2').textContent = '$'+grandTotal.toFixed(2);
 }
 
 for (let i = 1; i <= myMaxRows; i++) {
