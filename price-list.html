@@ -16,12 +16,20 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
         width: 100%;
         border-collapse: collapse;
     }
-    th, td {
+    th {
         border: 1px solid #ddd;
         padding: 8px;
     }
     th {
         background-color: #f2f2f2;
+    }
+    td {       
+       border: 1px solid #ddd;
+       padding: 8px;
+       overflow-x:hidden; 
+       overflow-y:hidden; 
+       white-space:nowrap; 
+       max-width:70px;"
     }
 </style>
 </head>
@@ -36,7 +44,7 @@ Note: This is an estimate of products to purchase and may not work perfectly tog
         <tr>
             <th>#</th>
             <th>Code</th>
-            <th style="overflow-x:hidden; overflow-y:hidden; white-space:nowrap; max-width:30px;">Item</th>
+            <th>Item</th>
             <th>Image</th>
             <th>Amount</th>
             <th>Cost in USD</th>
