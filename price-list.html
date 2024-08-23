@@ -35,9 +35,9 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 </head>
 <body>
 <h1 align=center>Purchase Table for the <a href="https://github.com/hpssjellis/maker100-curriculum">Maker100-Curriculum</a></h1>
- <input type=button value="Economy" onclick="myEco()"> <input type=button value="Default" onclick="myDefault()"> <input type=button value="Kitchen Sink" onclick="mySink()"> Based on 30 students per computer lab<br><br>
+<input type=button value="Economy" onclick="myEco()"> <input type=button value="Default" onclick="myDefault()"> <input type=button value="Everything and the Kitchen Sink" onclick="mySink()"> Based on 30 students per computer lab<br><br>
 <br>
-Note: This is an estimate of products to purchase and may not work perfectly together.<br>
+Note: This is an estimate of products to purchase and may not work perfectly together. Your purchasing department may make suggestions for cheaper products. This list comes with no guarantee in any way. <br>
 <br>
 <table>
     <thead>
@@ -505,48 +505,48 @@ Note: This is an estimate of products to purchase and may not work perfectly tog
 function myEco(){
   document.getElementById('amount1').value = 0;
   document.getElementById('amount2').value = 1;
-  document.getElementById('amount3').value = 0;
-  document.getElementById('amount4').value = 3;
-  document.getElementById('amount5').value = 3;
-  document.getElementById('amount6').value = 3;
-  document.getElementById('amount7').value = 3;
+  document.getElementById('amount3').value = 1;
+  document.getElementById('amount4').value = 0;
+  document.getElementById('amount5').value = 5;
+  document.getElementById('amount6').value = 15;
+  document.getElementById('amount7').value = 20;
   document.getElementById('amount8').value = 3;
-  document.getElementById('amount9').value = 3;
+  document.getElementById('amount9').value = 1;
  
-  document.getElementById('amount10').value = 3;
-  document.getElementById('amount11').value = 3;
-  document.getElementById('amount12').value = 3;
-  document.getElementById('amount13').value = 3;
-  document.getElementById('amount14').value = 3;
-  document.getElementById('amount15').value = 3;
+  document.getElementById('amount10').value = 1;
+  document.getElementById('amount11').value = 1;
+  document.getElementById('amount12').value = 5;
+  document.getElementById('amount13').value = 0;
+  document.getElementById('amount14').value = 1;
+  document.getElementById('amount15').value = 1;
   document.getElementById('amount16').value = 3;
-  document.getElementById('amount17').value = 3;
-  document.getElementById('amount18').value = 3;
+  document.getElementById('amount17').value = 0;
+  document.getElementById('amount18').value = 1;
   document.getElementById('amount19').value = 3;
 
-  document.getElementById('amount20').value = 1;
-  document.getElementById('amount21').value = 1;
-  document.getElementById('amount22').value = 1;
-  document.getElementById('amount23').value = 1;
-  document.getElementById('amount24').value = 1;
-  document.getElementById('amount25').value = 1;
+  document.getElementById('amount20').value = 5;
+  document.getElementById('amount21').value = 5;
+  document.getElementById('amount22').value = 5;
+  document.getElementById('amount23').value = 7;
+  document.getElementById('amount24').value = 7;
+  document.getElementById('amount25').value = 0;
   document.getElementById('amount26').value = 1;
   document.getElementById('amount27').value = 1;
-  document.getElementById('amount28').value = 1;
-  document.getElementById('amount29').value = 1;
+  document.getElementById('amount28').value = 0;
+  document.getElementById('amount29').value = 0;
 
-  document.getElementById('amount30').value = 1;
-  document.getElementById('amount31').value = 1;
+  document.getElementById('amount30').value = 0;
+  document.getElementById('amount31').value = 0;
   document.getElementById('amount32').value = 1;
   document.getElementById('amount33').value = 1;
   document.getElementById('amount34').value = 1;
   document.getElementById('amount35').value = 1;
   document.getElementById('amount36').value = 1;
-  document.getElementById('amount37').value = 1;
-  document.getElementById('amount38').value = 1;
-  document.getElementById('amount39').value = 1;
+  document.getElementById('amount37').value = 0;
+  document.getElementById('amount38').value = 0;
+  document.getElementById('amount39').value = 0;
  
-  document.getElementById('amount40').value = 1;
+  document.getElementById('amount40').value = 0;
 
 
  calculateTotal();
@@ -555,41 +555,42 @@ function myEco(){
 function myDefault(){
   document.getElementById('amount1').value = 15;
   document.getElementById('amount2').value = 5;
-  document.getElementById('amount3').value = 5;
-  document.getElementById('amount4').value = 15;
+  document.getElementById('amount3').value = 3;
+  document.getElementById('amount4').value = 1;
   document.getElementById('amount5').value = 15;
-  document.getElementById('amount6').value = 15;
-  document.getElementById('amount7').value = 15;
-  document.getElementById('amount8').value = 15;
-  document.getElementById('amount9').value = 15;
-  document.getElementById('amount10').value = 15;
-  document.getElementById('amount11').value = 15;
+  document.getElementById('amount6').value = 30;
+  document.getElementById('amount7').value = 30;
+  document.getElementById('amount8').value = 5;
+  document.getElementById('amount9').value = 1;
+ 
+  document.getElementById('amount10').value = 3;
+  document.getElementById('amount11').value = 3;
   document.getElementById('amount12').value = 15;
-  document.getElementById('amount13').value = 15;
-  document.getElementById('amount14').value = 15;
-  document.getElementById('amount15').value = 15;
-  document.getElementById('amount16').value = 15;
-  document.getElementById('amount17').value = 15;
-  document.getElementById('amount18').value = 15;
+  document.getElementById('amount13').value = 3;
+  document.getElementById('amount14').value = 7;
+  document.getElementById('amount15').value = 3;
+  document.getElementById('amount16').value = 7;
+  document.getElementById('amount17').value = 3;
+  document.getElementById('amount18').value = 3;
   document.getElementById('amount19').value = 15;
 
-  document.getElementById('amount20').value = 3;
-  document.getElementById('amount21').value = 3;
-  document.getElementById('amount22').value = 3;
-  document.getElementById('amount23').value = 3;
-  document.getElementById('amount24').value = 3;
-  document.getElementById('amount25').value = 3;
-  document.getElementById('amount26').value = 3;
-  document.getElementById('amount27').value = 3;
+  document.getElementById('amount20').value = 15;
+  document.getElementById('amount21').value = 7;
+  document.getElementById('amount22').value = 7;
+  document.getElementById('amount23').value = 15;
+  document.getElementById('amount24').value = 7;
+  document.getElementById('amount25').value = 15;
+  document.getElementById('amount26').value = 5;
+  document.getElementById('amount27').value = 1;
   document.getElementById('amount28').value = 3;
   document.getElementById('amount29').value = 3;
 
-  document.getElementById('amount30').value = 3;
-  document.getElementById('amount31').value = 3;
+  document.getElementById('amount30').value = 2;
+  document.getElementById('amount31').value = 2;
   document.getElementById('amount32').value = 3;
   document.getElementById('amount33').value = 3;
   document.getElementById('amount34').value = 3;
-  document.getElementById('amount35').value = 3;
+  document.getElementById('amount35').value = 5;
   document.getElementById('amount36').value = 3;
   document.getElementById('amount37').value = 3;
   document.getElementById('amount38').value = 3;
@@ -604,16 +605,16 @@ function mySink(){
   document.getElementById('amount1').value = 30;
   document.getElementById('amount2').value = 30;
   document.getElementById('amount3').value = 30;
-  document.getElementById('amount4').value = 30;
-  document.getElementById('amount5').value = 30;
-  document.getElementById('amount6').value = 30;
-  document.getElementById('amount7').value = 30;
+  document.getElementById('amount4').value = 5;
+  document.getElementById('amount5').value = 40;
+  document.getElementById('amount6').value = 40;
+  document.getElementById('amount7').value = 60;
   document.getElementById('amount8').value = 30;
-  document.getElementById('amount9').value = 30;
-  document.getElementById('amount10').value = 30;
+  document.getElementById('amount9').value = 4;
+  document.getElementById('amount10').value = 10;
   document.getElementById('amount11').value = 30;
-  document.getElementById('amount12').value = 30;
-  document.getElementById('amount13').value = 30;
+  document.getElementById('amount12').value = 100;
+  document.getElementById('amount13').value = 10;
   document.getElementById('amount14').value = 30;
   document.getElementById('amount15').value = 30;
   document.getElementById('amount16').value = 30;
@@ -621,25 +622,25 @@ function mySink(){
   document.getElementById('amount18').value = 30;
   document.getElementById('amount19').value = 30;
 
-  document.getElementById('amount20').value = 5;
-  document.getElementById('amount21').value = 5;
-  document.getElementById('amount22').value = 5;
-  document.getElementById('amount23').value = 5;
-  document.getElementById('amount24').value = 5;
-  document.getElementById('amount25').value = 5;
-  document.getElementById('amount26').value = 5;
+  document.getElementById('amount20').value = 60;
+  document.getElementById('amount21').value = 30;
+  document.getElementById('amount22').value = 30;
+  document.getElementById('amount23').value = 30;
+  document.getElementById('amount24').value = 30;
+  document.getElementById('amount25').value = 30;
+  document.getElementById('amount26').value = 10;
   document.getElementById('amount27').value = 5;
-  document.getElementById('amount28').value = 5;
+  document.getElementById('amount28').value = 10;
   document.getElementById('amount29').value = 5;
 
   document.getElementById('amount30').value = 5;
   document.getElementById('amount31').value = 5;
-  document.getElementById('amount32').value = 5;
-  document.getElementById('amount33').value = 5;
-  document.getElementById('amount34').value = 5;
-  document.getElementById('amount35').value = 5;
-  document.getElementById('amount36').value = 5;
-  document.getElementById('amount37').value = 5;
+  document.getElementById('amount32').value = 30;
+  document.getElementById('amount33').value = 30;
+  document.getElementById('amount34').value = 30;
+  document.getElementById('amount35').value = 30;
+  document.getElementById('amount36').value = 10;
+  document.getElementById('amount37').value = 530;
   document.getElementById('amount38').value = 5;
   document.getElementById('amount39').value = 5;
  
