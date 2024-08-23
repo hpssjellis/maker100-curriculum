@@ -39,7 +39,11 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
             <th>Total in USD</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody>        
+        <tr>
+            <td colspan="6">Total</td>
+            <td id="grandTotal2">$135</td>
+        </tr>
         <tr>
             <td>1</td>
             <td>MCU001</td>
@@ -99,6 +103,7 @@ function calculateTotal() {
   }
 
   document.getElementById('grandTotal').textContent = grandTotal.toFixed(2);
+  document.getElementById('grandTotal2').textContent = grandTotal.toFixed(2);
 }
 
 for (let i = 1; i <= myMaxRows; i++) {
