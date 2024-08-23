@@ -8,7 +8,7 @@ Views better using the README.md [here](README.md)
 
 Created August 2024 by Jeremy Ellis [LinkedIn](https://www.linkedin.com/in/jeremy-ellis-4237a9bb/). Limited consulting available as I am still a full time Educator.
 
-Draft: Price-list.html viewable [here](https://hpssjellis.github.io/maker100-curriculum/)
+Draft: Price-list.html viewable [here](https://hpssjellis.github.io/maker100-curriculum/price-list.html)
 
 ## Note:   
 The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
