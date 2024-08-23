@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!--  
-
- THIS IS A WEBPAGE SO IF YOU CAN SEE THIS COMMENT YOU NEED TO VIEW THE FILE AT THE FOLLOWING URL
-
-https://hpssjellis.github.io/maker100-curriculum/price-list.html
-    
-    
--->    
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +20,7 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 </head>
 <body>
     <h1>Microcontroller Purchase Table</h1>
-    <table id="purchaseTable">
+    <table>
         <thead>
             <tr>
                 <th>#</th>
@@ -46,29 +36,29 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
             <tr>
                 <td>1</td>
                 <td>MCU001</td>
-                <td>Microcontroller A</td>
+                <td><a href="#">Microcontroller A</a></td>
                 <td><img src="https://via.placeholder.com/50" alt="Microcontroller A"></td>
-                <td><input type="number" value="10" class="cost"></td>
-                <td><input type="number" value="5" class="amount"></td>
-                <td class="total">50</td>
+                <td><input type="number" id="cost1" value="10"></td>
+                <td><input type="number" id="amount1" value="5"></td>
+                <td id="total1">50</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>MCU002</td>
-                <td>Microcontroller B</td>
+                <td><a href="#">Microcontroller B</a></td>
                 <td><img src="https://via.placeholder.com/50" alt="Microcontroller B"></td>
-                <td><input type="number" value="15" class="cost"></td>
-                <td><input type="number" value="3" class="amount"></td>
-                <td class="total">45</td>
+                <td><input type="number" id="cost2" value="15"></td>
+                <td><input type="number" id="amount2" value="3"></td>
+                <td id="total2">45</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>MCU003</td>
-                <td>Microcontroller C</td>
+                <td><a href="#">Microcontroller C</a></td>
                 <td><img src="https://via.placeholder.com/50" alt="Microcontroller C"></td>
-                <td><input type="number" value="20" class="cost"></td>
-                <td><input type="number" value="2" class="amount"></td>
-                <td class="total">40</td>
+                <td><input type="number" id="cost3" value="20"></td>
+                <td><input type="number" id="amount3" value="2"></td>
+                <td id="total3">40</td>
             </tr>
             <tr>
                 <td colspan="6">Total</td>
@@ -79,25 +69,31 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 
     <script>
         function calculateTotal() {
-            const rows = document.querySelectorAll('#purchaseTable tbody tr');
-            let grandTotal = 0;
+            const cost1 = parseFloat(document.getElementById('cost1').value);
+            const amount1 = parseFloat(document.getElementById('amount1').value);
+            const total1 = cost1 * amount1;
+            document.getElementById('total1').textContent = total1.toFixed(2);
 
-            rows.forEach((row, index) => {
-                if (index < rows.length - 1) { // Skip the last row
-                    const cost = parseFloat(row.querySelector('.cost').value);
-                    const amount = parseFloat(row.querySelector('.amount').value);
-                    const total = cost * amount;
-                    row.querySelector('.total').textContent = total.toFixed(2);
-                    grandTotal += total;
-                }
-            });
+            const cost2 = parseFloat(document.getElementById('cost2').value);
+            const amount2 = parseFloat(document.getElementById('amount2').value);
+            const total2 = cost2 * amount2;
+            document.getElementById('total2').textContent = total2.toFixed(2);
 
+            const cost3 = parseFloat(document.getElementById('cost3').value);
+            const amount3 = parseFloat(document.getElementById('amount3').value);
+            const total3 = cost3 * amount3;
+            document.getElementById('total3').textContent = total3.toFixed(2);
+
+            const grandTotal = total1 + total2 + total3;
             document.getElementById('grandTotal').textContent = grandTotal.toFixed(2);
         }
 
-        document.querySelectorAll('.cost, .amount').forEach(input => {
-            input.addEventListener('input', calculateTotal);
-        });
+        document.getElementById('cost1').addEventListener('input', calculateTotal);
+        document.getElementById('amount1').addEventListener('input', calculateTotal);
+        document.getElementById('cost2').addEventListener('input', calculateTotal);
+        document.getElementById('amount2').addEventListener('input', calculateTotal);
+        document.getElementById('cost3').addEventListener('input', calculateTotal);
+        document.getElementById('amount3').addEventListener('input', calculateTotal);
 
         // Initial calculation
         calculateTotal();
