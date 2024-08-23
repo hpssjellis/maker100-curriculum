@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcontroller Purchase Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Microcontroller Purchase Table</h1>
+    <table id="purchaseTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Code</th>
+                <th>Item</th>
+                <th>Image</th>
+                <th>Cost in USD</th>
+                <th>Amount</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>MCU001</td>
+                <td>Microcontroller A</td>
+                <td><img src="https://via.placeholder.com/50" alt="Microcontroller A"></td>
+                <td><input type="number" value="10" class="cost"></td>
+                <td><input type="number" value="5" class="amount"></td>
+                <td class="total">50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>MCU002</td>
+                <td>Microcontroller B</td>
+                <td><img src="https://via.placeholder.com/50" alt="Microcontroller B"></td>
+                <td><input type="number" value="15" class="cost"></td>
+                <td><input type="number" value="3" class="amount"></td>
+                <td class="total">45</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>MCU003</td>
+                <td>Microcontroller C</td>
+                <td><img src="https://via.placeholder.com/50" alt="Microcontroller C"></td>
+                <td><input type="number" value="20" class="cost"></td>
+                <td><input type="number" value="2" class="amount"></td>
+                <td class="total">40</td>
+            </tr>
+            <tr>
+                <td colspan="6">Total</td>
+                <td id="grandTotal">135</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function calculateTotal() {
+            const rows = document.querySelectorAll('#purchaseTable tbody tr');
+            let grandTotal = 0;
+
+            rows.forEach((row, index) => {
+                if (index < rows.length - 1) { // Skip the last row
+                    const cost = parseFloat(row.querySelector('.cost').value);
+                    const amount = parseFloat(row.querySelector('.amount').value);
+                    const total = cost * amount;
+                    row.querySelector('.total').textContent = total.toFixed(2);
+                    grandTotal += total;
+                }
+            });
+
+            document.getElementById('grandTotal').textContent = grandTotal.toFixed(2);
+        }
+
+        document.querySelectorAll('.cost, .amount').forEach(input => {
+            input.addEventListener('input', calculateTotal);
+        });
+
+        // Initial calculation
+        calculateTotal();
+    </script>
+</body>
+</html>
