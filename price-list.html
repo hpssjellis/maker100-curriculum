@@ -67,7 +67,41 @@
         </tbody>
     </table>
 
+
+
+
+
+
+    
+
+
     <script>
+
+
+          function calculateTotal() {
+            let grandTotal = 0;
+
+            for (let i = 1; i <= 3; i++) {
+                const cost = parseFloat(document.getElementById(`cost${i}`).value);
+                const amount = parseFloat(document.getElementById(`amount${i}`).value);
+                const total = cost * amount;
+                document.getElementById(`total${i}`).textContent = total.toFixed(2);
+                grandTotal += total;
+            }
+
+            document.getElementById('grandTotal').textContent = grandTotal.toFixed(2);
+        }
+
+        for (let i = 1; i <= 3; i++) {
+            document.getElementById(`cost${i}`).addEventListener('input', calculateTotal);
+            document.getElementById(`amount${i}`).addEventListener('input', calculateTotal);
+        }
+
+        // Initial calculation
+        calculateTotal();
+
+/*
+        
         function calculateTotal() {
             const cost1 = parseFloat(document.getElementById('cost1').value);
             const amount1 = parseFloat(document.getElementById('amount1').value);
@@ -97,6 +131,15 @@
 
         // Initial calculation
         calculateTotal();
+
+
+*/
+        
     </script>
+
+
+
+
+    
 </body>
 </html>
