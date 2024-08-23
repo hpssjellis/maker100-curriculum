@@ -90,7 +90,7 @@ https://hpssjellis.github.io/maker100-curriculum/price-list.html
 function calculateTotal() {
   let grandTotal = 0;
 
-  for (let i = 1; i <= 3; i++) {
+  for (let i = 1; i <= myMaxRows; i++) {
       const cost = parseFloat(document.getElementById(`cost${i}`).value);
       const amount = parseFloat(document.getElementById(`amount${i}`).value);
       const total = cost * amount;
@@ -101,7 +101,7 @@ function calculateTotal() {
   document.getElementById('grandTotal').textContent = grandTotal.toFixed(2);
 }
 
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= myMaxRows; i++) {
   document.getElementById(`cost${i}`).addEventListener('input', calculateTotal);
   document.getElementById(`amount${i}`).addEventListener('input', calculateTotal);
 }
