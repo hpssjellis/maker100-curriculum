@@ -8,7 +8,7 @@ Views better using the README.md [here](README.md)
 
 Created August 2024 by Jeremy Ellis [LinkedIn](https://www.linkedin.com/in/jeremy-ellis-4237a9bb/). Limited consulting available as I am still a full time Educator.
 
-Draft: Price-list.html viewable [here](https://hpssjellis.github.io/maker100-curriculum/price-list.html)
+Webpage Dynamic [Price-list.html](https://hpssjellis.github.io/maker100-curriculum/price-list.html) ranging from Economy ~$2,000 to setup the class to Default ~ $7,000 USD to get started and Kitchen Sink at about $31,000 USD. the default is basically what I use.
 
 ## Note:   
 The 2024 economy version of this course using the seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
@@ -24,7 +24,7 @@ How can a school or university start a general robotics course for all students 
 1. **A versatile, passionate educator**
 2. **A computer lab** equipped with a few 3D printers
 3. **Strong IT support** to manage software installations and updates <br><br>                                                                                                                                                                                                                                                                                                                                                                                               
-4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, batteries, resistors, capacitors, etc.), soldering equipment, etc. ~ $2,000 - $10,000 a draft 2023 price list is [here](https://github.com/hpssjellis/maker100-eco/blob/main/price-list-2024.md). New 2024 [price-list.html](https://hpssjellis.github.io/maker100-curriculum/price-list.html)
+4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, batteries, resistors, capacitors, etc.), soldering equipment, etc. ~ $2,000.00 - $30,000.00 with a sensible starting point at about $7,000.00 USD. Check out the estimated [price-list.html](https://hpssjellis.github.io/maker100-curriculum/price-list.html)
 5. **A budget for consumables** and a set of new microcontrollers every few years. ~ $500 - $3,000
 6. **A well-crafted, asynchronous, student-friendly robotics, machine learning, and IoT curriculum** which is right here on this page.
 
