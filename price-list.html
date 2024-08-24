@@ -470,18 +470,50 @@ Note: This is an estimate of products to purchase and may not work perfectly tog
 
  <tr>
      <td>40</td>
-     <td></td>
-     <td><a href="">.....</a></td>
-     <td><img width=100  src=""></td>
+     <td>Multiplexer</td>
+     <td><a href="https://www.seeedstudio.com/Grove-8-Channel-I2C-Hub-TCA9548A-p-4398.html">Grove - 8 Channel I2C Multiplexer/I2C Hub (TCA9548A)</a></td>
+     <td><img width=100  src="https://github.com/user-attachments/assets/07a76bfe-db9d-4834-8af0-b21aefbf6ae9"></td>
      <td><input type="number" id="amount40" style="width: 60px;"  value="0"></td>
-     <td>$<input type="number" id="cost40" style="width: 110px;"  value="0"></td>
+     <td>$<input type="number" id="cost40" style="width: 110px;"  value="6.50"></td>
      <td id="total40"></td>
  </tr>
 
 
 
+ <tr>
+     <td>41</td>
+     <td>Grove LoRa Module</td>
+     <td><a href="https://www.seeedstudio.com/Grove-LoRa-E5-STM32WLE5JC-p-4867.html">Grove-Wio-E5 Wireless Module - STM32WLE5JC, ARM Cortex-M4 and SX126x embedded, supports LoRaWAN on EU868 & US915</a></td>
+     <td><img width=100  src="https://github.com/user-attachments/assets/c19f57a8-0d6c-49c1-ad0d-f219b784aed0"></td>
+     <td><input type="number" id="amount41" style="width: 60px;"  value="0"></td>
+     <td>$<input type="number" id="cost41" style="width: 110px;"  value="16.90"></td>
+     <td id="total41"></td>
+ </tr>
 
 
+
+ <tr>
+     <td>42</td>
+     <td>Set of 4 DC Motors 6V with Breadboard Pins</td>
+     <td><a href="https://www.amazon.com/BOJACK-Pcs-Type-130-EK1450/dp/B09FPXF1QK/ref=sr_1_2?crid=3E1WBZXXKWT4X&dib=eyJ2IjoiMSJ9.yyE5HfrBTg8KxwZh6NdZt0Mjw3dbv-YOYTtaa3xMuK9ircwZF4D20-DB33gd_MLTOtrnOvLwwnIo8lFqA6oslLwUGbFWknQd5D0ax-gOior730X0P5mqKcfnaFQXvA5XpSWL13a2djA9t3hZCVdWT53Jccr4Wqs1K4h_DWLnNdTyInlORAh7lvORhOG8xSuut0skRtJ-m42MkQBfCkFaQIiGbufg-n6rXD6ECA2jruNWF2iVHYbic7qeBp3gDs5hyDtnwRAkHRmKVlyWsS9UfUbNRQKjB5ddChVzM2mrX4A.XjhbkI9fdiYey7l0qIW9uJKpbtGfQPQQ7P-_by_PQ2k&dib_tag=se&keywords=6v%2Bdc%2Bmotor%2Bwith%2Bbreadboard%2Bpins&qid=1724476197&sprefix=6v%2Bdc%2Bmotor%2Bwith%2Bbreadboard%2Bpins%2Caps%2C231&sr=8-2&th=1">BOJACK 4 Pcs Type 130 EK1450 1 V- 6 V Volt Miniature DC Toy Motors for Arduino Hobby DIY Projects</a></td>
+     <td><img width=100  src="https://github.com/user-attachments/assets/4575c2c7-dde7-4b52-8ecd-ca8afe909213"></td>
+     <td><input type="number" id="amount42" style="width: 60px;"  value="0"></td>
+     <td>$<input type="number" id="cost42" style="width: 110px;"  value="6.99"></td>
+     <td id="total42"></td>
+ </tr>
+
+
+
+
+ <tr>
+     <td>43</td>
+     <td>.</td>
+     <td><a href="">.</a></td>
+     <td><img width=100  src=""></td>
+     <td><input type="number" id="amount43" style="width: 60px;"  value="0"></td>
+     <td>$<input type="number" id="cost43" style="width: 110px;"  value="0"></td>
+     <td id="total43"></td>
+ </tr>
 
 
 
@@ -506,7 +538,7 @@ Note: This is an estimate of products to purchase and may not work perfectly tog
 <script>
  
  // Global Variables
- let myMaxRows = 40;
+ let myMaxRows = 43;
 
 
 function myEco(){
@@ -553,7 +585,10 @@ function myEco(){
   document.getElementById('amount38').value = 0;
   document.getElementById('amount39').value = 0;
  
-  document.getElementById('amount40').value = 0;
+  document.getElementById('amount40').value = 1;
+  document.getElementById('amount41').value = 1;
+  document.getElementById('amount42').value = 2;
+  document.getElementById('amount43').value = 0;
 
 
  calculateTotal();
@@ -603,7 +638,11 @@ function myDefault(){
   document.getElementById('amount38').value = 3;
   document.getElementById('amount39').value = 3;
  
-  document.getElementById('amount40').value = 3;
+  document.getElementById('amount40').value = 7; 
+  document.getElementById('amount41').value = 3;
+  document.getElementById('amount42').value = 7;
+  document.getElementById('amount43').value = 0;
+ 
  
  calculateTotal();
 }
@@ -651,7 +690,10 @@ function mySink(){
   document.getElementById('amount38').value = 5;
   document.getElementById('amount39').value = 30;
  
-  document.getElementById('amount40').value = 5;
+  document.getElementById('amount40').value = 30;
+  document.getElementById('amount41').value = 30;
+  document.getElementById('amount42').value = 10;
+  document.getElementById('amount43').value = 0;
  calculateTotal();
 }
 
