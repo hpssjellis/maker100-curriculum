@@ -10,6 +10,8 @@ The original courses are the [maker100](https://github.com/hpssjellis/maker100) 
 
 Created August 2024 by Jeremy Ellis [LinkedIn](https://www.linkedin.com/in/jeremy-ellis-4237a9bb/). Limited consulting available as I am still a full time Educator.
 
+A new to Robotics teacher might want to look at class tone suggestions in the [new-teacher.md](new-teacher.md) file. The first page can be printed to give to the class. Explanations on other pages.
+
 Webpage Dynamic [Price-list.html](https://hpssjellis.github.io/maker100-curriculum/price-list.html) ranging from Economy ~$2,000 to setup the class to Default ~ $7,000 USD to get started and Kitchen Sink at about $31,000 USD. the default is basically what I use.
 
 ## Note:   
