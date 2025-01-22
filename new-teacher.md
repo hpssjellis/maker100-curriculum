@@ -2,7 +2,6 @@
 ### A few classroom suggestions
 
 1. Work from bell to bell on any curricular topics, preferably Robotics.
-2. 
 3. If you have an important reason to use your cell phone. Stand up so I know you are proud of what you are doing while your doing it.
 4. The course top grade between 86%-100% will be determined by the industry need for softskills (learning together - not cheating). If you can do an assignment, help 3 others. I would prefer 10 students collaboratively get 100% in the course than 3 students competitivily get 86%.
 5. Put "my" in front of any of your variables and function names. That way you and I know to not google about them.
