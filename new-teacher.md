@@ -4,7 +4,7 @@
 
 
 1. Work from bell to bell on curricular topics, preferably Robotics. Maximizing time on task is key to success.
-2. I encourage the productive use of cell phones for learning. Maintaining focus on the topic during and after class is the most important ability.
+2. I encourage the productive use of cell phones for learning. Maintaining focus on the days lesson during and after class is the most important ability.
 3. If you need to use your cell phone for an important reason, stand up. This shows you're proud of what you're doing and ensures transparency.
 4. The top grade for the course will range between 86%-100% and will be determined by the industry’s need for soft skills (learning collaboratively, not cheating). If you can complete an assignment, help at least three others. I would rather see 10 students collaboratively achieving 100% in the course than three students competitively scoring 86%.
 5. Use "my" (CamelCase formatting) in front of your variable and function names. This helps us identify custom code and prevents unnecessary Googling.
