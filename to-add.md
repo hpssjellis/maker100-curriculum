@@ -12,9 +12,12 @@ use this
 https://www.robotshop.com/products/sfe-analog-digital-mux-breakout-board
 
 
-
+LoRA
 ![image](https://github.com/user-attachments/assets/98962763-e3b9-489c-a2b9-0bdfe377939c)
 
+ESp32S3Sense presoldered
+
+![image](https://github.com/user-attachments/assets/fb4af32d-a486-49c6-85af-40d0f4bf5c7a)
 
 
 
