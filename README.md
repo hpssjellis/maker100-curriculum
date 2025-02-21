@@ -170,10 +170,11 @@ Notes about how to grade students.
 
 Basically as long as the teacher is clear at the start of the course any grading method is fine. What I do is:
 1. Students must finish all manadatory assignments, (When the entire class has difficulty with an assignment I make it optional until any student can do it or I get it working. In 2024 I never got e-ink working which stayed optional and GPS never worked for latitude and longitude, students gt full marks on that assignment if they generated all the GPS data, but I really wanted someone to parse the data for just latitude and longitude.
-1. Once the manadatory assignments are complete they can start their final projects, which must be done in order, easy to hard (advanced students will work on a hard project and never get it finished).
-1. I encourage students to work on multiple projects as some projects just can't be finished before marks are due.<br><br>                                                                                                                                                                                                                                    
+1. Once the manadatory assignments are complete they can start their final projects, which must be done in order, easy to hard (advanced students may work on a hard project and never get it finished and that is OK as long as they have other projects to show advanced learning).
+1. I encourage students to work on multiple projects as some projects just can't be finished before marks are due.<br><br>                                                                                                                                                                                                                
 1. Final grades come from final individual projects. Group projects just bump grades up a few percent.
-1. at any point you should be able to ask a student to reproduce an asssignment they have already completed. That way they need to keep good nots and a circuit diagram
+1. At any point you should be able to ask a student to reproduce an asssignment they have already completed. That way they need to keep good notes and a circuit diagram all shown in the marking video.
+1. Grade 11's should keep great videos, since in grade 12 they need to do every assignment again before starting their final projects. When done a second time, many of these assignments can be done in minutes not hours.
 
 
 ## References
