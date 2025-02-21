@@ -123,9 +123,9 @@ Note: This is an estimate of products to purchase and may not work perfectly tog
      
  <tr>
      <td>6</td>
-     <td>Main Microcontroller ESP32S3</td>
-     <td><a href="https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/">Seeedstudio XiaoEsp32S3-Sense</a></td>
-     <td><img width=100  src="https://github.com/user-attachments/assets/eb40b681-ceda-4a01-8161-03aaf8184418"></td>
+     <td>Main Microcontroller ESP32S3 pre-soldered</td>
+     <td><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Sense-Pre-Soldered-p-6335.html">Seeedstudio XiaoEsp32S3-Sense-pre-soldered</a></td>
+     <td><img width=100  src="https://github.com/user-attachments/assets/fb4af32d-a486-49c6-85af-40d0f4bf5c7a"></td>
      <td><input type="number" id="amount6" style="width: 60px;"  value="0"></td>
      <td>$<input type="number" id="cost6" style="width: 110px;"  value="13.99"></td>
      <td id="total6">$40</td>
@@ -516,6 +516,26 @@ Note: This is an estimate of products to purchase and may not work perfectly tog
  </tr>
 
 
+ <tr>
+     <td>44</td>
+     <td>xiao-esp32-LoRa sx1262-module</td>
+     <td><a href="https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html">Wio-SX1262-with-XIAO-ESP32S3 Kit</a></td>
+     <td><img width=100  src="https://github.com/user-attachments/assets/98962763-e3b9-489c-a2b9-0bdfe377939c"></td>
+     <td><input type="number" id="amount43" style="width: 60px;"  value="0"></td>
+     <td>$<input type="number" id="cost43" style="width: 110px;"  value="79"></td>
+     <td id="total43"></td>
+ </tr>
+
+ <tr>
+     <td>45</td>
+     <td>Not available but look for sx1262-module with connector</td>
+     <td><a href="">sx1262-module not the SMD component</a></td>
+     <td><img width=100  src=""></td>
+     <td><input type="number" id="amount43" style="width: 60px;"  value="0"></td>
+     <td>$<input type="number" id="cost43" style="width: 110px;"  value="79"></td>
+     <td id="total43"></td>
+ </tr>
+
 
 
      
@@ -589,6 +609,8 @@ function myEco(){
   document.getElementById('amount41').value = 1;
   document.getElementById('amount42').value = 2;
   document.getElementById('amount43').value = 1;
+  document.getElementById('amount44').value = 5;
+  document.getElementById('amount45').value = 0;
 
 
  calculateTotal();
@@ -642,6 +664,8 @@ function myDefault(){
   document.getElementById('amount41').value = 3;
   document.getElementById('amount42').value = 7;
   document.getElementById('amount43').value = 3;
+  document.getElementById('amount44').value = 15;
+  document.getElementById('amount45').value = 0;
  
  
  calculateTotal();
@@ -694,6 +718,8 @@ function mySink(){
   document.getElementById('amount41').value = 30;
   document.getElementById('amount42').value = 10;
   document.getElementById('amount43').value = 30;
+  document.getElementById('amount44').value = 30;
+  document.getElementById('amount45').value = 0;
  calculateTotal();
 }
 
