@@ -22,6 +22,7 @@ ESp32S3Sense presoldered
 
 
 
+![image](https://github.com/user-attachments/assets/56aedf8a-1203-474b-8169-ea550f20a0cf)
 
 
 
