@@ -171,7 +171,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **IoT12-SPI:**  Use 2 microcontrollers to connect and exchange information using the SPI protocol (MOSI, MISO, SCK, SS) may also be other labels like POCI, PiCO, SC, SS. Note this is fairly hard on many microcontroller and they dipically are the controllers and  sensors typically are the peripherals. Good luck getting this one to work.
 
 <br><br><h2 name="iot">WebAI-EdgeAI</h2><br>
-Note: As microcontrollers get stronger, faster and using less power. What is now webAI/EdgeAI, will eventually be tinyML, so it is best that students see what is coming and learn some WebAI, like most assignments getting them working is just a pass, changing them to do something unique creates the higher grade.
+Note: As microcontrollers get stronger, faster and using less power. What is now webAI/EdgeAI, will eventually be tinyML, so it is best that students see what is coming and learn some WebAI. Like most assignments getting them working is just a pass, changing them to do something unique creates the higher grade. Persoanlly I would put these on a github, where your have activated gitPages so an index page can show all your examples, but I still just want a video of what you have done.
 
 
 1.  Load your own client-side LLM using Javascript, this one uses [DeepSeekR1 1.5B](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deepseek-r1-webgpu/deepseek-r1-webgpu-00.html)
