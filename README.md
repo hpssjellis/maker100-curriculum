@@ -172,12 +172,22 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 
 <br><br><h2 name="iot">WebAI-EdgeAI</h2><br>
 Note: As microcontrollers get stronger, faster and using less power. What is now webAI/EdgeAI, will eventually be tinyML, so it is best that students see what is coming and learn some WebAI, like most assignments getting them working is just a pass, changing them to do something unique creates the higher grade.
+
+
+1.  Load your own client-side LLM using Javascript, this one uses [DeepSeekR1 1.5B](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deepseek-r1-webgpu/deepseek-r1-webgpu-00.html)
+1.  Load your own client-side Text to Image web page, this one uses [Janus-Pro](https://hpssjellis.github.io/my-examples-of-transformersJS/public/janus-pro/janus-pro-to-image-00.html)
+1.  Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
+1.  Load your own [edgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) 
+1.  Load your own [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
+1.  Load your own [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
+1.  Loadd your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
+1.  what's new and awesome with WebAI? perhpas checkout whisper. talk to text, or many of a bunch of multi-modal models.
+1.  
+1.  
+1.  
 1.  
 1.   
-1.   
-1.   
-1.   
-1.   
+
 
 
 
