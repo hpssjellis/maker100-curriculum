@@ -75,7 +75,7 @@ On this page Quick Links
 [IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)   
 
 
-[WebAi - EdgeAI](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#webai-edgeai)
+[WebAi - EdgeAI](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#webai-edgeai)   
 [Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)     
                                                                                                                                                                                                                      
 
