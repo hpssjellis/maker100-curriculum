@@ -74,6 +74,8 @@ On this page Quick Links
 [Actuaors-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)     
 [IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)   
 
+
+[WebAi - EdgeAI](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#webai-edgeai)
 [Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)     
                                                                                                                                                                                                                      
 
@@ -169,12 +171,12 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **IoT12-SPI:**  Use 2 microcontrollers to connect and exchange information using the SPI protocol (MOSI, MISO, SCK, SS) may also be other labels like POCI, PiCO, SC, SS. Note this is fairly hard on many microcontroller and they dipically are the controllers and  sensors typically are the peripherals. Good luck getting this one to work.
 
 <br><br><h2 name="iot">WebAI-EdgeAI</h2><br>
-1. 
-1. 
-1. 
-1. 
-1. 
-1. 
+1.  
+1.   
+1.   
+1.   
+1.   
+1.   
 
 
 
@@ -186,11 +188,11 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 
 <br><br><h2 name=final>Final Projects </h2>
 
-Note: Be very leary of projects that use other microcontrollers as the student has most likely just followed an online cookbook. These Final Projects should come from the combination of assingments we did this semester put together in novel ways. <br><br>
+Note: Be very leary of projects that use other microcontrollers as the student has most likely just followed an online cookbook. These Final Projects should come from the combination of assingments we did this semester put together in novel ways. Note: the first two final projects are individual, you friends can help you just not do the work for you. The lat project is a group project based on what strengths people bring to the team. <br><br>
 
 1. **Final01-simple:** (pass) Simple unique for each student sensor and actuator with circuit diagram (Proof of concept)
 1. **Final02-multi:** (possible A or higher) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram with 3D Printed structure (Can also be wood, metal, cardboard etc) (Prototype)
-1. **Final03-group:** (possible A+) Based on prievious projects students get in groups and combine their strengths to make a useful or fun final project which must include Machine Learning. The teacher can also suggest student's who's strength may complement each other for an interesting group project. Note: Many students do not have time to finish a group project. 
+1. **Final03-group:** (possible A+) Based on previous projects students get in groups and combine their strengths to make a useful or fun final project which must include Machine Learning. The teacher can also suggest student's who's strength may complement each other for an interesting group project. Note: Many students do not have time to finish a group project. 
 
 
 
