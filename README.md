@@ -171,6 +171,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **IoT12-SPI:**  Use 2 microcontrollers to connect and exchange information using the SPI protocol (MOSI, MISO, SCK, SS) may also be other labels like POCI, PiCO, SC, SS. Note this is fairly hard on many microcontroller and they dipically are the controllers and  sensors typically are the peripherals. Good luck getting this one to work.
 
 <br><br><h2 name="iot">WebAI-EdgeAI</h2><br>
+Note: As microcontrollers get stronger, faster and using less power. What is now webAI/EdgeAI, will eventually be tinyML, so it is best that students see what is coming and learn some WebAI, like most assignments getting them working is just a pass, changing them to do something unique creates the higher grade.
 1.  
 1.   
 1.   
@@ -188,7 +189,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 
 <br><br><h2 name=final>Final Projects </h2>
 
-Note: Be very leary of projects that use other microcontrollers as the student has most likely just followed an online cookbook. These Final Projects should come from the combination of assingments we did this semester put together in novel ways. Note: the first two final projects are individual, you friends can help you just not do the work for you. The lat project is a group project based on what strengths people bring to the team. <br><br>
+Note: Be very leary of projects that use other microcontrollers as the students have most likely just followed an online cookbook. These Final Projects should come from the combination of assingments we did this semester put together in novel ways. Note: the first two final projects are individual, your friends can help you, they just can not do the work for you. The later project is a group project based on what strengths people bring to the team. <br><br>
 
 1. **Final01-simple:** (pass) Simple unique for each student sensor and actuator with circuit diagram (Proof of concept)
 1. **Final02-multi:** (possible A or higher) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final Project with circuit diagram with 3D Printed structure (Can also be wood, metal, cardboard etc) (Prototype)
