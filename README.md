@@ -202,11 +202,11 @@ simulations and lose a month on building robotics. My teacher take on this is to
 1.  Robotics drawing program [https://fritzing.org/](https://fritzing.org/)
 1.  Tinkercad circuits. Tinkercad is a great way to start making 3D printable objects but it also makes circuits:  [https://www.tinkercad.com/circuits](https://www.tinkercad.com/circuits). A good set of instructions are [here](https://www.tinkercad.com/projects/Basics-of-Arduino-TINKERCAD)
 1. [Blender.org](https://www.blender.org/download/)  I teach entire animation and 3D printing classes using blender.org, these are a great background for technology students and any 3D technocal awareness is excellent for them, but blender is very confusing to learn without an instructor.
-1. Use chatGPT to find other easy simulators that you click with such as: [https://cyberbotics.com/](https://cyberbotics.com/),  [https://gazebosim.org/](https://gazebosim.org/),  [https://www.coppeliarobotics.com/](https://www.coppeliarobotics.com/),    [https://www.theconstructsim.com/](https://www.theconstructsim.com/),  From NVIDIA: [https://developer.nvidia.com/isaac-sim](https://developer.nvidia.com/isaac-sim),  [https://github.com/Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents),  [https://robotbenchmark.net/](https://robotbenchmark.net/), 
+1. Use chatGPT to find other easy simulators that you click with such as: [https://cyberbotics.com/](https://cyberbotics.com/),  [https://gazebosim.org/](https://gazebosim.org/),  [https://www.coppeliarobotics.com/](https://www.coppeliarobotics.com/),    [https://www.theconstructsim.com/](https://www.theconstructsim.com/),  From NVIDIA: [https://developer.nvidia.com/isaac-sim](https://developer.nvidia.com/isaac-sim), Note: This is just a list I have not tested any of these, generate your own list and review them with Pros and Cons.
 
 
 
-
+<hr>
 
 
 <br><br><h2 name=final>Final Projects </h2>
