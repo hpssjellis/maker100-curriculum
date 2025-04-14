@@ -180,7 +180,7 @@ Note: As microcontrollers get stronger, faster and using less power. What is now
 1.  Load your own [edgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) 
 1.  Load your own [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1.  Load your own [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
-1.  Loadd your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
+1.  Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
 1.  what's new and awesome with WebAI? perhpas checkout whisper. talk to text, or many of a bunch of multi-modal models.
 1.  
 1.  
@@ -191,6 +191,18 @@ Note: As microcontrollers get stronger, faster and using less power. What is now
 
 
 
+<br><br><h2 name="iot">Simulations (Optional or advanced)</h2><br>
+Note: This will constantly change and improve, personally I do not like simulators without the actual hardware to make them hands-on, 
+but feel they have a plae in learning ML and robotics. Another big issue is time management. Do you want to spend a month learning how to create your own 
+simulations and lose a month on building robotics. My teacher take on this is to let the students use their own time here to learn something they are interested in
+
+
+1.  Try [https://wokwi.com/](https://wokwi.com/) Very interesting
+1.  Advanced for students with their own Linux machine: ROS2 many simulators but try [https://intrepid.ai/about/](https://intrepid.ai/about/)
+1.  Robotics drawing program [https://fritzing.org/](https://fritzing.org/)
+1.  Tinkercad circuits. Tinkercad is a great way to start making 3D printable objects but it also makes circuits:  [https://www.tinkercad.com/circuits](https://www.tinkercad.com/circuits). A good set of instructions are [here](https://www.tinkercad.com/projects/Basics-of-Arduino-TINKERCAD)
+1. [Blender.org](https://www.blender.org/download/)  I teach entire animation and 3D printing classes using blender.org, these are a great background for technology students and any 3D technocal awareness is excellent for them, but blender is very confusing to learn without an instructor.
+1. Use chatGPT to find other easy simulators that you click with such as: [https://cyberbotics.com/](https://cyberbotics.com/),  [https://gazebosim.org/](https://gazebosim.org/),  [https://www.coppeliarobotics.com/](https://www.coppeliarobotics.com/),    [https://www.theconstructsim.com/](https://www.theconstructsim.com/),  From NVIDIA: [https://developer.nvidia.com/isaac-sim](https://developer.nvidia.com/isaac-sim),  [https://github.com/Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents),  [https://robotbenchmark.net/](https://robotbenchmark.net/), 
 
 
 
