@@ -169,8 +169,8 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 
 
 
-   <br><br><h2 name="iot"> IoT Internet of Things Connectivity</h2><br>
-                                                                                                                                                                                                                                                                                                                                                                                              
+
+<br><br><h2 name="iot"> IoT Internet of Things Connectivity</h2><br>                                                                                                                                                                                                                                                                                                                                                                                            
 1. **IoT01-WiFi-Webserver:** Make your microcontroller into a LOCAL WIFI wewbserver. Note: Unless your IT department likes you this webserver will not be connected to the internet. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a47)    
 1. **IoT02-camera-streaming-webserver:**  make your camera stream to a local webpage. This is actually a default program that comes with all ESP32S3 boards, you have to comment out some parts of the code.  Look for Examples-->ESP32-->Camera-->cameraWebServer 
 1. **IoT03-sound-streaming:** Good luck! My students never got this working.    
