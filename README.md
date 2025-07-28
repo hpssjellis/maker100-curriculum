@@ -104,7 +104,9 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **Code07-Loops:**  Loops such as For loops (possibly while loops). Using a varible that stores a number print something that many times.
 1. **Code08-Array:**  Arrays. Make an Array a fancy variable that numbers each value. a loop can be used to print the whole array to the serial monitor
 1. **Code09-Class:**  Classes. A. Use a class. B. make a class from scratch and then use it.       
-1. **Code10-SOS:**  In as few lines as possible make the onboard LED (LED_BUILTIN) flash an SOS. Which is 3 short flashes, 3 long flashes 3 short flashes. [my Example](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot7-coding-curriculum/dot71-sos/dot71-sos.ino)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+1. **Code10-SOS:**  In as few lines as possible make the onboard LED (LED_BUILTIN) flash an SOS. Which is 3 short flashes, 3 long flashes 3 short flashes. [my Example](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot7-coding-curriculum/dot71-sos/dot71-sos.ino)
+
+                                                                                                            
    <br><br><h2 name="sensors">Sensors</h2><br>
 
    <b>reminder that all these assignments need a drawn and checked circuit diagram before you begin to connect wires to the microcontroller</b><br>
