@@ -183,7 +183,7 @@ Note: Explain VIDEO FLAC as seen below. Have students write arduino code that sh
 1. **IoT10-UART:** connect 2 microcontrollers to exchange information using the UART serial protocol RX criss crossed with TX. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a38b)   
 1. **IoT11-I2C:**  Use the I2C serial Protocol to connect and exchange information between 2 micrcontrolers. Note: you must pullup the SDA and SCL lines to 3V3 using a 4.7 kOhm resistor. The two pins for I2C are called SDA and SCL [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a38a)   
 1. **IoT12-SPI:**  Use 2 microcontrollers to connect and exchange information using the SPI protocol (MOSI, MISO, SCK, SS) may also be other labels like POCI, PiCO, SC, SS. Note this is fairly hard on many microcontroller and they dipically are the controllers and  sensors typically are the peripherals. Good luck getting this one to work.
-
+1. **IoT12-MQTT:**  Use a cell phone and or a computer to Login to an MQTT site such as [mosquitto.org](https://mosquitto.org/) , [hivemq.com](https://www.hivemq.com/) or load your own and make a connetion, then get the process working with your microcontroller device. This Arduino library may help [arduino-mqtt](https://github.com/256dpi/arduino-mqtt)
 
 
 
