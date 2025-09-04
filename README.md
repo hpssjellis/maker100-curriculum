@@ -193,12 +193,15 @@ Note: As microcontrollers get stronger, faster and using less power. What is now
 
 1.  Load your own client-side LLM using Javascript, this one uses [DeepSeekR1 1.5B](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deepseek-r1-webgpu/deepseek-r1-webgpu-00.html)
 1.  Load your own client-side Text to Image web page, this one uses [Janus-Pro](https://hpssjellis.github.io/my-examples-of-transformersJS/public/janus-pro/janus-pro-to-image-00.html)
+1.  On a desktop or laptop load with flags (May soon not need flags to be set) the GeminiNano using Chrome model 4GB download needs 20 GB disk space.    [Demo Web-LLM](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
 1.  Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
 1.  Load your own [edgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) 
 1.  Load your own [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1.  Load your own [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
 1.  Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
-1.  what's new and awesome with WebAI? perhpas checkout whisper. talk to text, or many of a bunch of multi-modal models.
+1.  Try making a web browser RAG program like [Demo RAG](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deep-rag/deep-rag00.html)
+1.  Try making a MCP browser program like [mcp Demo](https://hpssjellis.github.io/my-examples-of-mcp-js/public/mcp00.html)
+1.  what's new and awesome with WebAI? Perhpas checkout whisper. talk to text, or many of a bunch of multi-modal models.
 1.  
 1.  
 1.  
