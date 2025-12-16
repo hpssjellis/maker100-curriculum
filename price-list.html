@@ -1,0 +1,496 @@
+<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Purchase Table for the 2026 <a href="https://github.com/hpssjellis/maker100-xiaoML-kit">maker100-xiaoML-kit</a></title>
+        <style>    table {        width: 100%;        border-collapse: collapse;    }    th {        border: 1px solid #ddd;        padding: 8px;        background-color: #f2f2f2;        overflow-wrap: break-word;        word-break: break-word;    }    td {              border: 1px solid #ddd;       padding: 8px;       overflow-wrap: break-word;       word-break: break-word;       max-width:300px;"    }</style>
+</head><body>
+        <h1 align=center>Purchase Table for the 2026 <br><a href="https://github.com/hpssjellis/maker100-xiaoML-kit">Maker100-xiaoML Kit</a></h1>
+        Click what best describes your situation and then make changes as appropriate: 
+        <br><input type=button value="Economy Just starting" onclick="myEco()"> 
+        <input id="myDefaultSettings" type=button value="Regular Default Robotics Class" onclick="myDefault()">  
+        <input type=button value="Everything and the Kitchen Sink" onclick="mySink()"><br> 
+        Based on 25-30 students per computer lab<br><br>
+<input type="button" value="Create Purchase Order" onclick="createPurchaseOrder()">
+<br>
+<h3>Getting Started with Robotics: A Guide for Beginner Educators using the <a href="https://github.com/hpssjellis/maker100-curriculum">maker100-curriculum</a> with the new 2025 xiaoML kit</h3>
+This list is a starting point for beginner Robotics Educators, outlining an estimated set of products that work well together. Your purchasing department may find alternative or cheaper products,  but be aware that ensuring component compatibility is a common challenge in robotics.
+We recommend buying 1-3 of each item to test their functionality before making a larger purchase. This list is provided as a helpful guide for your first robotics classroom for High School students or undergrads, without any specific guarantee of performance. <br><br> 
+        Created August 2025 by Jeremy Ellis <a href="https://www.linkedin.com/in/jeremy-ellis-4237a9bb/">LinkedIn jeremy-ellis-4237a9bb</a> and  my Github profile is at <a href="https://github.com/hpssjellis">Github github.com/hpssjellis</a>.  Limited consulting available as I am still a full time Educator. <br> <br>
+        <table  style="width:95%;">    <thead>        <tr>            <th  style="width:50px;">#</th>            <th style="width:200px;">Code</th>            <th style="width:200px;">Item</th>            <th style="width:200px;">Image</th>            <th style="width:100px;">Amount</th>            <th style="width:100px;">Cost in USD</th>            <th style="width:100px;">Total in USD</th>        </tr>    </thead>    <tbody>                <tr>            <td >Total --></td>                        <td >Total --></td>                   <td >Total --></td>                   <td >Total --></td>                   <td >Total --></td>                <td >Total --></td>            <td id="grandTotal"></td>        </tr>
+        <tr>            <th >#</th>                        <th >MicroControllers with</th>                   <th >ML and IoT Abilities</th>                   <th >Image</th>                <th >Amount</th>             <th >Cost in USD</th>            <th >Total in USD</th>        </tr>
+
+
+
+ <tr>     <td>45</td>     <td>New 2025 xiaoML Kit the XIAO-esp32S3 with Camera <br> microphone, WiFi, BLE, SD Card, OLED and IMU onboard</td>     <td><a href="https://www.seeedstudio.com/The-XIAOML-Kit.html">Seeedstudio xiaoAML kit with extra cables</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/03d4d927-a35c-40cd-be88-ebe627d7b040"></td>         <td><input type="number" id="amount45" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost45" style="width: 110px;"  value="38.90"></td>     <td id="total45"></td> </tr>
+
+ <tr>     <td>44</td>     <td>xiao-esp32s3 with Meshtastic LoRa WIO sx1262-module</td>     <td><a href="https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html">Wio-SX1262-with-XIAO-ESP32S3 Kit</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/98962763-e3b9-489c-a2b9-0bdfe377939c"></td>     <td><input type="number" id="amount44" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost44" style="width: 110px;"  value="9.90"></td>     <td id="total44"></td> </tr>
+
+
+ <tr>     <td>5</td>     <td>Testing Microcontroller XIAO-SAMD21</td>     <td><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Pre-Soldered-p-4747.html">XIAO SAMD21 </a> <br> When testing new sensors, best to use these very cheap <br>microcontrollers than your more expensive sets.</td>     <td><img width=100  src="https://github.com/user-attachments/assets/08eacfd5-530d-4f6b-a172-bcc74bea90a4"></td>     <td><input type="number" id="amount5" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost5" style="width: 110px;"  value="6.50"></td>     <td id="total5"></td> </tr>
+
+
+
+ <tr>     <td>32</td>     <td>Other Microcontrollers Nano33 BLE Sense Rev2</td>     <td><a href="https://store-usa.arduino.cc/products/nano-33-ble-sense-rev2">Arduino Nano 33 BLE Sense </a> <br> amazing board with about 17 digital sensors <br> Fully supported by <a href="https://edgeimpulse.com/">EdgeImpulse.com</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/27dc7f03-6113-4c2f-a44a-1876aa5420cb"></td>     <td><input type="number" id="amount32" style="width: 60px;"  value="3"></td>     <td>$<input type="number" id="cost32" style="width: 110px;"  value="38.70"></td>     <td id="total32"></td> </tr>
+
+ <tr>     <td>47</td>     <td>Grove Vision AI V2 Kit</td>     <td><a href="https://www.seeedstudio.com/Grove-Vision-AI-V2-Kit-p-5852.html">Grove Vision AI V2 Kit </a> <br> Parrallel processing core controlled by xiao esp32C3 (you could use the XIAO esp32s3)</td>     <td><img width=100  src="https://github.com/user-attachments/assets/8092caef-fa3a-494b-bd42-f2ca5937e883"></td>     <td><input type="number" id="amount47" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost47" style="width: 110px;"  value="28.79"></td>     <td id="total47"></td> </tr>
+ <tr>            <th >#</th>                        <th >Sensors</th>                   <th >Sensors</th>                   <th >Image</th>                <th >Amount</th>             <th >Cost in USD</th>            <th >Total in USD</th>        </tr>
+
+ <tr>     <td>12</td>     <td>Flex Sensor</td>     <td><a href="http://www.robotshop.com/ca/en/22-10k-flexible-sensor.html">Flex Sensor RB-Spa-989</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148158276-4efb47aa-5de5-4ad1-8048-ddd547f3a8ce.png"></td>     <td><input type="number" id="amount12" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost12" style="width: 110px;"  value="17.86"></td>     <td id="total12"></td> </tr>
+ <tr>     <td>13</td>     <td>Pixy2 ML Color Vision sensor</td>     <td><a href="https://www.robotshop.com/products/charmed-labs-pixy-21-robot-vision-image-sensor-rbc">Charmed Labs Pixy 2 CMUcam5 Image Sensor</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148158393-7caaa5dc-87-4304-823d-7a2c751b7eef.png"></td>     <td><input type="number" id="amount13" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost13" style="width: 110px;"  value="69.95"></td>     <td id="total13"></td> </tr>
+ <tr>     <td>14</td>     <td>Slide Potentiometer </td>     <td><a href="https://www.seeedstudio.com/Grove-Slide-Potentiometer.html">Slide Potentiometer </a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148158797-a4eb34ff-f924-4857-a873-9155d5bc78c4.png"></td>     <td><input type="number" id="amount14" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost14" style="width: 110px;"  value="6.50"></td>     <td id="total14"></td> </tr>
+ <tr>     <td>15</td>     <td>Moisture Sensor</td>     <td><a href="https://www.seeedstudio.com/Grove-Moisture-Sensor.html">Moisture Sensor</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148158607-3d2f57d6-1970-4a3e-b148-e910df7696ed.png"></td>     <td><input type="number" id="amount15" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost15" style="width: 110px;"  value="3.30"></td>     <td id="total15"></td> </tr>
+ <tr>     <td>16</td>     <td>Accelerometer Sensor</td>     <td><a href="https://www.amazon.com/Reland-Sun-ADXL362-Acceleration-Interface/dp/B09B7ZNWCY">ADXL362 Accelerometer </a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/466726be-1a7f-4be4-b054-bbac34ef6394"></td>     <td><input type="number" id="amount16" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost16" style="width: 110px;"  value="4.12"></td>     <td id="total16"></td> </tr>
+
+
+
+ <tr>     <td>38</td>     <td>Joysticks</td>     <td><a href="https://www.amazon.ca/WGCD-Joystick-Breakout-Controller-Arduino/dp/B01N59MK0U">set of 10 joysticks</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/f0268fd4-3621-43fd-bbf0-fad2c2560a9e"></td>     <td><input type="number" id="amount38" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost38" style="width: 110px;"  value="17.99"></td>     <td id="total38"></td> </tr>
+
+
+     
+
+ <tr>     <td>35</td>     <td>Big Sensor Kit</td>     <td><a href="https://www.amazon.com/KEYESTUDIO-Sensor-Arduino-Raspberry-Micro/dp/B016KIXSMM">KEYESTUDIO 37 in 1 Sensor Kit 37 Sensors Modules Starter Kit</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/133377159-586ccaba-56fd-42ac-8390-51c33fe5d086.png"></td>     <td><input type="number" id="amount35" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost35" style="width: 110px;"  value="32.00"></td>     <td id="total35"></td> </tr>
+ <tr>            <th >#</th>                        <th >Actuators</th>                   <th >Motors, Speakers, LED's etc</th>                   <th >Image</th>                <th >Amount</th>             <th >Cost in USD</th>            <th >Total in USD</th>        </tr>
+
+ <tr>     <td>19</td>     <td>Grayscale OLED</td>     <td><a href="https://www.waveshare.com/1.5inch-oled-module.htm">Waveshare ($12.99 USD) 128x128, General 1.5inch OLED display Module, SKU: 13992</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/136551247-6a7fc635-e00c-4b14-80a9-550cb4e7a7b3.png"></td>     <td><input type="number" id="amount19" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost19" style="width: 110px;"  value="12.99"></td>     <td id="total19"></td> </tr>
+
+
+ <tr>     <td>20</td>     <td>Servo Motor</td>     <td><a href="https://www.pololu.com/product/3426">FEETECH High-Torque Servo FS5115M</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148157541-3e94daf8-de27-4c3e-8d7f-c8c585c91d46.png"></td>     <td><input type="number" id="amount20" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost20" style="width: 110px;"  value="32.06"></td>     <td id="total20"></td> </tr> 
+                <tr>     <td>21</td>     <td>Stepper Motor</td>     <td><a href="https://www.pololu.com/product/1204">Stepper Motor: Bipolar, 200 Steps/Rev, 20×30mm, 3.9V, 0.6 A/Phase</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148157634-a4eaa3d7-e029-482f-940b-32558939223a.png"></td>     <td><input type="number" id="amount21" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost21" style="width: 110px;"  value="46.32"></td>     <td id="total21"></td> </tr> 
+                <tr>     <td>22</td>     <td>Stepper Driver</td>     <td><a href="https://www.pololu.com/product/1182">A4988 Stepper Motor Driver Carrier</a></td>  <td></td>  <td><input type="number" id="amount22" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost22" style="width: 110px;"  value="8.95"></td>     <td id="total22"></td> </tr> 
+                <tr>     <td>23</td>     <td>Motor Driver</td>     <td><a href="https://www.pololu.com/product/2135">Dual Motor Driver</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148157752-79f4e6c2-90a0-453b-adfe-647c32886f05.png"></td>     <td><input type="number" id="amount23" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost23" style="width: 110px;"  value="6.95"></td>     <td id="total23"></td> </tr> 
+                <tr>     <td>24</td>     <td>Big Motor Driver</td>     <td><a href="https://www.pololu.com/product/1451">Big Motor Driver</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148157798-c2236fdd-162d-4fc6-b86b-a057c165b0b8.png"></td>     <td><input type="number" id="amount24" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost24" style="width: 110px;"  value="39.95"></td>     <td id="total24"></td> </tr>
+
+
+
+
+
+
+ <tr>     <td>42</td>     <td>Set of 4 DC Motors 6V with Breadboard Pins</td>     <td><a href="https://www.amazon.com/BOJACK-Pcs-Type-130-EK1450/dp/B09FPXF1QK">BOJACK 4 Pcs Type 130 EK1450 1 V- 6 V Volt Miniature DC Toy Motors for Arduino Hobby DIY Projects</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/4575c2c7-dde7-4b52-8ecd-ca8afe909213"></td>     <td><input type="number" id="amount42" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost42" style="width: 110px;"  value="6.99"></td>     <td id="total42"></td> </tr>
+
+
+
+ <tr>     <td>43</td>     <td>Lidar</td>     <td><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">LDROBOT D100 LiDAR Kit</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/e893aace-149f-4b10-a8c7-92c3381514b5"></td>     <td><input type="number" id="amount43" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost43" style="width: 110px;"  value="79"></td>     <td id="total43"></td> </tr>
+
+
+  <tr>            <th >#</th>                        <th >Classroom Support</th>                   <th >batteries, soldering, wires, etc</th>                   <th >Image</th>                <th >Amount</th>             <th >Cost in USD</th>            <th >Total in USD</th>        </tr>
+
+     
+
+  <tr>     <td>2</td>     <td>Basic Sensor Electronic Equipment Kit</td>     <td><a href="https://www.amazon.com/Smraza-Breadboard-Resistors-Mega2560-Raspberry/dp/B01HRR7EBG">Basic Starter Kit for Arduino</a></td>     <td><img  width=100  src="https://github.com/user-attachments/assets/04dd3a6f-9c24-43ad-a204-9254e0c5b848" ></td>     <td><input type="number" id="amount2" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost2" style="width: 110px;"  value="11.99"></td>     <td id="total2"></td> </tr>
+     
+ <tr>     <td>1</td>     <td>Basic SNAP 750 Electronics Kits</td>     <td><a href="https://www.amazon.com/Snap-Circuits-SC-750-Electronics-Exploration/dp/B0002AHQWS">Snap Circuits 750 </a> <br> These kits allow fast testing of multiple electronics concepts</td>     <td><img width=100 src="https://github.com/user-attachments/assets/ea1c8c5b-549f-4004-a4fe-435da7e0eab7" ></td>     <td><input type="number" id="amount1" style="width: 60px;" value="0"></td>     <td>$<input type="number" id="cost1" style="width: 110px;" value="139.99"></td>     <td id="total1"></td> </tr>
+     
+ <tr>     <td>25</td>     <td>SNAP Connectors</td>     <td><a href="https://www.amazon.ca/Snap-Circuits-SCJW10-Project-Connectors/dp/B013DA8XH0/ref=sr_1_fkmr0_1?ie=UTF8&keywords=snapcircuits+10+Snap+to+pin+cables&qid=1504073209&s=toys&sr=1-1-fkmr0">Set of 10 SNAP Circuit to Pin Cables </a> <br> If you get the SNAP circuits, these are needed to connect with a breadboard</td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148173782-08bf870c-924d-4920-ba45-fa578b35ff0c.png"></td>     <td><input type="number" id="amount25" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost25" style="width: 110px;"  value="20.88"></td>     <td id="total25"></td> </tr>
+ <tr>     <td>3</td>     <td>Soldering Kit</td>     <td><a href="https://www.amazon.ca/KEPIOG-Adjustable-Temperature-Controlled-Desoldering/dp/B0CRNQQMFD">KEPIOG Soldering Kit</a></td>     <td><img  width=100  src="https://github.com/user-attachments/assets/32d0f153-a6e8-436f-aa54-d4fb3d4ad468"></td>     <td><input type="number" id="amount3" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost3" style="width: 110px;"  value="49.99"></td>     <td id="total3"></td> </tr> 
+                <tr>     <td>4</td>     <td>Soldering Microscope</td>     <td><a href="https://www.amazon.ca/Andonstar-AD246S-M-Microscope-Biological-Compatible/dp/B09VPPS96M">Andonstar AD246S-M HDMI Digital Microscope 2000x</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/318bde49-da29-4097-88ad-3c9c10de0d60"></td>     <td><input type="number" id="amount4" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost4" style="width: 110px;"  value="249.99"></td>     <td id="total4"></td> </tr>
+
+
+ <tr>     <td>36</td>     <td>Solder Wire Kit</td>     <td><a href="https://www.amazon.com/Diameter-11g%C3%973pcs-Electrical-Soldering-Electronics/dp/B0C5JR866W">3Pcs Solder Wire,Diameter 1.0mm,11g×3pcs Rosin Core Solder for Electrical Soldering Welding Electronics Soldering DIY.(Net 33g)</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/91243cff-192f-4e36-bfe1-45f3f4575fe8"></td>     <td><input type="number" id="amount36" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost36" style="width: 110px;"  value="5.89"></td>     <td id="total36"></td> </tr>
+
+
+
+ <tr>     <td>8</td>     <td>Mobile Power</td>     <td><a href="https://www.amazon.ca/Portable-Ultra-Compact-External-Identify-Compatible/dp/B09JNX8PZR">5000mAh Power Bank Portable Charger</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148266102-36a2d187-7eef-42db-a030-5054fa620330.png"></td>     <td><input type="number" id="amount8" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost8" style="width: 110px;"  value="15.99"></td>     <td id="total8"></td> </tr>
+
+
+ <tr>     <td>10</td>     <td>22 Guage Wire</td>     <td><a href="https://www.amazon.com/Gauge-Wire-Solid-Hookup-Wires/dp/B088KQFHV7">22 AWG wires solid core with cheap wire stripper</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148152005-41f2c7c8-e1f6-48b1-90ee-f26b36b129c6.png"></td>     <td><input type="number" id="amount10" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost10" style="width: 110px;"  value="17.94"></td>     <td id="total10"></td> </tr>
+
+ 
+ <tr>     <td>26</td>     <td>Pin Headers</td>     <td><a href="https://www.amazon.ca/Pieces-2-54mm-Single-Female-Header/dp/B08CMNRXJ1">10 pack of 40 pin male female headers</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/136552450-901d787f-d894-402c-9c72-4052aad977ca.png"></td>     <td><input type="number" id="amount26" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost26" style="width: 110px;"  value="15.99"></td>     <td id="total26"></td> </tr>
+
+
+ <tr>     <td>27</td>     <td>General Tool Kit</td>     <td><a href="https://www.amazon.ca/DEKOPRO-General-Household-Plastic-Toolbox/dp/B07MFS513F">CARTMAN 39 Piece Tool Set General Household Hand Kit with Plastic Toolbox Storage Case Orange</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/5083f85f-69ca-4eb4-8ca8-e88ab5d647fd"></td>     <td><input type="number" id="amount27" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost27" style="width: 110px;"  value="34.19"></td>     <td id="total27"></td> </tr>
+
+
+
+
+ <tr>     <td>46</td>     <td>Energizer Eveready 6 Volt Lantern Battery 1209</td>     <td><a href="https://www.amazon.ca/Energizer-Eveready-Lantern-Battery-1209/dp/B0043CHX38">Energizer Eveready 6 Volt Lantern Battery 1209</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/56aedf8a-1203-474b-8169-ea550f20a0cf"></td>     <td><input type="number" id="amount46" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost46" style="width: 110px;"  value="7.60"></td>     <td id="total46"></td> </tr>
+ <tr>            <th >#</th>                        <th >Other</th>                   <th >Optional or extras </th>                   <th >Image</th>                <th >Amount</th>             <th >Cost in USD</th>            <th >Total in USD</th>        </tr>
+      <tr>     <td>6</td>     <td>Main Microcontroller ESP32S3 pre-soldered</td>     <td><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Sense-Pre-Soldered-p-6335.html">Seeedstudio XiaoEsp32S3-Sense-pre-soldered <br> (Comes with full xiaoml kit)</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/fb4af32d-a486-49c6-85af-40d0f4bf5c7a"></td>     <td><input type="number" id="amount6" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost6" style="width: 110px;"  value="14.90"></td>     <td id="total6"></td> </tr>
+ <tr>     <td>9</td>     <td>Micro-SD Card</td>     <td><a href="https://www.amazon.com/KEXIN-Micro-Class-Ultra-Memory/dp/B081ZXZ44G">Micro SD Card set <br>(Comes with full xiaoml kit)</a></td>     <td><img width=100  src="https://github.com/hpssjellis/maker100-eco/assets/5605614/fc0bbf46-0fe9-4639-ad5e-8c6abd4a1b68"></td>     <td><input type="number" id="amount9" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost9" style="width: 110px;"  value="43.66"></td>     <td id="total9"></td> </tr>
+
+
+
+ <tr>     <td>7</td>     <td>USB-C Data Cable</td>     <td><a href="https://www.robotshop.com/products/5v-3a-usb-a-to-type-c-cable">5V 3A USB A to Type-C Cable <br> (comes with full xiaoML-kit)</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/3a6638f6-655e-431a-9997-c5d619909cc8"></td>     <td><input type="number" id="amount7" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost7" style="width: 110px;"  value="2.77"></td>     <td id="total7"></td> </tr>
+ <tr>     <td>17</td>     <td>Seeedstudio Color Display</td>     <td><a href="https://www.seeedstudio.com/Seeed-Studio-Round-Display-for-XIAO-p-5638.html">XIAO Round Color Touch sensitive display</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/8c150cdb-14aa-4eeb-a41c-f8944a8af32e"></td>     <td><input type="number" id="amount17" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost17" style="width: 110px;"  value="18.00"></td>     <td id="total17"></td> </tr>
+
+
+
+
+ <tr>     <td>18</td>     <td>XIAO Expansion Board</td>     <td><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html">XIAO Expansion Board</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/ff241df5-ee81-4427-9c9e-912cd5757f55"></td>     <td><input type="number" id="amount18" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost18" style="width: 110px;"  value="16.40"></td>     <td id="total18"></td> </tr>
+
+
+
+
+ <tr>     <td>28</td>     <td>Other Microcontrollers PortentaH7</td>     <td><a href="https://store.arduino.cc/usa/portenta-h7">Arduino PortentaH7</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/133374580-13deb749-820c-46db-bc04-597c610d2bd0.png"></td>     <td><input type="number" id="amount28" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost28" style="width: 110px;"  value="114.00"></td>     <td id="total28"></td> </tr>
+ <tr>     <td>29</td>     <td>Other Microcontrollers PortentaH7 LoRa Vision</td>     <td><a href="https://store.arduino.cc/usa/portenta-vision-shield-lora">LoRa Vision Shield For PortentaH7</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/133374592-36bb6dfd-ec10-4796-b998-782b58ce8730.png"></td>     <td><input type="number" id="amount29" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost29" style="width: 110px;"  value="69.00"></td>     <td id="total29"></td> </tr>
+ <tr>     <td>30</td>     <td>LoRa US915 MHz Antenna u.Fl connector</td>     <td><a href="https://www.amazon.com/DIYmall-Connector-Antenna-915MHz-Lora32u4/dp/B084KVYBH5">LoRa Antenna with u.fl connector and 915MHz for North America <br> (comes with wio sx1262 kit) </a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/287e9653-9371-4f99-a95c-55ccfeed6780"></td>     <td><input type="number" id="amount30" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost30" style="width: 110px;"  value="13.99"></td>     <td id="total30"></td> </tr>
+ <tr>     <td>31</td>     <td>Other Microcontrollers PortentaH7 Ethernet Vision Shield</td>     <td><a href="https://store.arduino.cc/products/arduino-portenta-vision-shield-ethernet">Ethernet Vison Shield (POE) for PotentaH7</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/cbfaf795-03f3-4da0-b64d-3d4bffa67546"></td>     <td><input type="number" id="amount31" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost31" style="width: 110px;"  value="51.80"></td>     <td id="total31"></td> </tr>
+ <tr>     <td>33</td>     <td>Other Microcontrollers Arduino Tiny Machine Learning Kit</td>     <td><a href="https://store-usa.arduino.cc/products/arduino-tiny-machine-learning-kit?queryID=undefined">Arduino ML Kit</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/38e153b8-3524-406b-84d5-7a7bd2d28304"></td>     <td><input type="number" id="amount33" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost33" style="width: 110px;"  value="60.00"></td>     <td id="total33"></td> </tr>
+ <tr>     <td>34</td>     <td>Other Microcontrollers Nicla Vision</td>     <td><a href="https://store-usa.arduino.cc/products/nicla-vision?selectedStore=us">Arduino Nicla Vision</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/157479032-f93ac6e1-1139-4886-bf40-9dfc6e8c2b9c.png"></td>     <td><input type="number" id="amount34" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost34" style="width: 110px;"  value="80.20"></td>     <td id="total34"></td> </tr>
+
+
+
+
+ <tr>     <td>37</td>     <td>Digital-Soldering-Station</td>     <td><a href="https://www.amazon.com/Digital-Soldering-Station-Electric-Welding/dp/B07T9JJZG7">2 in 1 750W LED Digital Soldering Station Hot Air Gun Rework Station <br>Electric Soldering Iron for Phone PCB IC SMD BGA Welding Set 110V <br> Note: cheaper soldering irons above</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148177651-3b6d04e5-ed7f-454a-87cd-9512ae047215.png"></td>     <td><input type="number" id="amount37" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost37" style="width: 110px;"  value="62.98"></td>     <td id="total37"></td> </tr>
+
+
+
+
+ <tr>     <td>39</td>     <td>USB micro data cable for Arduino's</td>     <td><a href="https://www.amazon.com/Arkscan-Converter-Printer-Devices-Chromebook/dp/B09QBPVSYQ">USB A (female) to USB-micro and USB-C <br> Useful but not really needed</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/b3c2745b-154e-4a2d-a5f2-3114da6eb9f7"></td>     <td><input type="number" id="amount39" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost39" style="width: 110px;"  value="9.95"></td>     <td id="total39"></td> </tr>
+
+ <tr>     <td>41</td>     <td>Grove LoRa Module</td>     <td><a href="https://www.seeedstudio.com/Grove-LoRa-E5-STM32WLE5JC-p-4867.html">Grove-Wio-E5 Wireless Module - STM32WLE5JC, ARM Cortex-M4 and SX126x embedded, supports LoRaWAN on EU868 & US915 <br> (comes with wio sx1262)</a></td>  <td><img width=100  src="https://github.com/user-attachments/assets/33a32c40-472f-43ad-8a43-4656f09bb284"></td>     <td><input type="number" id="amount41" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost41" style="width: 110px;"  value="16.90"></td>     <td id="total41"></td> </tr>
+
+
+
+  <tr>            <th >#</th>                        <th >Not Yet Tested</th>                   <th >or issues when testing</th>                   <th >Image</th>                <th >Amount</th>             <th >Cost in USD</th>            <th >Total in USD</th>        </tr>
+
+ 
+  <tr>     <td>11</td>     <td>GPS Sensor</td>     <td><a href="https://www.robotshop.com/products/grove-gps-module">Grove GPS Module</a></td>     <td><img width=100  src="https://user-images.githubusercontent.com/5605614/148159156-a26342ea-4b48-4462-807b-744fdcb80156.png"></td>     <td><input type="number" id="amount11" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost11" style="width: 110px;"  value="26.85"></td>     <td id="total11"></td> </tr>
+
+
+ <tr>     <td>40</td>     <td>Multiplexer</td>     <td><a href="https://www.seeedstudio.com/Grove-8-Channel-I2C-Hub-TCA9548A-p-4398.html">Grove - 8 Channel I2C Multiplexer/I2C Hub (TCA9548A)</a></td>     <td><img width=100  src="https://github.com/user-attachments/assets/07a76bfe-db9d-4834-8af0-b21aefbf6ae9"></td>     <td><input type="number" id="amount40" style="width: 60px;"  value="0"></td>     <td>$<input type="number" id="cost40" style="width: 110px;"  value="6.50"></td>     <td id="total40"></td> </tr>
+
+
+
+             <tr>            <td >Total --></td>                        <td >Total --></td>                   <td >Total --></td>                   <td >Total --></td>                   <td >Total --></td>                <td >Total --></td>            <td id="grandTotal2"></td>        </tr>         </tbody></table>
+
+
+
+
+
+    
+
+<script>  // Global Variables let myMaxRows = 47;   // if you add more this number needs to match it
+
+
+ // Global Variables
+ let myMaxRows = 47;   // if you add more this number needs to match it
+
+
+function myEco(){
+  document.getElementById('amount1').value = 1;
+  document.getElementById('amount2').value = 1;
+  document.getElementById('amount3').value = 1;
+  document.getElementById('amount4').value = 1;
+  document.getElementById('amount5').value = 15;
+  document.getElementById('amount6').value = 0;
+  document.getElementById('amount7').value = 0;
+  document.getElementById('amount8').value = 3;
+  document.getElementById('amount9').value = 0;
+ 
+  document.getElementById('amount10').value = 1;
+  document.getElementById('amount11').value = 1;
+  document.getElementById('amount12').value = 5;
+  document.getElementById('amount13').value = 1;
+  document.getElementById('amount14').value = 1;
+  document.getElementById('amount15').value = 1;
+  document.getElementById('amount16').value = 0;
+  document.getElementById('amount17').value = 1;
+  document.getElementById('amount18').value = 1;
+  document.getElementById('amount19').value = 3;
+
+  document.getElementById('amount20').value = 5;
+  document.getElementById('amount21').value = 5;
+  document.getElementById('amount22').value = 5;
+  document.getElementById('amount23').value = 7;
+  document.getElementById('amount24').value = 3;
+  document.getElementById('amount25').value = 2;
+  document.getElementById('amount26').value = 1;
+  document.getElementById('amount27').value = 0;
+  document.getElementById('amount28').value = 0;
+  document.getElementById('amount29').value = 0;
+
+  document.getElementById('amount30').value = 0;
+  document.getElementById('amount31').value = 0;
+  document.getElementById('amount32').value = 3;
+  document.getElementById('amount33').value = 0;
+  document.getElementById('amount34').value = 3;
+  document.getElementById('amount35').value = 1;
+  document.getElementById('amount36').value = 1;
+  document.getElementById('amount37').value = 0;
+  document.getElementById('amount38').value = 1;
+  document.getElementById('amount39').value = 0;
+ 
+  document.getElementById('amount40').value = 1;
+  document.getElementById('amount41').value = 0;
+  document.getElementById('amount42').value = 2;
+  document.getElementById('amount43').value = 1;
+  document.getElementById('amount44').value = 5;
+  document.getElementById('amount45').value = 5;
+  document.getElementById('amount46').value = 1;
+  document.getElementById('amount47').value = 1;
+
+
+ calculateTotal();
+}
+
+function myDefault(){
+  document.getElementById('amount1').value = 15;
+  document.getElementById('amount2').value = 5;
+  document.getElementById('amount3').value = 3;
+  document.getElementById('amount4').value = 1;
+  document.getElementById('amount5').value = 15;
+  document.getElementById('amount6').value = 0;
+  document.getElementById('amount7').value = 0;
+  document.getElementById('amount8').value = 5;
+  document.getElementById('amount9').value = 0;
+ 
+  document.getElementById('amount10').value = 3;
+  document.getElementById('amount11').value = 3;
+  document.getElementById('amount12').value = 15;
+  document.getElementById('amount13').value = 7;
+  document.getElementById('amount14').value = 7;
+  document.getElementById('amount15').value = 3;
+  document.getElementById('amount16').value = 0;
+  document.getElementById('amount17').value = 3;
+  document.getElementById('amount18').value = 3;
+  document.getElementById('amount19').value = 15;
+
+  document.getElementById('amount20').value = 15;
+  document.getElementById('amount21').value = 7;
+  document.getElementById('amount22').value = 7;
+  document.getElementById('amount23').value = 15;
+  document.getElementById('amount24').value = 7;
+  document.getElementById('amount25').value = 15;
+  document.getElementById('amount26').value = 5;
+  document.getElementById('amount27').value = 1;
+  document.getElementById('amount28').value = 0;
+  document.getElementById('amount29').value = 0;
+
+  document.getElementById('amount30').value = 0;
+  document.getElementById('amount31').value = 0;
+  document.getElementById('amount32').value = 3;
+  document.getElementById('amount33').value = 0;
+  document.getElementById('amount34').value = 0;
+  document.getElementById('amount35').value = 5;
+  document.getElementById('amount36').value = 3;
+  document.getElementById('amount37').value = 1;
+  document.getElementById('amount38').value = 3;
+  document.getElementById('amount39').value = 0;
+ 
+  document.getElementById('amount40').value = 0; 
+  document.getElementById('amount41').value = 0;
+  document.getElementById('amount42').value = 7;
+  document.getElementById('amount43').value = 3;
+  document.getElementById('amount44').value = 15;
+  document.getElementById('amount45').value = 15;
+  document.getElementById('amount46').value = 3; 
+  document.getElementById('amount47').value = 3;
+ 
+ calculateTotal();
+}
+ 
+function mySink(){
+  document.getElementById('amount1').value = 30;
+  document.getElementById('amount2').value = 30;
+  document.getElementById('amount3').value = 30;
+  document.getElementById('amount4').value = 5;
+  document.getElementById('amount5').value = 40;
+  document.getElementById('amount6').value = 0;
+  document.getElementById('amount7').value = 0;
+  document.getElementById('amount8').value = 30;
+  document.getElementById('amount9').value = 0;
+  document.getElementById('amount10').value = 10;
+  document.getElementById('amount11').value = 30;
+  document.getElementById('amount12').value = 100;
+  document.getElementById('amount13').value = 10;
+  document.getElementById('amount14').value = 30;
+  document.getElementById('amount15').value = 30;
+  document.getElementById('amount16').value = 30;
+  document.getElementById('amount17').value = 30;
+  document.getElementById('amount18').value = 30;
+  document.getElementById('amount19').value = 30;
+
+  document.getElementById('amount20').value = 60;
+  document.getElementById('amount21').value = 30;
+  document.getElementById('amount22').value = 30;
+  document.getElementById('amount23').value = 30;
+  document.getElementById('amount24').value = 30;
+  document.getElementById('amount25').value = 30;
+  document.getElementById('amount26').value = 30;
+  document.getElementById('amount27').value = 10;
+  document.getElementById('amount28').value = 10;
+  document.getElementById('amount29').value = 5;
+
+  document.getElementById('amount30').value = 0;
+  document.getElementById('amount31').value = 5;
+  document.getElementById('amount32').value = 30;
+  document.getElementById('amount33').value = 5;
+  document.getElementById('amount34').value = 30;
+  document.getElementById('amount35').value = 30;
+  document.getElementById('amount36').value = 10;
+  document.getElementById('amount37').value = 15;
+  document.getElementById('amount38').value = 5;
+  document.getElementById('amount39').value = 5;
+ 
+  document.getElementById('amount40').value = 30;
+  document.getElementById('amount41').value = 5;
+  document.getElementById('amount42').value = 30;
+  document.getElementById('amount43').value = 30;
+  document.getElementById('amount44').value = 30;
+  document.getElementById('amount45').value = 30;
+  document.getElementById('amount46').value = 10;
+  document.getElementById('amount47').value = 10;
+ calculateTotal();
+}
+
+ 
+
+function calculateTotal() {
+  let grandTotal = 0;
+
+  for (let i = 1; i <= myMaxRows; i++) {
+      const cost = parseFloat(document.getElementById(`cost${i}`).value);
+      const amount = parseFloat(document.getElementById(`amount${i}`).value);
+      const total = cost * amount;
+      document.getElementById(`total${i}`).textContent = '$'+total.toFixed(2);
+      grandTotal += total;
+  }
+
+  document.getElementById('grandTotal').textContent = '$'+grandTotal.toFixed(2);
+  document.getElementById('grandTotal2').textContent = '$'+grandTotal.toFixed(2);
+}
+
+for (let i = 1; i <= myMaxRows; i++) {
+  document.getElementById(`cost${i}`).addEventListener('input', calculateTotal);
+  document.getElementById(`amount${i}`).addEventListener('input', calculateTotal);
+}
+
+// Initial calculation
+document.getElementById('myDefaultSettings').click() 
+calculateTotal();
+
+
+// Function to create the Purchase Order
+function createPurchaseOrder() {
+    let orderListHTML = `
+        <html>
+        <head>
+            <title>Purchase Order - Maker100-xiaoML Kit</title>
+            <style>
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid black; padding: 8px; text-align: left; }
+                th { background-color: #f0f0f0; }
+                img { max-width: 100px; height: auto; }
+            </style>
+        </head>
+        <body>
+            <h1 align="center">Purchase Order - Maker100-xiaoML Kit</h1>
+            <p><strong>Date:</strong> ${new Date().toLocaleDateString()}</p>
+            <p><strong>Kit Reference:</strong> <a href="https://github.com/hpssjellis/maker100-xiaoML-kit">Maker100-xiaoML Kit 2026</a></p>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Item Description & Link</th>
+                        <th>Amount</th>
+                        <th>Unit Cost (USD)</th>
+                        <th>Total Cost (USD)</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    let finalGrandTotal = 0;
+
+    // A list of all table rows with IDs from 1 to 47
+    // To get the Item Description and Link, we need to inspect the TD elements.
+    // The items are in table rows within the original HTML. We'll use the IDs to pull the data.
+
+    for (let i = 1; i <= myMaxRows; i++) {
+        const amountInput = document.getElementById(`amount${i}`);
+        
+        // Skip items with amount 0
+        if (amountInput && parseFloat(amountInput.value) > 0) {
+            const amount = parseFloat(amountInput.value);
+            const cost = parseFloat(document.getElementById(`cost${i}`).value);
+            const total = amount * cost;
+            finalGrandTotal += total;
+
+            // To get the Item Description, Code, and Image, we need to find the specific row (<tr>)
+            // The item data is spread across different <td> elements in the original table.
+            
+            // Reconstruct the needed data from the original HTML structure (This is fragile, but works for the provided structure)
+            const itemRow = amountInput.closest('tr');
+            if (itemRow) {
+                // Assuming the structure is: <td>#</td> <td>Code</td> <td>Item</td> <td>Image</td> ...
+                const cells = itemRow.getElementsByTagName('td');
+                
+                // cells[0] is the #td (unless it's a header row, which we skip), cells[1] is Code, cells[2] is Item, cells[3] is Image
+                // Note: The structure in the original HTML is complex (using <td> inside <tr>), so we'll grab the content directly.
+                
+                const itemNumber = cells.length > 0 ? cells[0].textContent.trim() : i;
+                const itemDescriptionAndLinkCell = cells.length > 2 ? cells[2].innerHTML : `Item ID ${i}`;
+                const itemImageCell = cells.length > 3 ? cells[3].innerHTML : '';
+
+
+                orderListHTML += `
+                    <tr>
+                        <td>${itemNumber}</td>
+                        <td>${itemDescriptionAndLinkCell}</td>
+                        <td>${amount}</td>
+                        <td>$${cost.toFixed(2)}</td>
+                        <td>$${total.toFixed(2)}</td>
+                        <td>${itemImageCell}</td>
+                    </tr>
+                `;
+            } else {
+                // Fallback for items that might be in a header row but still have inputs (e.g. if the HTML structure was simplified)
+                 orderListHTML += `
+                    <tr>
+                        <td>${i}</td>
+                        <td>Item ID ${i} (Data not found)</td>
+                        <td>${amount}</td>
+                        <td>$${cost.toFixed(2)}</td>
+                        <td>$${total.toFixed(2)}</td>
+                        <td>N/A</td>
+                    </tr>
+                `;
+            }
+        }
+    }
+    
+    orderListHTML += `
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4" style="text-align: right;">GRAND TOTAL:</th>
+                        <th>$${finalGrandTotal.toFixed(2)}</th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>Please note: This is an estimated list based on the user's selections. Prices and availability are subject to change. Please verify all product links before purchase.</p>
+        </body>
+        </html>
+    `;
+
+    // Open the new window for the purchase order
+    const newWindow = window.open('', 'PurchaseOrder', 'width=800,height=600');
+    newWindow.document.write(orderListHTML);
+    newWindow.document.close();
+}
+
+
+for (let i = 1; i <= myMaxRows; i++) {  
+    const costInput = document.getElementById(`cost${i}`);
+    const amountInput = document.getElementById(`amount${i}`);
+
+    if (costInput && amountInput) {
+        costInput.addEventListener('input', calculateTotal);  
+        amountInput.addEventListener('input', calculateTotal);
+    }
+}
+// Initial calculation
+document.getElementById('myDefaultSettings').click() 
+calculateTotal();
+
+        </script>
+
+
+
+
+
+
+
+
+ </body></html>
