@@ -200,6 +200,7 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 1. Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
 1. Try making a web browser RAG program like [Demo RAG](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deep-rag/deep-rag00.html)
 1. Try making an MCP browser program like [MCP Demo](https://hpssjellis.github.io/my-examples-of-mcp-js/public/mcp00.html)
+1. Try on your home laptop or desktop (if OK with your parents/gaurdians), to run the new Chrome Built in AI. See example and how to set the Chrome flags at [webllm00.html](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
 1. What's new and awesome with WebAI? Perhaps check out Whisper (talk to text) or many of a bunch of multi-modal models.
 
 
