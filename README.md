@@ -69,11 +69,11 @@ On this page Quick Links
 
 [Machine Learning](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#machine-learning)     
 [Actuators-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)     
-[IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#-iot-internet-of-things-connectivity)   
+[IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum#iot-internet-of-things-connectivity)   
 
 
 [WebAI - EdgeAI](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#webai-edgeai)   
-[Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects-)     
+[Final projects](https://github.com/hpssjellis/maker100-curriculum?tab=readme-ov-file#final-projects)     
                                                                                                                                                                                                                      
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
