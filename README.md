@@ -191,18 +191,24 @@ Note: Explain VIDEO FLAC as seen below. Have students write Arduino code that sh
 Note: As microcontrollers get stronger, faster, and use less power, what is now WebAI/EdgeAI will eventually be TinyML, so it is best that students see what is coming and learn some WebAI. Like most assignments, getting them working is just a pass; changing them to do something unique creates the higher grade. Personally, I would put these on a GitHub where you have activated GitPages so an index page can show all your examples, but I still just want a video of what you have done.
 
 
-1. Load your own client-side LLM using JavaScript; this one uses [DeepSeekR1 1.5B](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deepseek-r1-webgpu/deepseek-r1-webgpu-00.html)
-1. Load your own client-side Text to Image webpage; this one uses [Janus-Pro](https://hpssjellis.github.io/my-examples-of-transformersJS/public/janus-pro/janus-pro-to-image-00.html)
-1. On a desktop or laptop, load with flags (may soon not need flags to be set) the GeminiNano using Chrome model; 4GB download needs 20 GB disk space. [Demo Web-LLM](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
-1. Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
+### The following assignments should load on school computers or your cell phones.
+
 1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) 
 1. Load your own [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1. Load your own [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
 1. Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
+
+### The following assignments will only work on a fairly good desktop computer possibly with admin access
+
 1. Try making a web browser RAG program like [Demo RAG](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deep-rag/deep-rag00.html)
 1. Try making an MCP browser program like [MCP Demo](https://hpssjellis.github.io/my-examples-of-mcp-js/public/mcp00.html)
 1. Try on your home laptop or desktop (if OK with your parents/gaurdians), to run the new Chrome Built in AI. See example and how to set the Chrome flags at [webllm00.html](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
+2. 1. Load your own client-side LLM using JavaScript; this one uses [DeepSeekR1 1.5B](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deepseek-r1-webgpu/deepseek-r1-webgpu-00.html)
+1. Load your own client-side Text to Image webpage; this one uses [Janus-Pro](https://hpssjellis.github.io/my-examples-of-transformersJS/public/janus-pro/janus-pro-to-image-00.html)
+1. On a desktop or laptop, load with flags (may soon not need flags to be set) the GeminiNano using Chrome model; 4GB download needs 20 GB disk space. [Demo Web-LLM](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
+1. Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
 1. What's new and awesome with WebAI? Perhaps check out Whisper (talk to text) or many of a bunch of multi-modal models.
+2. More to come lots of changes in webAI lately: containers, webMCP both the protocol and a local server, transformersJSv4, better RAG.
 
 
 
