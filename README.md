@@ -193,7 +193,7 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 
 ### The following assignments should load on school computers or your cell phones.
 
-1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) 
+1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/)   Download the Edgeimpulse as a WASM for the web, put the folder onto an HTTPS website like gitPages and then replace the edgeImpulse index.html with this [index.html](https://github.com/hpssjellis/multi-language-edgeimpulse-tutorial-vision-cell-phone/tree/main/download)
 1. Load your own [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1. Load your own [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
 
