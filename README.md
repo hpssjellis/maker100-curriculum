@@ -196,13 +196,13 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) 
 1. Load your own [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1. Load your own [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
-1. Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
-2. 1. Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
 
 ### The following assignments will only work on a fairly good desktop computer possibly with admin access
 
+
+1. Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
+2. 1. Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
 1. Try making a web browser RAG program like [Demo RAG](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deep-rag/deep-rag00.html)
-1. Try making an MCP browser program like [MCP Demo](https://hpssjellis.github.io/my-examples-of-mcp-js/public/mcp00.html)
 1. Try on your home laptop or desktop (if OK with your parents/gaurdians), to run the new Chrome Built in AI. See example and how to set the Chrome flags at [webllm00.html](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
 2. 1. Load your own client-side LLM using JavaScript; this one uses [DeepSeekR1 1.5B](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deepseek-r1-webgpu/deepseek-r1-webgpu-00.html)
 1. Load your own client-side Text to Image webpage; this one uses [Janus-Pro](https://hpssjellis.github.io/my-examples-of-transformersJS/public/janus-pro/janus-pro-to-image-00.html)
@@ -212,7 +212,9 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 1. What's new and awesome with WebAI? Perhaps check out Whisper (talk to text) or many of a bunch of multi-modal models.
 2. More to come lots of changes in webAI lately: containers, webMCP both the protocol and a local server, transformersJSv4, better RAG.
 
-
+<!--  1. Try making an MCP browser program like [MCP Demo](https://hpssjellis.github.io/my-examples-of-mcp-js/public/mcp00.html) 
+ The jokes too rude on chucknorris   try fixing with https://icanhazdadjoke.com/#google_vignette
+-->
 
 
 <br><br><h2 name="simulations">Simulations (Optional or Advanced)</h2><br>
