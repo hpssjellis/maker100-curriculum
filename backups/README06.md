@@ -1,0 +1,272 @@
+# maker100-curriculum
+maker100-robotics-machine-learning-IoT-communication-curriculum
+
+Views better using the README.md [here](README.md) 
+
+The original courses are the [maker100](https://github.com/hpssjellis/maker100) using the Arduino PortentaH7 with LoRa Vision Shield and [maker100-eco](https://github.com/hpssjellis/maker100-eco) using the Seeedstudio XIAO-esp32S3-Sense. New for Feb 2026 is the [maker100-xiaoML-kit](https://github.com/hpssjellis/maker100-xiaoML-kit), which is a rebuild of the esp32S3Sense course with the new $38.90 USD [xiaoML kit from Seeedstudio](https://www.seeedstudio.com/The-XIAOML-Kit.html). 
+
+Created August 2024 by Jeremy Ellis [LinkedIn](https://www.linkedin.com/in/jeremy-ellis-4237a9bb/). Limited consulting available as I am still a full-time Educator.
+
+A new-to-robotics teacher might want to look at class tone suggestions in the [new-teacher.md](new-teacher.md) file. The first page can be printed to give to the class. Explanations on other pages. These are just suggestions—change or ignore them.
+
+Webpage Dynamic [Price-list.html](https://hpssjellis.github.io/maker100-curriculum/price-list.html) ranging from Economy ~$2,000 to set up the class to Default ~$7,000 USD to get started and Kitchen Sink at about $31,000 USD. The default is basically what I use.
+
+## Note:   
+The 2024 economy version of this course using the Seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
+The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at [maker100](https://github.com/hpssjellis/maker100)  
+
+My YouTube playlist about this curriculum is called [Hands on AI](https://www.youtube.com/watch?v=VRmSbcegicc&list=PL57Dnr1H_egubQAOHaxkZnvfJDOztPtia&index=1)
+
+## Problem: 
+How can a school or university start a general robotics course for all students when there are only a few educators skilled in robotics and machine learning?
+
+## Solution:
+
+1. **A versatile, passionate educator**
+2. **A computer lab** equipped with a few 3D printers
+3. **Strong IT support** to manage software installations and updates <br><br>                                                                                                                                                                                                                                                                                                                                                                                               
+4. **An initial robotics lab** stocked with sensors, actuators, IoT modules, basic electronics (wires, breadboards, batteries, resistors, capacitors, etc.), soldering equipment, etc. ~$2,000.00–$30,000.00 with a sensible starting point at about $7,000.00 USD. Check out the estimated [price-list.html](https://hpssjellis.github.io/maker100-curriculum/price-list.html)
+5. **A budget for consumables** and a set of new microcontrollers every few years. ~$500–$3,000
+6. **A well-crafted, asynchronous, student-friendly robotics, machine learning, and IoT curriculum**—which is right here on this page.
+
+## Concept:   
+Robotics is fundamentally about solving technology problems. Students must actively engage in overcoming these challenges. Once all the technology problems are solved and there are no more challenges to face, can it truly be called a Robotics Curriculum? This curriculum, with new microcontrollers every few years, solves that issue and makes solving technology problems a constant process.
+
+## Why:
+Large Language Models (LLMs) like ChatGPT, Copilot, BingChat, and LLAMA-v2 are revolutionizing most aspects of life and styles of academic instruction. However, the complexity of AI and the datasets these models are trained on makes understanding them difficult to teach to the general public. TinyML, using affordable microcontrollers like Arduinos, offers students a hands-on way to grasp AI concepts. It allows them to train a simplified version of Machine Learning using small, manageable datasets—such as images they create themselves.
+
+This approach is relatively easy to teach within a Robotics, Machine Learning, and IoT course, providing students with an intuitive understanding of the technology that is rapidly transforming our world.
+
+
+
+
+
+## Tricks:
+1. Start with a microcontroller that has proven successful for other educators. In my case, I recommend the [Seeedstudio XIAO-ESP32S3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/), which costs around $14 USD. For 30 students, that totals $420. Yes, each student should have their own microcontroller. Additionally, you'll need USB-C cables, microSD cards, and pin headers.
+1. Class sets of most equipment aren't necessary. Since the course is asynchronous, students can work at their own pace. This means you may only need a few of the more expensive sensors, like the Pixy2, a Lidar, or soldering equipment. While there are benefits to having class sets of all equipment, I've never found it necessary. Plus, it can create a storage mess.
+1. Demand peer teaching. When a student successfully completes a curricular task, have them teach a few other students how to do it. This reinforces their understanding and builds a collaborative learning environment—and really is the only way this course will be successful. <br><br>                                                                                                                                                                                                   
+1. Students can manage their own work. They can download the curriculum from GitHub as a zip file, unzip it, and upload it to their own GitHub repositories, allowing them to organize and update their work effectively.
+1. I have students make very short videos on the school network of each project, with a simple circuit diagram shown in the video. First-time educators may just want to keep a running tally of the assignments they have seen working.
+1. The inexpensive [Seeedstudio XIAO-SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/) microcontroller board for $7 USD, which comes with pin headers, is a great microcontroller for students to play with when testing new sensors and runs very similarly to many Arduino boards, and is easily auto-detected by the Arduino IDE.<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+1. Note: The educator decides which assignments to do and in what order and which ones to change, and also decides how many assignments to complete before class time is spent on the final projects.
+1. Final projects determine the grade. Students can pass with a simple unique sensor-actuator assignment. A grades can be assigned for multiple sensors and/or multiple actuators, and/or IoT and/or Machine Learning. When students have completed these basic assignments, they are expected to get together in groups and use their proven skills to attempt a group project.
+1. I do not teach each assignment in the order presented. I often jump back and forth from simple sensors and simple machine learning and simple actuators, then back to the main order. Note: For advanced students, this course is asynchronous so that they can work ahead and solve issues that the other students will benefit from later. <br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+1. No final projects using higher than 40 volts, water, or drones without some family safety protocols (such as parent is an electrical engineer, etc.)
+
+
+<br><br>
+
+
+# The Maker100 Curriculum  
+
+## Note: Any student with previous Arduino experience should breeze through most of the Coding, Sensors, and Actuators part of this course!
+
+On this page Quick Links 
+
+[Basics](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#basics)     
+[Coding](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#coding)     
+[Sensors](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#sensors)                       
+
+[Machine Learning](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#machine-learning)     
+[Actuators-motors-LED's etc](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#actuators-motors-leds-etc)     
+[IoT-connectivity](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#iot-internet-of-things-connectivity)   
+
+
+[WebAI - EdgeAI](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#webai-edgeai)   
+[Final projects](https://github.com/hpssjellis/maker100-curriculum/blob/main/README.md#final-projects)     
+                                                                                                                                                                                                                     
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+&nbsp;&nbsp;<br><h2 name="basics">Basics</h2><br> 
+
+1. **Base01-Install:** Determine the software to install (Best to have some software installed before the class starts). A good software installation starting point is: [NodeJS](https://nodejs.org/en/download/package-manager), [Python](https://www.python.org/downloads/), [Arduino Legacy and New IDE](https://www.arduino.cc/en/software) (sometimes both of these IDEs don't work well on the same computer; the IT department may choose to make one or both of them "portable"), [Pixymon2](https://pixycam.com/downloads-pixy2/), [OpenMV](https://openmv.io/pages/download), [Putty](https://www.putty.org/), and [platformIO](https://platformio.org/), which needs [VSCode](https://code.visualstudio.com/download). Note: Good communication with the IT department is essential as new software will need to be installed during the course, especially if important upgrades are released or a new board needs admin access to fully install.
+1. **Base02-Equipment:** Your computer lab needs basic electronic equipment, often best to get sets of electronic basic equipment.  
+1. **Base03-Language:** Determine the computer language to use: Probably best to work with a few standard languages. I mainly use Arduino C/C++, a subset of regular C++, but every sketch has a setup() and loop() function instead of a main() function. Other choices are: full GNU MAKE C/C++, MicroPython, Zephyr (RTOS), and many more.
+1. **Base04-platform:** Probably best to work with a few standard platforms. I mainly use the Arduino Legacy and new IDE, the [arduino cloud](https://cloud.arduino.cc/), platformIO all using C/C++, and sometimes OpenMV (which is Python).
+1. **Base05-Blink:** Get the Blink program working using the Arduino IDE and your microcontroller, which means you will need to install the correct board and identify the PORT. Also might need you to tap buttons on the microcontroller to put it into boot mode so a program can be uploaded. You often have to reset it to run the program.
+1. **Base06-Hello:** Like the Blink program except prints to the Arduino serial monitor. I use a Blink program that also shows analog read A0 to the Serial Monitor [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a03)
+1. **Base07-Libraries:** Understand libraries as some examples will not work until one or many libraries have been installed. My students install the "Portenta Pro Community Solutions" library in the Arduino IDE and have a look at the long list of examples that match many of the concepts in this curriculum. I made this library for the PortentaH7 produced by Arduino in 2020; many of the examples need to be slightly changed to work with the XIAO-esp32S3.
+1. **Base08-putty:** Putty is a Windows serial monitor program that can see a serial COM port without having to use the Arduino IDE. Note: loading a DOS window or PowerShell window and typing "mode" will show all the serial connections. On Linux or Mac, you could use a program called "screen".                      
+                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                              
+<br><br><h2 name="coding">Coding</h2><br>                                                                                                                                                                                                                  
+Note: Explain VIDEO FLAC as seen below. Have students write Arduino code that shows to the serial monitor each of these abilities. Very important for students to try to change and improve their code to learn how it works. I actually do this section as one big assignment since most of my students have already done a computer programming course. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a17)                                                                                                                                                                                                                             
+1. **Code01-Var:** Variables, make code to show multiple types of variables in the serial monitor
+1. **Code02-In-out:** Input/Output, make code to read a variable from the serial monitor (click send) and print it to the serial monitor
+1. **Code03-if:** Decisions (If statements and possibly case statements). Write code to make a decision based on information sent to the program from the serial monitor
+1. **Code04-Events:** Events—things that drive code (This is actually from JavaScript programming). Write a menu and have code do different things based on the menu decision, such as WASD; each letter makes something move a different direction
+1. **Code05-structs:** Objects (Structs in some languages like C/C++). Make a struct, a fancy variable that connects a keyword with data and presents the data in the serial monitor                                                                                                                                                                                                                      
+   
+1. **Code06-Functions:** Functions, write a function that prints to the serial monitor and then activate it
+1. **Code07-Loops:** Loops such as For loops (possibly while loops). Using a variable that stores a number, print something that many times.
+1. **Code08-Array:** Arrays. Make an Array, a fancy variable that numbers each value. A loop can be used to print the whole array to the serial monitor
+1. **Code09-Class:** Classes. A. Use a class. B. Make a class from scratch and then use it.       
+1. **Code10-SOS:** In as few lines as possible, make the onboard LED (LED_BUILTIN) flash an SOS, which is 3 short flashes, 3 long flashes, 3 short flashes. [my Example](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot7-coding-curriculum/dot71-sos/dot71-sos.ino)
+
+
+
+                                                                                                            
+<br><br><h2 name="sensors">Sensors</h2><br>
+
+<b>Reminder that all these assignments need a drawn and checked circuit diagram before you begin to connect wires to the microcontroller</b><br>
+   
+1. **Sense01-Analog:** Find a module sensor that has an analog output and get a reading on your microcontroller serial monitor on pin A0; reminder to connect GND and 3V3 if needed
+1. **Sense02-Voltage-Divider:** Find a variable resistor sensor (has two prongs) like a thermistor, photoresistor, or flex sensor and use a Voltage Divider to get and control the reading on the serial monitor. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a20)
+1. **Sense03-two-prong:** Same as above using serial monitor analog read and a resistor but use a different 2-prong sensor with the voltage divider. Possible variable resistors are: flex sensor, photoresistor, touch/pressure sensor, rheostat, potentiometer...
+1. **Sense04-button:** Connect a digital sensor like a button to the microcontroller and show on the serial monitor when the button has been pressed
+1. **Sense05-led:** Actually the first actuator assignment, but connect a resistor and an LED and make the LED blink like the onboard LED_BUILTIN from the BLINK program.
+1. **Sense06-button-led:** Combine the above two assignments to make your first sensor/actuator assignment. This is what most Arduino-style programs are like. Use a button as a sensor and an LED with serial resistor as the actuator to get a visual response and a response on the serial monitor. This is an important assignment as it connects both sensors and actuator using a microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a18)
+1. **Sense07-Accel:** Use a 3 (or 6 or 9) axis accelerometer to measure x, y, z; see if the results make sense knowing that vertical acceleration due to gravity is about 9.8 m/s²
+1. **Sense08-joy-stick:** Connect a joystick to your microcontroller and get a reading. This is almost exactly the same as **Sense01-Analog:** with A0, 3V3
+1. **Sense09-range-finder:** Connect a range-finder to your microcontroller and determine the distance to an object. Note: The Nicla Vision comes with a time-of-flight that works up to about 4 meters. Typical ranges are 10 cm to 100 cm. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a23)                                       
+1. **Sense10-image-to-sd-card:** Put the image from the microcontroller camera onto an SD card module. Note: the XIAO-ESP32S3-sense has a micro SD card holder onboard the camera sense attachment. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a24)          
+1. **Sense11-sound-to-sd-card:** Record a sound and have it placed in a useable format on the SD card. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a26)
+1. **Sense12-video-to-sd-card:** Record a video on your micro SD card. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a25)
+1. **Sense13-Pixy2:** Use the amazing Pixy2 with an SPI connection to your microcontroller to analyze shaded objects (shades are all colors except black and white); see Charmed Labs Pixy video [here](https://www.youtube.com/watch?v=J8sl3nMlYxM) and then [my Example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a27).
+1. **Sense14-GPS:** Get a GPS module working. If students can just extract the longitude and latitude, that would be very helpful. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a29)                                                                                
+1. **Sense15-Lidar:** Connect a lidar to the microcontroller serial monitor; the information will be a mess but proves the lidar works. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a45). Better assignment is the lidar-Grayscale-OLED assignment later in the course.
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+<br><br><h2 name="ML">Machine Learning</h2><br>
+ 
+1. **ML01-sensecraft:** Use a simple way to install machine learning models to your microcontroller such as [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense
+1. **ML02-vision:** Use [EdgeImpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud-based method to make a vision classification model by taking pictures of pens/pencils labelled "1pen" and things without them labelled "0unknown". The numbers are not needed but really help later when things get more complex. Test your model also from your cell phone. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a02)
+1. **ML03-wake-word:** Use [EdgeImpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud-based method to make a keyword using sounds such as "Hi Google". Label recordings appropriately; you may want to record no sound and background sounds. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a09)
+1. **ML04-motion:** Use [EdgeImpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud-based method to make a motion model using a 3-axis accelerometer. Now your labels might be "0still", "1wave", "2punch". [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a14)
+1. **ML05-FOMO:** Use [EdgeImpulse.com](https://edgeimpulse.com/) and your cell phone or another cloud-based method to make a Vision Fast Objects, More Objects (FOMO) model; this now needs bounding boxes and a data queue to store the images before you draw labelled boxes around each image. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a05)
+1. **ML06-deploy-classification:** Use [EdgeImpulse.com](https://edgeimpulse.com/) to deploy the above classification model (deploy means to download the Arduino Library with examples for your microcontroller). Note: On Windows computers, the first compilation can take 15-25 minutes, so get it compiling. Also, look at the code and see if you can determine when the code prints out the results. A really good idea to try deploying all the EdgeImpulse models to your microcontroller. If deploying to OpenMV, it is much faster but only works on a few Arduino boards.
+1. **ML07-deploy-wake:** Use [EdgeImpulse.com](https://edgeimpulse.com/) to deploy the EdgeImpulse sound wake word model to your microcontroller
+1. **ML08-deploy-FOMO:** Use [EdgeImpulse.com](https://edgeimpulse.com/) to deploy the EdgeImpulse FOMO vision model to your microcontroller
+1. **ML09-regression:** Use EdgeImpulse.com to make a vision regression model (numerical size) and deploy the model to your device. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a15)
+1. **ML10-anomaly:** Use EdgeImpulse.com to make an anomaly detection model with two labels that can rate how different the classification is from the label and deploy it to your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a16)
+1. **ML11-sensor-fusion:** Use EdgeImpulse.com or another site to merge different senses over time, such as distance and motion like the [Nicla Vision](https://store-usa.arduino.cc/products/nicla-vision) is capable of, or if you have the [nano33BleSense](https://store-usa.arduino.cc/products/nano-33-ble-sense-rev2), up to 18 different senses, and it is supported by EdgeImpulse. This is a very important part of Machine Learning, but few schools will have the equipment and ability in 2024 to do it. [my example](https://hpssjellis.github.io/tinyMLjs/public/index.html)
+1. **ML12-int8-quantized:** Use [EdgeImpulse.com](https://edgeimpulse.com/) to download the int8-quantized model of the vision classification model to upload it to [sensecraft.seeed.cc](https://sensecraft.seeed.cc/ai/#/model) for the XIAO-ESP32S3-Sense. If using a different microcontroller, try other ways to upload your model, possibly deploy a C/C++ model and locally compile it for your microcontroller.
+1. **ML13-WebSite-LLM:** Make a website that loads a Hugging Face or other cloud hub for storing pre-trained machine learning models. [my example](https://hpssjellis.github.io/my-examples-of-huggingfacejs/public/index.html) each example is a single file webpage and can be copied to your storage area.
+1. **ML14-local-LLM:** Download a full chat LLM such as LLAMA-v2 and get it working on your laptop or desktop computer. Be very careful if you pay for data as some of these files are large. [tinyLLM](https://github.com/jasonacox/TinyLLM) .... [tinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) .... [gpt4All](https://www.nomic.ai/gpt4all) .... [GitHub Marketplace Models](https://github.com/marketplace/models) .... [Hugging Face models](https://huggingface.co/models)
+1. **ML15-on-device-vision-model:** Download [torchjs00.html](https://hpssjellis.github.io/my-examples-of-tensorflowjs-for-tinytorch/torchjs00.html) and using platformio and the Arduino IDE, get it running on your device.
+1. **ML16-on-device-vision-model:** Download [esp-all-menu-A0-image-train-infer.txt](https://github.com/hpssjellis/my-examples-of-tensorflowjs-for-tinytorch/blob/main/esp-on-device-train-one-program/esp-all-menu-A0-image-train-infer.txt) and using platformio and the Arduino IDE, get it running on your device.
+
+                                                                                                                                                                                                                                                                                                                                                               
+<br><br><h2 name="actuators">Actuators (Motors, LEDs, etc.)</h2>
+
+<b>Reminder that all these assignments need a drawn and checked circuit diagram before you begin to connect wires to the microcontroller</b><br> 
+1. **Act01-servo:** Connect a servo motor to your microcontroller. Reminder that generally the servo red and brown wires go to their own 6 Volt battery, not the microcontroller's power pin connectors. Also note the ESP32 microcontrollers use a different library than the regular Arduino. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a30)  
+1. **Act02-PNP-transistor:** Connect a motor with its own power supply and control it using a PNP transistor. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a31)     
+1. **Act03-NPN-transistor:** Connect a motor with its own power supply and control it using an NPN transistor. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a32)    
+1. **Act04-small-DC-motor-driver:** Connect a small motor with its own battery supply to a motor driver that is safely connected to your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a34)     
+1. **Act05-large-motor-driver:** Connect a large motor with its own battery supply to a large motor driver that is safely connected to your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a34)      
+1. **Act06-stepper:** Connect a stepper motor with its own power supply to a stepper motor driver and control it safely with your microcontroller. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a35)   
+1. **Act07-I2C-OLED:** Connect a simple black and white OLED to the microcontroller and show that the library for it works and can produce written text. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a39)
+1. **Act08-lidar-and-grayscale-OLED:** Connect a grayscale OLED to the microcontroller with a Lidar detector and show the entire room. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a46)  
+1. **Act09-camera-and-grayscale-OLED:** Connect a grayscale OLED with a camera connected to the microcontroller and show the image. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a41)
+1. **Act10-grayscale-OLED:** Connect a grayscale OLED to the microcontroller and show text and some basic shapes. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a40)   
+1. **Act11-color-OLED-or-TFT:** Connect a color display, possibly with touch ability, to the microcontroller and show text and basic shapes, and if touch is present, demonstrate a touch event. [Seeedstudio round display](https://wiki.seeedstudio.com/get_start_round_display/) ... [my TFT example—touch never really worked well for me](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a43)
+1. **Act12-e-ink:** Get an e-ink display connected with the microcontroller showing a different screen every few seconds. [my not-working example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a42)  
+1. **Act13-PCB-build:** Using [EasyEDA](https://easyeda.com/) or some other online or local software, design a simple PCB based on a video tutorial such as the [EasyEDA Tutorial 2020](https://www.youtube.com/watch?v=gjPNYMRA0m8&list=PLbKMtvtYbdPMZfzGuVTdc0MWKrFvU4nsu&index=2). Note: It is challenging to find a simple tutorial for creating PCBs; students with CAD, 3D printing, and animation experience will have some advantages in this assignment. Note: [JLCPCB](https://jlcpcb.com/) is very fast and inexpensive to make these PCBs if you are OK soldering the components together. Last one I did was about $50 USD for 5 boards with shipping that arrived 10 days after ordering.
+
+
+
+
+<br><br><h2 name="iot">IoT Internet of Things Connectivity</h2><br>                                                                                                                                                                                                                                                                                                                                                                                            
+1. **IoT01-WiFi-Webserver:** Make your microcontroller into a LOCAL WiFi webserver. Note: Unless your IT department likes you, this webserver will not be connected to the internet. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a47)    
+1. **IoT02-camera-streaming-webserver:** Make your camera stream to a local webpage. This is actually a default program that comes with all ESP32S3 boards; you have to comment out some parts of the code. Look for Examples --> ESP32 --> Camera --> cameraWebServer 
+1. **IoT03-sound-streaming:** Good luck! My students never got this working.    
+1. **IoT04-BLE:** Get the microcontroller to connect to an app like the NRF Connect by Nordic [Apple](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) ... [Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en&pli=1) [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a52). BLE coding is very strange; I would suggest getting assistance using Copilot, etc.
+1. **IoT05-LoRa:** If you have the [esp32s3 LoRa module](https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html). Try a LoRa P2P example. Need at least two of boards with the module. 
+1. **IoT06-LoRaWan:** If you have the [esp32s3 LoRa module](https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html). Try a LoRaWan example. Need at least two of boards with the module.   
+1. **IoT07-Meshtastic:** If you have the [esp32s3 LoRa module](https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html). Try [Meshtastic Flasher](https://flasher.meshtastic.org/). Need at least two of boards with the module.   
+1. **IoT08-ESPNOW:** If your microcontroller can chat with other ones like the ESP32, use their default ESPNOW example programs to make and test connections between them. ESPNOW is like WiFi but without using a router that needs a password; it is more like using a radio on a specific channel.
+1. **IoT09-ethernet-poe:** If you have an Ethernet module, try to make a webserver using Ethernet. Ethernet has two huge advantages: 1. no passwords needed, 2. POE (Power over Ethernet)—some schools will have POE auto-setup, and it is a bit of a joy when it works, meaning Ethernet not only gives you web access but also powers your microcontroller. [my example](https://github.com/hpssjellis/maker100#21) but only for the [PortentaH7](https://store.arduino.cc/products/portenta-h7) with [Ethernet Vision Shield](https://store.arduino.cc/products/arduino-portenta-vision-shield-ethernet). Last year using the XIAO boards, I did not do this assignment.
+1. **IoT10-multiplexer:** Some microcontrollers do not have enough pins for the final projects, so connecting a multiplexer makes some sense. I never got this working but did get the below connectivity working.   
+1. **IoT11-UART:** Connect 2 microcontrollers to exchange information using the UART serial protocol, RX crisscrossed with TX. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a38b)   
+1. **IoT12-I2C:** Use the I2C serial protocol to connect and exchange information between 2 microcontrollers. Note: you must pull up the SDA and SCL lines to 3V3 using a 4.7 kOhm resistor. The two pins for I2C are called SDA and SCL. [my example](https://github.com/hpssjellis/maker100-eco/blob/main/README.md#a38a)   
+1. **IoT13-SPI:** Use 2 microcontrollers to connect and exchange information using the SPI protocol (MOSI, MISO, SCK, SS); may also be other labels like POCI, PICO, SC, SS. Note: this is fairly hard on many microcontrollers, and they typically are the controllers, and sensors typically are the peripherals. Good luck getting this one to work.
+1. **IoT14-MQTT:** Use a cell phone and/or a computer to log in to an MQTT site such as [mosquitto.org](https://mosquitto.org/), [hivemq.com](https://www.hivemq.com/), or load your own and make a connection, then get the process working with your microcontroller device. This Arduino library may help: [arduino-mqtt](https://github.com/256dpi/arduino-mqtt)
+
+
+
+<br><br><h2 name="webai">WebAI-EdgeAI</h2><br>
+Note: As microcontrollers get stronger, faster, and use less power, what is now WebAI/EdgeAI will eventually be TinyML, so it is best that students see what is coming and learn some WebAI. Like most assignments, getting them working is just a pass; changing them to do something unique creates the higher grade. Personally, I would put these on a GitHub where you have activated GitPages so an index page can show all your examples, but I still just want a video of what you have done.
+
+
+### The following assignments should load on school computers or your cell phones.
+
+1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/)   Download the Edgeimpulse as a WASM for the web, put the folder onto an HTTPS website like gitPages and then replace the edgeImpulse index.html with this [index.html](https://github.com/hpssjellis/multi-language-edgeimpulse-tutorial-vision-cell-phone/tree/main/download)
+1. Load your own [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
+1. Load your own [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
+
+### The following assignments will only work on a fairly good desktop computer possibly with admin access
+
+
+1. Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
+2. 1. Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
+1. Try making a web browser RAG program like [Demo RAG](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deep-rag/deep-rag00.html)
+1. Try on your home laptop or desktop (if OK with your parents/gaurdians), to run the new Chrome Built in AI. See example and how to set the Chrome flags at [webllm00.html](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
+2. 1. Load your own client-side LLM using JavaScript; this one uses [DeepSeekR1 1.5B](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deepseek-r1-webgpu/deepseek-r1-webgpu-00.html)
+1. Load your own client-side Text to Image webpage; this one uses [Janus-Pro](https://hpssjellis.github.io/my-examples-of-transformersJS/public/janus-pro/janus-pro-to-image-00.html)
+1. On a desktop or laptop, load with flags (may soon not need flags to be set) the GeminiNano using Chrome model; 4GB download needs 20 GB disk space. [Demo Web-LLM](https://hpssjellis.github.io/my-examples-of-web-llm/public/webllm00.html)
+1. WebAI update early 2026 see this page, many of the demos will need solid desktop computers with large download ability.  [webAi-updates-early-2026](https://hpssjellis.github.io/webAi-updates-early-2026/)
+1. Note: WebMCP is coming to google, presently (Feb 2026) it is on Chrome Canary their testing version, it will change how developers write webpages so that AI-Agents can effectively use the webpage. Stay tuned.
+1. What's new and awesome with WebAI? Perhaps check out Whisper (talk to text) or many of a bunch of multi-modal models.
+2. More to come lots of changes in webAI lately: containers, webMCP both the protocol and a local server, transformersJSv4, better RAG.
+
+<!--  1. Try making an MCP browser program like [MCP Demo](https://hpssjellis.github.io/my-examples-of-mcp-js/public/mcp00.html) 
+ The jokes too rude on chucknorris   try fixing with https://icanhazdadjoke.com/#google_vignette
+-->
+
+
+<br><br><h2 name="simulations">Simulations (Optional or Advanced)</h2><br>
+Note: This will constantly change and improve. Personally, I do not like simulators without the actual hardware to make them hands-on, but feel they have a place in learning ML and robotics. Another big issue is time management. Do you want to spend a month learning how to create your own simulations and lose a month on building robotics? My teacher take on this is to let the students use their own time here to learn something they are interested in.
+
+
+1. Try [https://wokwi.com/](https://wokwi.com/) Very interesting
+1. Advanced for students with their own Linux machine: ROS2 many simulators, but try [https://intrepid.ai/about/](https://intrepid.ai/about/)
+1. Robotics drawing program [https://fritzing.org/](https://fritzing.org/)
+1. Tinkercad circuits. Tinkercad is a great way to start making 3D printable objects, but it also makes circuits: [https://www.tinkercad.com/circuits](https://www.tinkercad.com/circuits). A good set of instructions are [here](https://www.tinkercad.com/projects/Basics-of-Arduino-TINKERCAD)
+1. [Blender.org](https://www.blender.org/download/) I teach entire animation and 3D printing classes using Blender.org; these are a great background for technology students, and any 3D technical awareness is excellent for them, but Blender is very confusing to learn without an instructor.
+1. Use ChatGPT to find other easy simulators that you click with, such as: [https://cyberbotics.com/](https://cyberbotics.com/), [https://gazebosim.org/](https://gazebosim.org/), [https://www.coppeliarobotics.com/](https://www.coppeliarobotics.com/), [https://www.theconstructsim.com/](https://www.theconstructsim.com/), From NVIDIA: [https://developer.nvidia.com/isaac-sim](https://developer.nvidia.com/isaac-sim). Note: This is just a list I have not tested any of these; generate your own list and review them with Pros and Cons.
+
+
+
+<hr>
+
+
+<br><br><h2 name="final">Final Projects</h2>
+
+Note: Be very wary of projects that use other microcontrollers, as the students have most likely just followed an online cookbook. These Final Projects should come from the combination of assignments we did this semester put together in novel ways. Note: the first two final projects are individual; your friends can help you, they just cannot do the work for you. The later project is a group project based on what strengths people bring to the team. <br><br>
+
+1. **Final01-simple:** (pass) Simple unique for each student sensor and actuator with circuit diagram (Proof of concept)
+1. **Final02-multi:** (possible A or higher) Multiple sensor and/or multiple actuator and/or IoT communication and/or Machine Learning final project with circuit diagram with 3D printed structure (Can also be wood, metal, cardboard, etc.) (Prototype)
+1. **Final03-group:** (possible A+) Based on previous projects, students get in groups (I prefer teacher assigns groups based on students' proven strengths) and combine their strengths to make a useful or fun final project which must include Machine Learning. The teacher can also suggest students whose strengths may complement each other for an interesting group project. Note: Many students do not have time to finish a group project. 
+
+
+
+## Grading
+Notes about how to grade students. 
+
+Basically, as long as the teacher is clear at the start of the course, any grading method is fine. What I do is:
+1. Students must finish all mandatory assignments. (When the entire class has difficulty with an assignment, I make it optional until any student can do it or I get it working. In 2024, I never got e-ink working, which stayed optional, and GPS never worked for latitude and longitude; students got full marks on that assignment if they generated all the GPS data, but I really wanted someone to parse the data for just latitude and longitude.)
+1. Once the mandatory assignments are complete, they can start their final projects, which must be done in order, easy to hard. (Advanced students may work on a hard project and never get it finished, and that is OK as long as they have other projects to show advanced learning.)
+1. I encourage students to work on multiple projects as some projects just can't be finished before marks are due.<br><br>                                                                                                                                                                                                                
+1. Final grades come from final individual projects. Group projects just bump grades up a few percent.
+1. At any point, you should be able to ask a student to reproduce an assignment they have already completed. That way, they need to keep good notes and a circuit diagram, all shown in the marking video.
+1. Grade 11s should keep great videos since, in grade 12, they need to do every assignment again before starting their final projects. When done a second time, many of these assignments can be done in minutes, not hours.
+
+
+## References
+
+1. [Arduino Forum](https://forum.arduino.cc/)   
+1. [Seeedstudio Getting Started](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+1. [Seeedstudio Forum](https://forum.seeedstudio.com/)
+1. [Seeedstudio Discord](https://discord.gg/t7azh9uP2x)                                                                                                                                                              
+                                                                     
+1. [Tiny Machine Learning Discord invite link](https://discord.gg/Wnzc8XPx)
+1. [tinyml.seas.harvard.edu](https://tinyml.seas.harvard.edu/teach/)
+1. [VincentK16 GitHub with TinyML resources](https://github.com/VincentK16/tinymlresources)                                                                                                                                                           
+                                                                 
+1. The 2024 economy version of this course using the Seeedstudio $14 USD [XIAO-ESP32s3-Sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) is at [maker100-eco](https://github.com/hpssjellis/maker100-eco)   
+1. The original 2021 version of this course using the $114 USD [PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) is at [maker100](https://github.com/hpssjellis/maker100)  
+1. Deprecated 2020 Arduino course [here](https://github.com/hpssjellis/arduino-high-school-robotics-course)
+1. Deprecated 2019 Particle.io course [here](https://github.com/hpssjellis/particle.io-photon-high-school-robotics)
