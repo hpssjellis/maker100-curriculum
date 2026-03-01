@@ -193,9 +193,12 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 
 ### The following assignments should load on school computers or your cell phones.
 
-1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/)   Download the Edgeimpulse as a WASM for the web, put the folder onto an HTTPS website like gitPages and then replace the edgeImpulse index.html with this [index.html](https://github.com/hpssjellis/multi-language-edgeimpulse-tutorial-vision-cell-phone/tree/main/download)
+(https://github.com/hpssjellis/multi-language-edgeimpulse-tutorial-vision-cell-phone/tree/main/download)
 1. Load your own local [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1. Load your own local [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
+1. Load your own local [blazeface](https://rocksetta.com/tensorflowjs/tfjs-models/blazeface/index.html)
+1. Load your own local [bodypix](https://rocksetta.com/tensorflowjs/tfjs-models/bodypix/index.html)
+1. Load your own local [posenet](https://rocksetta.com/tensorflowjs/tfjs-models/posenet/index.html)
 1. Load your own local [vector_search.html](https://hpssjellis.github.io/webAi-updates-early-2026/vector_search.html)
 1. Load your own local [live_scene.html](https://hpssjellis.github.io/webAi-updates-early-2026/live_scene.html)
 1. Load your own local [web_yolo.html](https://hpssjellis.github.io/webAi-updates-early-2026/web_yolo.html)
@@ -205,7 +208,7 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 
 ### The following assignments will only work on a fairly good desktop computer possibly with admin access
 
-
+1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/)   Download the Edgeimpulse as a WASM for the web, put the folder onto an HTTPS website like gitPages and then replace the edgeImpulse index.html with this [index.html]
 1. Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
 1. Load your own [Posenet](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/posenet/index.html) 
 1. Try making a web browser RAG program like [Demo RAG](https://hpssjellis.github.io/my-examples-of-transformersJS/public/deep-rag/deep-rag00.html)
