@@ -194,7 +194,7 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 ### The following assignments should load on your school computers or your cell phone.
 
 
-1. Load your own local [Gemma4](https://hpssjellis.github.io/my-examples-of-gemma4/index.html) Might work on a very new cell phone but has a 1GB download, mainly for desktop computers
+1. Load your own local [Gemma4](https://hpssjellis.github.io/my-examples-of-gemma4/index.html) Might work on a very new cell phone but has a 1GB download, mainly for desktop computers.<br> Actually instead of running from the web, much better to download the [index.html](https://github.com/hpssjellis/my-examples-of-gemma4/blob/main/index.html) file and load from your computer, which puts the Gemma4 model into your cache meaning even without internet you can reload this LLM.
 1. Load your own local [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1. Load your own local [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
 1. Load your own local [blazeface](https://rocksetta.com/tensorflowjs/tfjs-models/blazeface/index.html)
