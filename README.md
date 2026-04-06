@@ -191,9 +191,10 @@ Note: Explain VIDEO FLAC as seen below. Have students write Arduino code that sh
 Note: As microcontrollers get stronger, faster, and use less power, what is now WebAI/EdgeAI will eventually be TinyML, so it is best that students see what is coming and learn some WebAI. Like most assignments, getting them working is just a pass; changing them to do something unique creates the higher grade. Personally, I would put these on a GitHub where you have activated GitPages so an index page can show all your examples, but I still just want a video of what you have done.
 
 
-### The following assignments should load on school computers or your cell phones.
+### The following assignments should load on your school computers or your cell phone.
 
-(https://github.com/hpssjellis/multi-language-edgeimpulse-tutorial-vision-cell-phone/tree/main/download)
+
+1. Load your own local [Gemma4](https://hpssjellis.github.io/my-examples-of-gemma4/index.html) Might work on a very new cell phone but has a 1GB download, mainly for desktop computers
 1. Load your own local [HandPose](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html) 
 1. Load your own local [FaceMesh](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/facemesh/index.html)
 1. Load your own local [blazeface](https://rocksetta.com/tensorflowjs/tfjs-models/blazeface/index.html)
