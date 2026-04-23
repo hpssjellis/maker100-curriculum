@@ -239,7 +239,7 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 <br><br><h2 name="simulations">Simulations (Optional or Advanced)</h2><br>
 Note: This will constantly change and improve. Personally, I do not like simulators without the actual hardware to make them hands-on, but feel they have a place in learning ML and robotics. Another big issue is time management. Do you want to spend a month learning how to create your own simulations and lose a month on building robotics? My teacher take on this is to let the students use their own time here to learn something they are interested in.
 
-
+1. Interesting [https://www.schematik.io/](https://www.schematik.io/)  If it works, the code, shematik, build procedure and code flash are very powerful.
 1. Try [https://wokwi.com/](https://wokwi.com/) Very interesting
 1. Advanced for students with their own Linux machine: ROS2 many simulators, but try [https://intrepid.ai/about/](https://intrepid.ai/about/)
 1. Robotics drawing program [https://fritzing.org/](https://fritzing.org/)
