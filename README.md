@@ -209,7 +209,8 @@ Note: As microcontrollers get stronger, faster, and use less power, what is now 
 
 ### The following assignments will only work on a fairly good desktop computer possibly with admin access
 
-
+1. Load your own PWA of Gemma4 for a fully offline LLM, easy to install and just once a 2GB download. After the install and first run, disconnect the internet and see if it still works. Will load an icon on your desktop.
+1. [WebMCU-AI](https://github.com/webmcu-ai) train and run a vision classification model from the web using webSerial and the XIAO ML Kit. The online version [https://webmcu-ai.github.io/webmcu-vision-web/index.html](https://webmcu-ai.github.io/webmcu-vision-web/index.html)  
 1. Load your own local [Gemma4](https://hpssjellis.github.io/my-examples-of-gemma4/index.html) Might work on a very new cell phone but has a 1GB download, mainly for desktop computers.<br> Actually instead of running from the web, much better to download the [index.html](https://github.com/hpssjellis/my-examples-of-gemma4/blob/main/index.html) file and load from your computer, which puts the Gemma4 model into your cache meaning even without internet you can reload this LLM.
 1. Load your own [EdgeImpulse-webpage-FOMO-model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/)   Download the Edgeimpulse as a WASM for the web, put the folder onto an HTTPS website like gitPages and then replace the edgeImpulse index.html with this [index.html]
 1. Load your own [bodypix-segmentation](https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/bodypix/index.html)
