@@ -1,6 +1,8 @@
 # maker100-curriculum
 maker100-robotics-machine-learning-IoT-communication-curriculum
 
+The new course for 2026 and beyond [maker100-leaders-robotics](https://github.com/hpssjellis/maker100-leaders-robotics)
+
 Views better using the README.md [here](README.md) 
 
 The original courses are the [maker100](https://github.com/hpssjellis/maker100) using the Arduino PortentaH7 with LoRa Vision Shield and [maker100-eco](https://github.com/hpssjellis/maker100-eco) using the Seeedstudio XIAO-esp32S3-Sense. New for Feb 2026 is the [maker100-xiaoML-kit](https://github.com/hpssjellis/maker100-xiaoML-kit), which is a rebuild of the esp32S3Sense course with the new $38.90 USD [xiaoML kit from Seeedstudio](https://www.seeedstudio.com/The-XIAOML-Kit.html). 
